@@ -55,5 +55,4 @@ edX Logo with ®
 Contributing
 ------------
 
-When adding to this project avoid breaking changes through any means possible. This package is not published to npm and consuming applications may refer to this github project directly.
-
+When adding to this project avoid breaking changes through any means possible. This package is not published to npm and consuming applications may refer to this github project directly. If you must make a breaking change consider an `expand and contract pattern <https://martinfowler.com/bliki/ParallelChange.html>`_ to implement it.
