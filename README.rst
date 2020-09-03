@@ -1,5 +1,5 @@
-edx Brand Assets
-================
+@edx/brand
+==========
 
 This project contains branding assets and themes for edx.org.
 
