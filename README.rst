@@ -3,23 +3,57 @@ edx Brand Assets
 
 This project contains branding assets and themes for edx.org.
 
-Note: This project should avoid becoming structured as a node module and should have as few dependencies as possible.
+-----
+Usage
+-----
 
+Install this package:
 
-#### edX Logo
+.. code-block:: bash
 
-![edX Logo](/edx-logo.svg)
+  npm install --save @edx/brand@git+https://git@github.com/edx/brand#master
 
-`import logo from '@edx/brand/edx-logo.svg';`
+Import assets from this package in a consuming node application:
 
-or `.png`:
+.. code-block:: javascript
 
-`import logo from '@edx/brand/edx-logo.png';`
+  import logo from '@edx/brand/edx-logo.svg';
 
-#### edX Registered Logo
+--------------
+Images & Logos
+--------------
 
-![edX Logo](/edx-logo-registered.svg)
+edX Logo
+--------
 
-`import logo from '@edx/brand/edx-logo-registered.svg';`
+.. image:: /edx-logo.svg
+    :alt: edX
+    :width: 128px
 
-`import logo from '@edx/brand/edx-logo-registered.png';`
+.. code-block:: javascript
+
+  import logo from '@edx/brand/edx-logo.svg';
+
+  // Or the png version
+  import logo from '@edx/brand/edx-logo.png';
+
+edX Logo with ®
+---------------
+
+.. image:: /edx-logo-registered.svg
+    :alt: edX
+    :width: 128px
+
+.. code-block:: javascript
+
+  import logo from '@edx/brand/edx-logo-registered.svg';
+
+  // Or the png version
+  import logo from '@edx/brand/edx-logo-registered.png';
+
+------------
+Contributing
+------------
+
+When adding to this project avoid breaking changes through any means possible. This package is not published to npm and consuming applications may refer to this github project directly.
+
