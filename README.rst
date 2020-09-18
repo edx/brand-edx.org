@@ -40,13 +40,13 @@ edX Logo
 edX Logo with ®
 ---------------
 
-.. image:: /logo-registered.svg
+.. image:: /logo-trademark.svg
     :alt: edX
     :width: 128px
 
 .. code-block:: javascript
 
-  import logo from '@edx/brand/logo-registered.svg';
+  import logo from '@edx/brand/logo-trademark.svg';
 
   // Or the png version
-  import logo from '@edx/brand/logo-registered.png';
+  import logo from '@edx/brand/logo-trademark.png';
