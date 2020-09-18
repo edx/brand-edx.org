@@ -1,7 +1,7 @@
-@edx/brand
-==========
+@edx/brand-edx.org
+==================
 
-This project contains branding assets and themes for edx.org.
+This project contains branding assets and themes for edx.org. It is the edX implementation of the branding interface defined in `@edx/brand-openedx <https://git@github.com/edx/brand-openedx>`_.
 
 -----
 Usage
@@ -11,13 +11,13 @@ Install this package:
 
 .. code-block:: bash
 
-  npm install --save @edx/brand@git+https://git@github.com/edx/brand#master
+  npm install --save @edx/brand@git+https://git@github.com/edx/brand-edx.org#master
 
 Import assets from this package in a consuming node application:
 
 .. code-block:: javascript
 
-  import logo from '@edx/brand/edx-logo.svg';
+  import logo from '@edx/brand/logo.svg';
 
 --------------
 Images & Logos
@@ -26,33 +26,27 @@ Images & Logos
 edX Logo
 --------
 
-.. image:: /edx-logo.svg
+.. image:: /logo.svg
     :alt: edX
     :width: 128px
 
 .. code-block:: javascript
 
-  import logo from '@edx/brand/edx-logo.svg';
+  import logo from '@edx/brand/logo.svg';
 
   // Or the png version
-  import logo from '@edx/brand/edx-logo.png';
+  import logo from '@edx/brand/logo.png';
 
 edX Logo with ®
 ---------------
 
-.. image:: /edx-logo-registered.svg
+.. image:: /logo-registered.svg
     :alt: edX
     :width: 128px
 
 .. code-block:: javascript
 
-  import logo from '@edx/brand/edx-logo-registered.svg';
+  import logo from '@edx/brand/logo-registered.svg';
 
   // Or the png version
-  import logo from '@edx/brand/edx-logo-registered.png';
-
-------------
-Contributing
-------------
-
-When adding to this project avoid breaking changes through any means possible. This package is not published to npm and consuming applications may refer to this github project directly. If you must make a breaking change consider an `expand and contract pattern <https://martinfowler.com/bliki/ParallelChange.html>`_ to implement it.
+  import logo from '@edx/brand/logo-registered.png';
