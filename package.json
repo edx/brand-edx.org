@@ -1,0 +1,15 @@
+{
+  "name": "@edx/brand-edx.org",
+  "version": "1.0.0",
+  "description": "A package containing brand elements and SASS themes for edx.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edx/brand-edx.org.git"
+  },
+  "author": "edX",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/edx/brand-edx.org/issues"
+  },
+  "homepage": "https://github.com/edx/brand-edx.org#readme"
+}
