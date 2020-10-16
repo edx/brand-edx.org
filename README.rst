@@ -51,3 +51,17 @@ edX Logo with ®
 
   // Or the png version
   import logo from '@edx/brand/logo-trademark.png';
+
+
+-------------
+Paragon Theme
+-------------
+
+Use the theme in this package as described in the Paragon docs: https://edx.github.io/paragon/
+
+. code-block:: sass
+
+  @import "@edx/brand/paragon/fonts";
+  @import "@edx/brand/paragon/variables";
+  @import "@edx/paragon/core/core";
+  @import "@edx/brand/paragon/overrides";
