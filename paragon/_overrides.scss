@@ -1,0 +1,129 @@
+// This file is included after all of Bootstrap. Any customization that can't
+// be made using variable definitions should be done here.
+
+
+// Alerts
+
+.alert-dismissible .close {
+  color: theme-color("gray", "default");
+  opacity: 1;
+
+  @include hover {
+    color: theme-color("gray", "hover");
+  }
+}
+
+
+// Badges
+
+.badge {
+  @badge-pill;
+}
+
+
+// Buttons
+
+.btn-link {
+  text-decoration: $link-decoration;
+
+  &.hover,
+  &:hover {
+    text-decoration: $link-hover-decoration;
+  }
+
+  &.focus,
+  &:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    text-decoration: $link-hover-decoration;
+  }
+}
+
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    border-color: theme-color('gray', 200);
+    background: none;
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: none;
+      border-color: $value;
+      color: $value;
+    }
+  }
+}
+
+
+// Forms
+
+// This loop is modeled after the loop in bootstrap's _forms.scss
+// which calls a mixin, form-validation-state($state, $color, $icon).
+// We make several overrides here for icons and focus states.
+@each $state, $data in $form-validation-states {
+  $color: map-get($data, color);
+  $icon: map-get($data, icon);
+
+  // Do not use validation color for feedback text
+  // Add the validation icon to feedback text
+  .#{$state}-feedback {
+    color: $body-color;
+    font-weight: 400;
+    &:before {
+      background-image: $icon;
+      content: '';
+      height:1rem;
+      width:1rem;
+      display: inline-block;
+      vertical-align: text-bottom;
+      margin-right: .3em;
+    }
+  }
+
+  // Override focus states, use the standard focus
+  // instead of a generated color.
+  .form-control {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      &:focus {
+        border-color: $color;
+        box-shadow: 0 0 0 $input-focus-width $color;
+      }
+    }
+  }
+
+  .custom-select {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      &:focus {
+        border-color: $color;
+        box-shadow: 0 0 0 $input-focus-width $color;
+      }
+    }
+  }
+}
+
+
+// Grid
+
+.container {
+  padding-left: $grid-gutter-width;
+  padding-right: $grid-gutter-width;
+}
+
+.container-fluid {
+  max-width: 1140px + 2 * $grid-gutter-width;
+  padding-left: $grid-gutter-width;
+  padding-right: $grid-gutter-width;
+}
+
+
+// Typography
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  a[href]:not(.btn) {
+    text-decoration: underline;
+  }
+}

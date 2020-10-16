@@ -1,0 +1,233 @@
+// Options
+
+$enable-validation-icons:                     false !default;
+
+
+// Colors
+
+// Brand colors
+$garnet: #D23228;
+$elm: #00262B;
+$limestone: #E1DDDB; // 200
+$limestone-500: #D7D3D1; // 300
+$limestone-300: #EBE9E9; // 250
+$limestone-200: #F5F4F4; // 150
+$limestone-100: #FAF9F7; // 100
+$isotope-blue: #03C7E8;
+$oxide-yellow: #F0CC00;
+$text-gray: #454545;
+$text-elm: #2D494E;
+
+// Color system
+$white:    #fff !default;
+$gray-100: $limestone-200 !default;
+$gray-200: $limestone !default;
+$gray-300: $limestone-500 !default;
+$gray-500: #686B73 !default;
+$gray-700: #2D323E !default;
+$gray-900: #171C29 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "500": $gray-500,
+    "700": $gray-700,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$blue: #23419f !default;
+$red: #C32D3A !default;
+$yellow: $oxide-yellow !default;
+$green: #178253 !default;
+$teal: #006DAA !default;
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "blue": $blue,
+    "green": $green,
+    "teal": $teal,
+    "red": $red,
+    "yellow": $yellow,
+    "white": $white,
+    "gray": $gray-500,
+    "dark-gray": $gray-700,
+  ),
+  $colors
+);
+
+$primary: $elm !default;
+$brand: $garnet !default;
+$success: $green !default;
+$info: $teal !default;
+$danger: $red !default;
+$warning: $yellow !default;
+$light: #eee !default;
+$dark: $gray-700 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":         $primary,
+    "brand":           $brand,
+    "success":         $success,
+    "info":            $info,
+    "warning":         $warning,
+    "danger":          $danger,
+    "light":           $light,
+    "dark":            $dark,
+  ),
+  $theme-colors
+);
+
+
+$theme-color-levels: () !default;
+
+$theme-color-levels: map-merge(
+  (
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+    "gray-500": $gray-500,
+    "gray-700": $gray-700,
+    "gray-900": $gray-900,
+
+    // "primary-100": #f4f7ff,
+    // "primary-200": #D8EDF8,
+    // "primary-300": #6c83cd,
+    // "primary-500": $primary,
+    // "primary-700": #1a337b,
+    // "primary-900": #03195c,
+
+    "success-100": #F2FAF7,
+    "success-200": #BBE6D7,
+    "success-300": #30A171,
+    "success-500": $success,
+    "success-700": #175B3C,
+    "success-900": #0F4D0F,
+
+    "info-100": #EFF8FA,
+    "info-200": #9CD2E6,
+    "info-300": #1C8DBE,
+    "info-500": $info,
+    "info-700": #004972,
+    "info-900": #002F4A,
+
+    "danger-100": #FCF1F4,
+    "danger-200": #F3A9BE,
+    "danger-300": #E4406E,
+    "danger-500": $danger,
+    "danger-700": #942947,
+    "danger-900": #691B30,
+
+    // "warning-100": #fffaed,
+    // "warning-200": #FFD875,
+    // "warning-300": #FFBF18,
+    // "warning-500": $warning,
+    // "warning-700": #996B00,
+    // "warning-900": #7A5500,
+  ),
+  $theme-color-levels
+);
+
+
+// Typography
+
+$font-family-sans-serif:      "Inter", "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:           "Georgia", serif !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, "Courier New", monospace !default;
+$font-family-accent:          $font-family-monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+$small-font-size:             87.5% !default;
+
+$link-color: #0A7DA3 !default;
+
+//
+// Buttons
+//
+
+$btn-padding-x:               1.25rem !default;
+$btn-padding-x-sm:            1rem !default;
+$btn-padding-x-lg:            1.75rem !default;
+
+$btn-font-weight:             500 !default;
+
+$btn-border-radius:           0 !default; // rounded pill
+$btn-border-radius-lg:        0 !default; // rounded pill
+$btn-border-radius-sm:        0 !default; // rounded pill
+
+$btn-focus-width: 2px !default;
+$btn-focus-gap: 2px !default;
+
+$input-btn-focus-width:       1px !default;
+$input-btn-focus-color:       map-get($theme-color-levels, "primary-300") !default;
+$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+
+
+// Forms
+
+$form-text-margin-top:                  .25rem !default;
+
+
+// Form validation
+
+$form-feedback-margin-top:          $form-text-margin-top !default;
+$form-feedback-font-size:           $small-font-size !default;
+$form-feedback-valid-color:         map-get($theme-color-levels, "success-300") !default;
+$form-feedback-invalid-color:       map-get($theme-color-levels, "danger-300") !default;
+
+$form-feedback-icon-valid-color:    $form-feedback-valid-color !default;
+$form-feedback-icon-valid:          str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2 20 20'%3e%3cpath fill='#{$form-feedback-icon-valid-color}' d='M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M17.5208153,8.03553391 L10.4497475,15.1066017 L6.91421356,11.5710678 L5.5,12.9852814 L10.4497475,17.9350288 L18.9350288,9.44974747 L17.5208153,8.03553391 Z'/%3e%3c/svg%3e"), "#", "%23") !default;
+$form-feedback-icon-invalid-color:  $form-feedback-invalid-color !default;
+$form-feedback-icon-invalid:        str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='#{$form-feedback-icon-invalid-color}' viewBox='2 2 20 20'%3e%3cpath d='M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M13.25,15.5 L10.75,15.5 C10.6119288,15.5 10.5,15.6119288 10.5,15.75 L10.5,15.75 L10.5,18.25 C10.5,18.3880712 10.6119288,18.5 10.75,18.5 L10.75,18.5 L13.25,18.5 C13.3880712,18.5 13.5,18.3880712 13.5,18.25 L13.5,18.25 L13.5,15.75 C13.5,15.6119288 13.3880712,15.5 13.25,15.5 L13.25,15.5 Z M13.492539,5.5 L10.5001113,5.50010806 C10.3620998,5.50416722 10.2535099,5.61933826 10.2575691,5.75734976 L10.2575691,5.75734976 L10.4928632,13.7573498 C10.4968382,13.8925005 10.607546,14 10.7427552,14 L10.7427552,14 L13.2572448,14 C13.392454,14 13.5031618,13.8925005 13.5071368,13.7573498 L13.5071368,13.7573498 L13.7424309,5.75734976 L13.7424309,5.75734976 C13.742539,5.61192881 13.6306101,5.5 13.492539,5.5 L13.492539,5.5 Z' /%3e%3c/svg%3E"), "#", "%23") !default;
+
+$form-validation-states: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$form-validation-states: map-merge(
+  (
+    "valid": (
+      "color": $form-feedback-valid-color,
+      "icon": $form-feedback-icon-valid
+    ),
+    "invalid": (
+      "color": $form-feedback-invalid-color,
+      "icon": $form-feedback-icon-invalid
+    ),
+  ),
+  $form-validation-states
+);
+
+
+// Grid
+$grid-gutter-width: 30px;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px + 2 * $grid-gutter-width
+);
