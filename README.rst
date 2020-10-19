@@ -59,7 +59,7 @@ Paragon Theme
 
 Use the theme in this package as described in the Paragon docs: https://edx.github.io/paragon/
 
-. code-block:: sass
+.. code-block:: sass
 
   @import "@edx/brand/paragon/fonts";
   @import "@edx/brand/paragon/variables";
