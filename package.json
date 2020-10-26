@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/edx/brand-edx.org/issues"
   },
-  "homepage": "https://github.com/edx/brand-edx.org#readme"
+  "homepage": "https://github.com/edx/brand-edx.org#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
