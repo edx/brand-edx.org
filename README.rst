@@ -63,5 +63,5 @@ Use the theme in this package as described in the Paragon docs: https://edx.gith
 
   @import "@edx/brand/paragon/fonts";
   @import "@edx/brand/paragon/variables";
-  @import "@edx/paragon/core/core";
+  @import "@edx/paragon/scss/core/core";
   @import "@edx/brand/paragon/overrides";
