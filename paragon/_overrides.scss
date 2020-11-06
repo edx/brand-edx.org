@@ -17,14 +17,19 @@
 // Badges
 
 .badge {
-  @badge-pill;
+  font-family: $font-family-monospace;
+  text-transform: uppercase;
 }
 
 
 // Buttons
 
+.btn {
+  text-decoration: none;
+}
+
 .btn-link {
-  text-decoration: $link-decoration;
+  text-decoration: none;
 
   &.hover,
   &:hover {
@@ -42,12 +47,14 @@
 
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
-    border-color: theme-color('gray', 200);
-    background: none;
-    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: none;
-      border-color: $value;
-      color: $value;
+    background: $white;
+    border-color: $gray-300;
+    &:not(:disabled):not(.disabled) {
+      &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+        background: $value;
+        border-color: $value;
+        color: white;
+      }
     }
   }
 }
@@ -68,7 +75,7 @@
     color: $body-color;
     font-weight: 400;
     &:before {
-      background-image: $icon;
+      background-image: str-replace($icon, "#", "%23");
       content: '';
       height:1rem;
       width:1rem;
@@ -101,6 +108,17 @@
   }
 }
 
+select.form-control {
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-image: str-replace($custom-select-indicator, "#", "%23");
+  background-size: 8px 10px;
+  appearance: none;
+}
+
+.popover-header {
+  border-bottom: solid 1px $gray-100;
+}
 
 // Grid
 
@@ -127,3 +145,20 @@ p {
     text-decoration: underline;
   }
 }
+
+// Temporary fix for search fields. See https://github.com/edx/brand-edx.org/pull/9#issuecomment-723208124
+
+.pgn__searchfield {
+  border-radius: 0 !important;
+  .btn {
+    background: $input-bg;
+    display: flex;
+  }
+  &.has-focus {
+    .btn {
+      background: $input-focus-bg;
+    }
+    border-color: $input-focus-border-color !important;
+  }
+}
+
