@@ -8,11 +8,21 @@ This project contains branding assets and themes for edx.org. It is the edX impl
 Usage
 -----
 
-Install this package:
+Install this package one of two ways
+
+Unversioned with Github:
 
 .. code-block:: bash
 
   npm install --save @edx/brand@git+https://git@github.com/edx/brand-edx.org#master
+
+
+Versioned with npm:
+
+.. code-block:: bash
+
+  npm install --save @edx/brand@npm:@edx/brand-edx.org
+
 
 Import assets from this package in a consuming node application:
 
