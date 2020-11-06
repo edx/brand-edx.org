@@ -2,27 +2,26 @@
 @edx/brand-edx.org
 ==================
 
-This project contains branding assets and themes for edx.org. It is the edX implementation of the branding interface defined in `@edx/brand-openedx <https://git@github.com/edx/brand-openedx>`_.
+This project contains branding assets and themes for edx.org. It is the edX implementation of the branding interface defined in `@edx/brand-openedx <https://git@github.com/edx/brand-openedx>`_. Note that we aim to avoid introducing any breaking changes.
 
 -----
 Usage
 -----
 
-Install this package one of two ways
-
-Unversioned with Github:
-
-.. code-block:: bash
-
-  npm install --save @edx/brand@git+https://git@github.com/edx/brand-edx.org#master
+Install this package one of two ways.
 
 
-Versioned with npm:
+Versioned with npm. Including this project this way will allow you to control the version you pull into your application. This is safer, but it also means you will need to manually update it or use some automation to update it for you.
 
 .. code-block:: bash
 
   npm install --save @edx/brand@npm:@edx/brand-edx.org
 
+Unversioned with Github. Including this project this way will pull in the latest version of it whenever a project's requirements are installed. This alleviates the need to manually pull in updates. The draw back is that if a breaking change is inadvertently introduced it is likely to gum up your pipeline or create a visual bug.
+
+.. code-block:: bash
+
+  npm install --save @edx/brand@git+https://git@github.com/edx/brand-edx.org#master
 
 Import assets from this package in a consuming node application:
 
