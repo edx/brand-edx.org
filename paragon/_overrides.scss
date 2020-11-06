@@ -145,3 +145,20 @@ p {
     text-decoration: underline;
   }
 }
+
+// Temporary fix for search fields. See https://github.com/edx/brand-edx.org/pull/9#issuecomment-723208124
+
+.pgn__searchfield {
+  border-radius: 0 !important;
+  .btn {
+    background: $input-bg;
+    display: flex;
+  }
+  &.has-focus {
+    .btn {
+      background: $input-focus-bg;
+    }
+    border-color: $input-focus-border-color !important;
+  }
+}
+
