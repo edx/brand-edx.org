@@ -5,11 +5,11 @@
 // Alerts
 
 .alert-dismissible .close {
-  color: theme-color("gray", "default");
+  color: theme-color("gray");
   opacity: 1;
 
   @include hover {
-    color: theme-color("gray", "hover");
+    color: theme-color("gray");
   }
 }
 
