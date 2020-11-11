@@ -82,6 +82,7 @@ $danger: $red !default;
 $warning: $yellow !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
+$inverse: $white !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -94,6 +95,7 @@ $theme-colors: map-merge(
     "danger":          $danger,
     "light":           $light,
     "dark":            $dark,
+    "inverse":         $inverse
   ),
   $theme-colors
 );
