@@ -74,3 +74,10 @@ Use the theme in this package as described in the Paragon docs: https://edx.gith
   @import "@edx/brand/paragon/variables";
   @import "@edx/paragon/scss/core/core";
   @import "@edx/brand/paragon/overrides";
+
+
+--------------------------------
+Publishing with Semantic Release
+--------------------------------
+
+This project is published to npm with Semantic Release. When a pull request is merged to master Semantic Release reads the commit messages to determine whether to make a new patch. minor, or major release of this package. For more info see https://github.com/semantic-release/semantic-release#how-does-it-work
