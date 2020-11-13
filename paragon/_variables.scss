@@ -4,16 +4,14 @@ $garnet: #D23228;
 $elm: #00262B;
 $limestone: #E1DDDB; // 200
 $limestone-500: #D7D3D1; // 300
-$limestone-300: #EBE9E9; // 250
-$limestone-200: #F5F4F4; // 150
-$limestone-100: #FAF9F7; // 100
+$limestone-300: #EAE6E5; // 250
+$limestone-200: #F2F0EF; // 150
+$limestone-100: #FBFAF9; // 100
 $isotope-blue: #03C7E8;
 $oxide-yellow: #F0CC00;
 $text-gray: #454545;
 $text-elm: #2D494E;
 $link-blue: #0A7DA3;
-
-// Color system
 
 
 $element-color-levels: () !default;
@@ -32,27 +30,30 @@ $element-color-levels: map-merge(
 // Color system
 
 $white:    #fff !default;
-$gray-100: $limestone-200 !default;
-$gray-200: $limestone !default;
-$gray-300: $limestone-500 !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
-$gray-500: #686B73 !default;
+$gray-500: #707070 !default;
 $gray-600: #6c757d !default;
-$gray-700: #2D323E !default;
+$gray-700: #454545 !default;
 $gray-800: #343a40 !default;
-$gray-900: #171C29 !default;
+$gray-900: #212529 !default;
 $black:    #000 !default;
 
-// $blue:    #007bff !default;
+$blue:    #0A7DA3 !default;
+// $indigo:  #6610f2 !default;
+// $purple:  #6f42c1 !default;
+// $pink:    #d63384 !default;
+$red:     #AB0D02 !default;
+// $orange:  #fd7e14 !default;
+$yellow:  #D6B600 !default;
+$green:   #0D7D4D !default;
+// $teal:    #20c997 !default;
+// $cyan:    #0dcaf0 !default;
 // $indigo:  #6610f2 !default;
 // $purple:  #6f42c1 !default;
 // $pink:    #e83e8c !default;
-$red:     #C32D3A !default;
-// $orange:  #fd7e14 !default;
-$yellow:  $oxide-yellow !default;
-$green:   #178253 !default;
-$teal:    #006DAA !default;
-$cyan:    $isotope-blue !default;
 
 // $colors: () !default;
 // $colors: map-merge(
@@ -74,14 +75,16 @@ $cyan:    $isotope-blue !default;
 //   $colors
 // );
 
-$primary: $elm !default;
-$brand: $garnet !default;
+$primary: #002B2B !default; // elm
+$brand: #D23228 !default;
 $success: $green !default;
-$info: $cyan !default;
+$info: $blue !default;
 $danger: $red !default;
 $warning: $yellow !default;
-$light: $gray-100 !default;
-$dark: $gray-800 !default;
+$light: #E1DDDB !default; // limestone
+$dark: #002B2B !default; // elm
+$accent-a: #03C7E8 !default; // isotope blue
+$accent-b: #F0CC00 !default; // oxide yellow
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -94,9 +97,63 @@ $theme-colors: map-merge(
     "danger":          $danger,
     "light":           $light,
     "dark":            $dark,
+    "accent-a":        $accent-a,
+    "accent-b":        $accent-b,
   ),
   $theme-colors
 );
+
+
+
+// Color system
+
+
+$primary-300: #2D494E;
+$primary-500: $primary;
+$primary-700: #002121;
+
+$brand-500: $brand;
+$brand-700: #921108;
+
+$light-200: #FBFAF9;
+$light-300: #F2F0EF;
+$light-400: #EAE6E5;
+$light-500: $light;
+$light-700: #D7D3D1;
+
+$dark-200: #475B65;
+$dark-300: #2D494E;
+$dark-400: #0E3639;
+$dark-500: $dark;
+$dark-700: #002121;
+
+$info-100: #EFF8FA;
+$info-200: #9CD2E6;
+$info-300: #1C8DBE;
+$info-500: $info;
+$info-700: #004972;
+$info-900: #002F4A;
+
+$success-100: #F2FAF7;
+$success-200: #BBE6D7;
+$success-300: #30A171;
+$success-500: $success;
+$success-700: #175B3C;
+$success-900: #0F4D0F;
+
+$danger-100: #FCF1F4;
+$danger-200: #F3AEA9;
+$danger-300: #CA3A2F;
+$danger-500: $danger;
+$danger-700: #951C13;
+$danger-900: #690E07;
+
+$warning-100: #FFFADB;
+$warning-200: #FFEA75;
+$warning-300: #F0CC00;
+$warning-500: $warning;
+$warning-700: #998200;
+$warning-900: #7A6800;
 
 
 $theme-color-levels: () !default;
@@ -110,40 +167,52 @@ $theme-color-levels: map-merge(
     "gray-700": $gray-700,
     "gray-900": $gray-900,
 
-    // "primary-100": #f4f7ff,
-    // "primary-200": #D8EDF8,
-    // "primary-300": #6c83cd,
-    // "primary-500": $primary,
-    // "primary-700": #1a337b,
-    // "primary-900": #03195c,
+    "primary-300": $primary-300,
+    "primary-500": $primary-500,
+    "primary-700": $primary-700,
 
-    "success-100": #F2FAF7,
-    "success-200": #BBE6D7,
-    "success-300": #30A171,
-    "success-500": $success,
-    "success-700": #175B3C,
-    "success-900": #0F4D0F,
+    "brand-500": $brand-500,
+    "brand-700": $brand-700,
 
-    "info-100": #EFF8FA,
-    "info-200": #9CD2E6,
-    "info-300": #1C8DBE,
-    "info-500": $info,
-    "info-700": #004972,
-    "info-900": #002F4A,
+    "light-200": $light-200,
+    "light-300": $light-300,
+    "light-400": $light-400,
+    "light-500": $light-500,
+    "light-700": $light-700,
 
-    "danger-100": #FCF1F4,
-    "danger-200": #F3A9BE,
-    "danger-300": #E4406E,
-    "danger-500": $danger,
-    "danger-700": #942947,
-    "danger-900": #691B30,
+    "dark-200": $dark-200,
+    "dark-300": $dark-300,
+    "dark-400": $dark-400,
+    "dark-500": $dark-500,
+    "dark-700": $dark-700,
 
-    // "warning-100": #fffaed,
-    // "warning-200": #FFD875,
-    // "warning-300": #FFBF18,
-    // "warning-500": $warning,
-    // "warning-700": #996B00,
-    // "warning-900": #7A5500,
+    "success-100": $success-100,
+    "success-200": $success-200,
+    "success-300": $success-300,
+    "success-500": $success-500,
+    "success-700": $success-700,
+    "success-900": $success-900,
+
+    "info-100": $info-100,
+    "info-200": $info-200,
+    "info-300": $info-300,
+    "info-500": $info-500,
+    "info-700": $info-700,
+    "info-900": $info-900,
+
+    "danger-100": $danger-100,
+    "danger-200": $danger-200,
+    "danger-300": $danger-300,
+    "danger-500": $danger-500,
+    "danger-700": $danger-700,
+    "danger-900": $danger-900,
+
+    "warning-100": $warning-100,
+    "warning-200": $warning-200,
+    "warning-300": $warning-300,
+    "warning-500": $warning-500,
+    "warning-700": $warning-700,
+    "warning-900": $warning-900,
   ),
   $theme-color-levels
 );
@@ -156,8 +225,8 @@ $theme-color-levels: map-merge(
 // $yiq-contrasted-threshold:  150 !default;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
-// $yiq-text-dark:             $gray-900 !default;
-// $yiq-text-light:            $white !default;
+$yiq-text-dark:             $black !default;
+$yiq-text-light:            $white !default;
 
 // Characters which are escaped by the escape-svg function
 // $escaped-characters: (
@@ -227,16 +296,16 @@ $enable-validation-icons:                     false !default;
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $text-gray !default;
+$body-color:                $gray-700 !default;
 
 
 // Links
 //
 // Style anchor elements.
 
-$link-color:                $link-blue !default;
+$link-color:                $info !default;
 $link-decoration:           underline !default;
-$link-hover-color:          darken($link-color, 15%) !default;
+$link-hover-color:          $info-700 !default;
 $link-hover-decoration:     underline !default;
 // // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 // $emphasized-link-hover-darken-percentage: 15% !default;
@@ -373,7 +442,7 @@ $h6-font-size:                .75rem !default;
 // $headings-font-family:        null !default;
 $headings-font-weight:           700 !default;
 // $headings-line-height:        1.2 !default;
-$headings-color:              $elm !default;
+$headings-color:              $dark-500 !default;
 
 // $display1-size:               6rem !default;
 // $display2-size:               5.5rem !default;
@@ -391,7 +460,7 @@ $lead-font-weight:               400 !default;
 
 $small-font-size:             0.875rem !default;
 
-$text-muted:                  #707070 !default;
+$text-muted:                  $gray-500 !default;
 
 // $blockquote-small-color:      $gray-600 !default;
 // $blockquote-small-font-size:  $small-font-size !default;
@@ -542,7 +611,7 @@ $btn-focus-width: 2px;
 // $input-font-size-lg:                    $input-btn-font-size-lg !default;
 // $input-line-height-lg:                  $input-btn-line-height-lg !default;
 
-$input-bg:                              $limestone-100 !default;
+$input-bg:                              $light-200 !default;
 // $input-disabled-bg:                     $gray-200 !default;
 
 $input-color:                           $body-color !default;
@@ -653,7 +722,7 @@ $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 // $custom-select-bg:                  $input-bg !default;
 // $custom-select-disabled-bg:         $gray-200 !default;
 // $custom-select-bg-size:             8px 10px !default; // In pixels because image dimensions
-$custom-select-indicator-color:     $elm !default;
+$custom-select-indicator-color:     $primary !default;
 $custom-select-indicator:           url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'><path fill='#{$custom-select-indicator-color}' d='M2 0L0 2h4zm0 5L0 3h4z'/></svg>") !default;
 // $custom-select-background:          escape-svg($custom-select-indicator) no-repeat right $custom-select-padding-x center / $custom-select-bg-size !default; // Used so we can have multiple background elements (e.g., arrow and feedback icon)
 
@@ -868,7 +937,7 @@ $dropdown-item-padding-x:           1.5rem !default;
 // $pagination-padding-x-lg:           1.5rem !default;
 // $pagination-line-height:            1.25 !default;
 
-$pagination-color:                  $elm !default;
+$pagination-color:                  $primary !default;
 // $pagination-bg:                     $white !default;
 // $pagination-border-width:           $border-width !default;
 // $pagination-border-color:           $gray-300 !default;
