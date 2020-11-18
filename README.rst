@@ -61,6 +61,16 @@ edX Logo with ®
   // Or the png version
   import logo from '@edx/brand/logo-trademark.png';
 
+edX Favicon
+-----------------
+
+.. image:: /favicon.ico
+    :alt: edX
+    :width: 128px
+
+.. code-block:: javascript
+
+  // @edx/brand/favicon.ico;
 
 -------------
 Paragon Theme
