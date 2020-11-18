@@ -61,6 +61,20 @@ edX Logo with ®
   // Or the png version
   import logo from '@edx/brand/logo-trademark.png';
 
+edX Logo in white
+-----------------
+
+.. image:: /logo-white.svg
+    :alt: edX
+    :width: 128px
+
+.. code-block:: javascript
+
+  import logo from '@edx/brand/logo-white.svg';
+
+  // Or the png version
+  import logo from '@edx/brand/logo-white.png';
+
 edX Favicon
 -----------------
 
