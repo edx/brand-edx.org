@@ -33,14 +33,14 @@
 
   &.hover,
   &:hover {
-    text-decoration: $link-hover-decoration;
+    text-decoration: none;
   }
 
   &.focus,
   &:focus {
     outline: 1px dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    text-decoration: $link-hover-decoration;
+    text-decoration: none;
   }
 }
 
