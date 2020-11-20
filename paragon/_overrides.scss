@@ -33,14 +33,14 @@
 
   &.hover,
   &:hover {
-    text-decoration: $link-hover-decoration;
+    text-decoration: none;
   }
 
   &.focus,
   &:focus {
     outline: 1px dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    text-decoration: $link-hover-decoration;
+    text-decoration: none;
   }
 }
 
@@ -140,9 +140,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  a[href]:not(.btn) {
-    text-decoration: underline;
+p > a[href]:not(.btn),
+a.inline-link {
+  text-decoration: none;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.3;
+  }
+
+  &:hover {
+    text-decoration: none;
+    &:after {
+      opacity: 1;
+    }
   }
 }
 
