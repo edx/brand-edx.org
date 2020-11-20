@@ -306,7 +306,7 @@ $body-color:                $gray-700 !default;
 $link-color:                $info !default;
 $link-decoration:           none !default;
 $link-hover-color:          $info-700 !default;
-$link-hover-decoration:     none !default;
+$link-hover-decoration:     underline !default;
 // // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 // $emphasized-link-hover-darken-percentage: 15% !default;
 
