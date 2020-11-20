@@ -140,9 +140,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  a[href]:not(.btn) {
-    text-decoration: underline;
+p > a[href]:not(.btn),
+a.inline-link {
+  text-decoration: none;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.3;
+  }
+
+  &:hover {
+    text-decoration: none;
+    &:after {
+      opacity: 1;
+    }
   }
 }
 
