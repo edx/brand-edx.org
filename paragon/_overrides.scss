@@ -142,25 +142,10 @@ body {
 
 p > a[href]:not(.btn),
 a.inline-link {
-  text-decoration: none;
-  position: relative;
-
-  &:after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    right: 0;
-    left: 0;
-    height: 1px;
-    background: currentColor;
-    opacity: 0.3;
-  }
-
+  text-decoration-line: underline;
+  text-decoration-color: rgba($link-color, .3);
   &:hover {
-    text-decoration: none;
-    &:after {
-      opacity: 1;
-    }
+    text-decoration-color: rgba($link-color, 1);
   }
 }
 
