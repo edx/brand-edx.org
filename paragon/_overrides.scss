@@ -59,6 +59,44 @@
   }
 }
 
+.btn-inverse-outline-primary {
+  background: transparent;
+  color: $white;
+  border-color: $gray-500;
+  &:not(:disabled):not(.disabled) {
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: $primary-300;
+      border-color: transparent;
+      color: white;
+    }
+  }
+}
+
+.btn-inverse-outline-brand {
+  background: transparent;
+  color: $white;
+  border-color: $white;
+  &:not(:disabled):not(.disabled) {
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: $brand;
+      border-color: transparent;
+      color: white;
+    }
+  }
+}
+
+.btn-inverse-brand {
+  background: $brand;
+  color: $white;
+  border-color: transparent;
+  &:not(:disabled):not(.disabled) {
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: $brand-700;
+      border-color: transparent;
+      color: white;
+    }
+  }
+}
 
 // Forms
 
