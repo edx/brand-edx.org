@@ -577,6 +577,15 @@ $btn-box-shadow:              none !default;
 $btn-disabled-opacity:        .4 !default;
 // $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
 
+$btn-tertiary-color:          $gray-700 !default;
+$btn-tertiary-bg:             transparent !default;
+$btn-tertiary-hover-bg:       $light-500 !default;
+$btn-tertiary-active-bg:      $light-500 !default;
+$btn-inverse-tertiary-color:          $white !default;
+$btn-inverse-tertiary-bg:             transparent !default;
+$btn-inverse-tertiary-hover-bg:       $primary-300 !default;
+$btn-inverse-tertiary-active-bg:      $primary-300 !default;
+
 // $btn-link-disabled-color:     $gray-600 !default;
 
 // $btn-block-spacing-y:         .5rem !default;
