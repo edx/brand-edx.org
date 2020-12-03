@@ -59,15 +59,25 @@
   }
 }
 
+.btn-primary {
+  &:not(:disabled):not(.disabled) {
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: $primary-300;
+      border-color: transparent;
+      color: $white;
+    }
+  }
+}
+
 .btn-inverse-outline-primary {
   background: transparent;
   color: $white;
   border-color: $gray-500;
   &:not(:disabled):not(.disabled) {
     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: $primary-300;
+      background: $white;
       border-color: transparent;
-      color: white;
+      color: $primary;
     }
   }
 }
@@ -80,7 +90,7 @@
     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
       background: $brand;
       border-color: transparent;
-      color: white;
+      color: $white;
     }
   }
 }
@@ -94,6 +104,19 @@
       background: $brand-700;
       border-color: transparent;
       color: white;
+    }
+  }
+}
+
+.btn-inverse-primary {
+  background: $white;
+  color: $primary;
+  border-color: transparent;
+  &:not(:disabled):not(.disabled) {
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: $primary-300;
+      border-color: transparent;
+      color: $white;
     }
   }
 }
