@@ -121,6 +121,11 @@
   }
 }
 
+// Avatar buttons in tertiary style (the default) are darker than regular tertiary buttons
+.btn-avatar.btn-tertiary {
+  color: $primary-500;
+}
+
 // Forms
 
 // This loop is modeled after the loop in bootstrap's _forms.scss
