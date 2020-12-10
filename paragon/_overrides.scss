@@ -180,6 +180,8 @@ select.form-control {
   background-image: str-replace($custom-select-indicator, "#", "%23");
   background-size: 8px 10px;
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 .popover-header {
