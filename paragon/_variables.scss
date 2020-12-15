@@ -439,6 +439,14 @@ $h4-font-size:                1.125rem !default;
 $h5-font-size:                .875rem !default;
 $h6-font-size:                .75rem !default;
 
+$h1-mobile-font-size:         2.25rem !default;
+$h2-mobile-font-size:         $h2-font-size !default;
+$h3-mobile-font-size:         $h3-font-size !default;
+$h4-mobile-font-size:         $h4-font-size !default;
+$h5-mobile-font-size:         $h5-font-size !default;
+$h6-mobile-font-size:         $h6-font-size !default;
+
+
 // $headings-margin-bottom:      $spacer / 2 !default;
 // $headings-font-family:        null !default;
 $headings-font-weight:           700 !default;
