@@ -464,10 +464,11 @@ $display3-weight:                700 !default;
 $display4-weight:                700 !default;
 // $display-line-height:         $headings-line-height !default;
 
-// $lead-font-size:              $font-size-base * 1.25 !default;
+$lead-font-size:                 1.375rem !default;
 $lead-font-weight:               400 !default;
 
-$small-font-size:             0.875rem !default;
+$small-font-size:                0.875rem !default;
+$x-small-font-size:              0.75rem !default;
 
 $text-muted:                  $gray-500 !default;
 
