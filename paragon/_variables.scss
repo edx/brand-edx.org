@@ -76,8 +76,8 @@ $theme-colors: map-merge(
     "primary":         $primary,
     "brand":           $brand,
     "success":         $success,
-    "info":            $info,
-    "warning":         $warning,
+    "info":            $accent-a,
+    "warning":         $accent-b,
     "danger":          $danger,
     "light":           $light,
     "dark":            $dark,
@@ -1082,9 +1082,9 @@ $toast-box-shadow:                  $level-4-box-shadow !default;
 
 $badge-font-size:                   0.75rem !default;
 $badge-font-weight:                 400 !default;
-$badge-padding-y:                   .25rem !default;
-$badge-padding-x:                   .75rem !default;
-$badge-border-radius:               10rem !default;
+// $badge-padding-y:                   .125rem !default;
+// $badge-padding-x:                   .5rem !default;
+// $badge-border-radius:               .25rem !default;
 
 // $badge-transition:                  $btn-transition !default;
 // $badge-focus-width:                 $input-btn-focus-width !default;
