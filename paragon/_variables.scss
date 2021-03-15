@@ -1013,7 +1013,7 @@ $card-spacer-x:                     1.5rem !default;
 // $tooltip-font-size:                 $font-size-sm !default;
 // $tooltip-max-width:                 200px !default;
 // $tooltip-color:                     $white !default;
-// $tooltip-bg:                        $black !default;
+$tooltip-bg:                        $primary !default;
 // $tooltip-border-radius:             $border-radius !default;
 // $tooltip-opacity:                   .9 !default;
 // $tooltip-padding-y:                 .25rem !default;
@@ -1023,6 +1023,10 @@ $card-spacer-x:                     1.5rem !default;
 // $tooltip-arrow-width:               .8rem !default;
 // $tooltip-arrow-height:              .4rem !default;
 // $tooltip-arrow-color:               $tooltip-bg !default;
+
+$tooltip-color-light:               $primary !default;;
+// $tooltip-bg-light:                  $white !default;
+// $tooltip-arrow-color-light:         $white !default;
 
 // Form tooltips must come after regular tooltips
 // $form-feedback-tooltip-padding-y:     $tooltip-padding-y !default;
