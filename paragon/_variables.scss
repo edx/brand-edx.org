@@ -14,14 +14,14 @@ $element-color-levels: map-merge(
 // Color system
 
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
+$gray-100: #ebebeb !default;
+$gray-200: #cccccc !default;
+$gray-300: #adadad !default;
+$gray-400: #8f8f8f !default;
 $gray-500: #707070 !default;
-$gray-600: #6c757d !default;
+$gray-600: #5c5c5c !default;
 $gray-700: #454545 !default;
-$gray-800: #343a40 !default;
+$gray-800: #333333 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
@@ -93,7 +93,9 @@ $theme-colors: map-merge(
 
 
 $primary-300: #2D494E;
+$primary-400: #0E3639;
 $primary-500: $primary;
+$primary-600: #002326;
 $primary-700: #002121;
 
 $brand-500: $brand;
@@ -109,6 +111,7 @@ $dark-200: #475B65;
 $dark-300: #2D494E;
 $dark-400: #0E3639;
 $dark-500: $dark;
+$dark-600: #002326;
 $dark-700: #002121;
 
 $info-100: #EFF8FA;
