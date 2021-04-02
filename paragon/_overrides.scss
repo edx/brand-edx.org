@@ -48,7 +48,7 @@
 @each $color, $value in $theme-colors {
   .btn-outline-#{$color} {
     background: $white;
-    border-color: $gray-300;
+    border-color: $light-300;
     &:not(:disabled):not(.disabled) {
       &:hover, &:focus, &:active, &.hover, &.focus, &.active {
         background: $value;
