@@ -99,6 +99,17 @@ Use the theme in this package as described in the Paragon docs: https://edx.gith
   @import "@edx/paragon/scss/core/core";
   @import "@edx/brand/paragon/overrides";
 
+Paragon also requires a CSS-in-JS theme.
+
+.. code-block:: javascript
+
+  import theme from '@edx/brand/paragon/theme';
+
+  ReactDOM.render(
+    <ParagonProvider theme={theme} locale="en-us">
+      ...
+    </ParagonProvider>
+  );
 
 --------------------------------
 Publishing with Semantic Release
