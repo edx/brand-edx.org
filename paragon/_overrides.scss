@@ -276,3 +276,10 @@ a.inline-link {
   }
 }
 
+// Progress Bar
+.progress { 
+  border: $progress-bar-border-width solid $progress-bar-border-color;
+}
+.progress-bar { 
+  background-color: $progress-bar-bg;
+}
