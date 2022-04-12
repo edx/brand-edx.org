@@ -208,47 +208,47 @@ body {
 }
 
 h1, .h1 {
-  line-height: calc(44 / 16) * 1rem;
+  line-height: calc((44 / 16) * 1rem);
   letter-spacing: -2%;
 
   @media (max-width: map-get($grid-breakpoints, "sm")) {
-    line-height: calc(40 / 16) * 1rem;
+    line-height: calc((40 / 16) * 1rem);
   }
   .mobile-type & {
-    line-height: calc(40 / 16) * 1rem;
+    line-height: calc((40 / 16) * 1rem);
   }
 }
 
 h2, .h2 {
-  line-height: calc(36 / 16) * 1rem;
+  line-height: calc((36 / 16) * 1rem);
 }
 
 h3, .h3 {
-  line-height: calc(28 / 16) * 1rem;
+  line-height: calc((28 / 16) * 1rem);
 }
 
 h4, .h4 {
-  line-height: calc(24 / 16) * 1rem;
+  line-height: calc((24 / 16) * 1rem);
 }
 
 h5, .h5 {
-  line-height: calc(20 / 16) * 1rem;
+  line-height: calc((20 / 16) * 1rem);
 }
 
 h6, .h6 {
-  line-height: calc(20 / 16) * 1rem;
+  line-height: calc((20 / 16) * 1rem);
 }
 
 .lead {
-  line-height: calc(36 / 16) * 1rem;
+  line-height: calc((36 / 16) * 1rem);
 }
 
 .small {
-  line-height: calc(24 / 16) * 1rem;
+  line-height: calc((24 / 16) * 1rem);
 }
 
 .x-small {
-  line-height: calc(20 / 16) * 1rem;
+  line-height: calc((20 / 16) * 1rem);
 }
 
 p > a[href]:not(.btn),
