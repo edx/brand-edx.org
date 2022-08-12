@@ -19,8 +19,11 @@
 .badge {
   font-family: $font-family-sans-serif;
   line-height: 1.25rem;
-}
 
+  &.badge-info {
+    color: $gray-900;
+  }
+}
 
 // Buttons
 
@@ -277,9 +280,16 @@ a.inline-link {
 }
 
 // Progress Bar
-.progress { 
+.progress {
   border: $progress-bar-border-width solid $progress-bar-border-color;
 }
-.progress-bar { 
+.progress-bar {
   background-color: $progress-bar-bg;
+}
+
+// Bubble
+.pgn__bubble {
+  &.pgn__bubble-warning {
+    color: $gray-900;
+  }
 }
