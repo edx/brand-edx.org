@@ -1,0 +1,12 @@
+{
+  "link": {
+    "color": {
+      "base": { "value": "{color.info.base.value}", "themeable": true, "source": "$link-color" },
+      "hover": { "value": "{color.info.700.value}", "themeable": true, "source": "$link-hover-color" }
+    },
+    "decoration": {
+      "base": { "value": "none", "themeable": true, "source": "$link-decoration" },
+      "hover": { "value": "underline", "themeable": true, "source": "$link-hover-decoration" }
+    }
+  }
+}
