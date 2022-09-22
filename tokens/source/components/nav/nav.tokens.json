@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "link": {
+      "padding": {
+        "y": { "value": ".5rem", "themeable": true, "source": "$nav-link-padding-y" },
+        "x": { "value": "1rem", "themeable": true, "source": "$nav-link-padding-x" }
+      },
+      "color": {
+        "disabled": { "value": "{color.gray.600.value}", "themeable": true, "source": "$nav-link-disabled-color" }
+      }
+    },
+    "tabs": {
+      "border": {
+        "color": { "value": "{color.gray.300.value}", "themeable": true, "source": "$nav-tabs-border-color" },
+        "width": { "value": "{border.width.value}", "themeable": true, "source": "$nav-tabs-border-width" },
+        "radius": { "value": "0", "themeable": true, "source": "$nav-tabs-border-radius" }
+      },
+      "link": {
+        "hover": {
+          "border": {
+            "color": {
+              "value": "{color.gray.200.value} {color.gray.200.value} {nav.tabs.border.color.value}",
+              "themeable": true,
+              "source": "$nav-tabs-link-hover-border-color"
+            }
+          },
+          "bg": { "value": "{color.light.400.value}", "themeable": true, "source": "$nav-tabs-link-hover-bg" }
+        },
+        "active": {
+          "color": {
+            "base": { "value": "{color.gray.700.value}", "themeable": true, "source": "$nav-tabs-link-active-color" },
+            "border": {
+              "value": "{color.gray.300.value} {color.gray.300.value} {nav.tabs.link.active.bg.value}",
+              "themeable": true,
+              "source": "$nav-tabs-link-active-border-color"
+            }
+          },
+          "bg": { "value": "{body.bg.value}", "themeable": true, "source": "$nav-tabs-link-active-bg" }
+        }
+      }
+    },
+    "pills": {
+      "border": {
+        "radius": { "value": "0", "themeable": true, "source": "$nav-pills-border-radius" }
+      },
+      "link": {
+        "active": {
+          "color": {
+            "value": "{core.component.active.color.value}",
+            "themeable": true,
+            "source": "$nav-pills-link-active-color"
+          },
+          "bg": {
+            "value": "{core.component.active.bg.value}",
+            "themeable": true,
+            "source": "$nav-pills-link-active-bg"
+          }
+        }
+      }
+    },
+    "divider": {
+      "color": { "value": "{color.gray.200.value}", "themeable": true, "source": "$nav-divider-color" },
+      "margin": {
+        "y": { "value": "calc({core.spacer.value} / 2)", "themeable": true, "source": "$nav-divider-margin-y" }
+      }
+    }
+  }
+}

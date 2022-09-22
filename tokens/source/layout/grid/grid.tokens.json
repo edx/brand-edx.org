@@ -1,0 +1,11 @@
+{
+  "grid": {
+    "columns": {
+      "base": { "value": "12", "themeable": true, "source": "$grid-columns" },
+      "row": { "value": "6", "themeable": true, "source": "$grid-row-columns" }
+    },
+    "gutter": {
+      "width": { "value": "32px", "themeable": true, "source": "$grid-gutter-width" }
+    }
+  }
+}

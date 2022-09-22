@@ -7,6 +7,13 @@
     "decoration": {
       "base": { "value": "none", "themeable": true, "source": "$link-decoration" },
       "hover": { "value": "underline", "themeable": true, "source": "$link-hover-decoration" }
+    },
+    "emphasized": {
+      "hover": {
+        "darken": {
+          "percentage": { "value": "15%", "themeable": true, "source": "$emphasized-link-hover-darken-percentage" }
+        }
+      }
     }
   }
 }

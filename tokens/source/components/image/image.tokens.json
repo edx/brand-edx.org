@@ -1,0 +1,24 @@
+{
+  "image": {
+    "thumbnail": {
+      "padding": { "value": ".25rem", "themeable": true, "source": "$thumbnail-padding" },
+      "bg": { "value": "{body.bg.value}", "themeable": true, "source": "$thumbnail-bg" },
+      "border": {
+        "width": { "value": "{border.width.value}", "themeable": true, "source": "$thumbnail-border-width" },
+        "color": { "value": "{color.gray.300.value}", "themeable": true, "source": "$thumbnail-border-color" },
+        "radius": { "value": "0", "themeable": true, "source": "$thumbnail-border-radius"}
+      },
+      "box": {
+        "shadow": { "value": "none", "themeable": true, "source": "$thumbnail-box-shadow" }
+      }
+    },
+    "figure": {
+      "caption": {
+        "font": {
+          "size": { "value": "90%", "themeable": true, "source": "$figure-caption-font-size" }
+        },
+        "color": { "value": "{color.gray.600.value}", "themeable": true, "source": "$figure-caption-color" }
+      }
+    }
+  }
+}

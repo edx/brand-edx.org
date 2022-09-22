@@ -1,0 +1,41 @@
+{
+  "toast": {
+    "max": {
+      "width": { "value": "350px", "themeable": true, "source": "$toast-max-width" }
+    },
+    "padding": {
+      "x": { "value": ".75rem", "themeable": true, "source": "$toast-padding-x" },
+      "y": { "value": ".25rem", "themeable": true, "source": "$toast-padding-y" }
+    },
+    "font": {
+      "size": { "value": ".875rem", "themeable": true, "source": "$toast-font-size" }
+    },
+    "color": {
+      "base": { "value": "null", "themeable": true, "source": "$toast-color" },
+      "background": {
+        "value": "rgba({color.white.value}, .85)", "themeable": true, "source": "$toast-background-color"
+      }
+    },
+    "border": {
+      "width": { "value": "1px", "themeable": true, "source": "$toast-border-width" },
+      "color": { "value": "rgba(0, 0, 0, .1)", "themeable": true, "source": "$toast-border-color" },
+      "radius": { "value": ".25rem", "themeable": true, "source": "$toast-border-radius" }
+    },
+    "box": {
+      "shadow": {
+        "value": "{box-shadow.level.4.value}",
+        "themeable": true,
+        "source": "$toast-box-shadow"
+      }
+    },
+    "header": {
+      "color": {
+        "base": { "value": "{color.gray.600.value}", "themeable": true, "source": "$toast-header-color" },
+        "background": {
+          "value": "rgba({color.white.value}, .85)", "themeable": true, "source": "$toast-header-background-color"
+        },
+        "border": { "value": "rgba(0, 0, 0, .05)", "themeable": true, "source": "$toast-header-border-color" }
+      }
+    }
+  }
+}

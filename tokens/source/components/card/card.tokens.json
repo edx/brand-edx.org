@@ -1,0 +1,36 @@
+{
+  "card": {
+    "spacer": {
+      "x": { "value": "1.5rem", "themeable": true, "source": "$card-spacer-x" },
+      "y": { "value": "1rem", "themeable": true, "source": "$card-spacer-y" }
+    },
+    "border": {
+      "width": { "value": "{border.width.value}", "themeable": true, "source": "$card-border-width" },
+      "radius": { "value": "{border.radius.base.value}", "themeable": true, "source": "$card-border-radius" },
+      "color": { "value": "rgba({color.black.value}, .125)", "themeable": true, "source": "$card-border-color" }
+    },
+    "cap": {
+      "bg": { "value": "rgba({color.black.value}, .03)", "themeable": true, "source": "$card-cap-bg" },
+      "color": { "value": "null", "themeable": true, "source": "$card-cap-color" }
+    },
+    "height": {
+      "base": { "value": "null", "themeable": true, "source": "$card-height" }
+    },
+    "color": { "value": "null", "themeable": true, "source": "$card-color" },
+    "bg": { "value": "{color.white.value}", "themeable": true, "source": "$card-bg" },
+    "image": {
+      "overlay": {
+        "padding": { "value": "1.25rem", "themeable": true, "source": "$card-img-overlay-padding" }
+      }
+    },
+    "margin": {
+      "group": { "value": "calc({grid.gutter.width.value} / 2)", "themeable": true, "source": "$card-group-margin" },
+      "deck": { "value": "{card.margin.group.value}", "themeable": true, "source": "$card-deck-margin" }
+    },
+    "columns": {
+      "count": { "value": "3", "themeable": true, "source": "$card-columns-count" },
+      "gap": { "value": "1.25rem", "themeable": true, "source": "$card-columns-gap" },
+      "margin": { "value": "{card.spacer.y.value}", "themeable": true, "source": "$card-columns-margin" }
+    }
+  }
+}
