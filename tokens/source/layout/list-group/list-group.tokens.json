@@ -37,7 +37,9 @@
       "color": {
         "base": { "value": "{color.gray.700.value}", "themeable": true, "source": "$list-group-action-color" },
         "hover": {
-          "value": "{list-group.action.color.base.value}", "themeable": true, "source": "$list-group-action-hover-color"
+          "value": "{list-group.action.color.base.value}",
+          "themeable": true,
+          "source": "$list-group-action-hover-color"
         }
       },
       "active": {

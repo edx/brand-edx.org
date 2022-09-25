@@ -41,7 +41,9 @@
         },
         "focus": {
           "width": { "value": "1px", "themeable": true, "source": "$input-btn-focus-width" },
-          "color": { "value": "{core.component.active.bg.value}", "themeable": true, "source": "$input-btn-focus-color" },
+          "color": {
+            "value": "{core.component.active.bg.value}", "themeable": true, "source": "$input-btn-focus-color"
+          },
           "box": {
             "shadow": {
               "value": "0 0 0 {core.input.btn.focus.width.value} {core.input.btn.focus.color.value}",
@@ -59,7 +61,9 @@
       "small": {
         "color": { "value": "{color.gray.600.value}", "themeable": true, "source": "$blockquote-small-color" },
         "font": {
-          "size": { "value": "{font.size.small.base.value}", "themeable": true, "source": "$blockquote-small-font-size" }
+          "size": {
+            "value": "{font.size.small.base.value}", "themeable": true, "source": "$blockquote-small-font-size"
+          }
         }
       },
       "font": {

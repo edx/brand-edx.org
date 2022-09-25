@@ -52,7 +52,6 @@
   .btn-outline-#{$color} {
     background: $white;
     border-color: $light-300;
-
     &:not(:disabled):not(.disabled) {
       &:hover, &:active, &.hover, &.active {
         background: $value;

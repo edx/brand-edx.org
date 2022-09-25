@@ -63,7 +63,9 @@
     "header": {
       "border": {
         "color": { "value": "{border.color.value}", "themeable": true, "source": "$modal-header-border-color" },
-        "width": { "value": "{modal.content.border.width.value}", "themeable": true, "source": "$modal-header-border-width" }
+        "width": {
+          "value": "{modal.content.border.width.value}", "themeable": true, "source": "$modal-header-border-width"
+        }
       },
       "padding": {
         "base": {
