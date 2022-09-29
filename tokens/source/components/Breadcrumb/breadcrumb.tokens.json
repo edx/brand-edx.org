@@ -12,7 +12,8 @@
       "bottom": { "value": "1rem", "themeable": true, "source": "$breadcrumb-margin-bottom" }
     },
     "border": {
-      "radius": {"value": "{border.radius.base.value}", "themeable": true, "source": "$breadcrumb-border-radius"
+      "radius": {
+        "base": { "value": "{border.radius.base.value}", "themeable": true, "source": "$breadcrumb-border-radius" }
       }
     },
     "bg": { "value": "{color.gray.200.value}", "themeable": true, "source": "$breadcrumb-bg" },

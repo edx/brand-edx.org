@@ -17,9 +17,9 @@
     "border": {
       "radius": { "value": "{border.radius.base.value}", "themeable": true, "source": "$tooltip-border-radius" }
     },
-    "opacity": { "value": ".9", "themeable": true, "source": "$tooltip-opacity" },
+    "opacity": { "value": "1", "themeable": true, "source": "$tooltip-opacity" },
     "padding": {
-      "y": { "value": ".25rem", "themeable": true, "source": "$tooltip-padding-y" },
+      "y": { "value": ".5rem", "themeable": true, "source": "$tooltip-padding-y" },
       "x": { "value": ".5rem", "themeable": true, "source": "$tooltip-padding-x" }
     },
     "margin": { "value": "0", "themeable": true, "source": "$tooltip-margin" },

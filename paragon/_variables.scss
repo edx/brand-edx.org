@@ -42,13 +42,13 @@ $green:   #0D7D4D !default;
 // $colors: () !default;
 // $colors: map-merge(
 //   (
-//     "blue":       var(--pgn-color-blue-base),
+//     "blue":       var(--pgn-color-blue),
 //     "indigo":     var(--pgn-color-indigo),
 //     "purple":     var(--pgn-color-purple),
 //     "pink":       var(--pgn-color-pink),
 //     "red":        var(--pgn-color-red),
 //     "orange":     var(--pgn-color-orange),
-//     "yellow":     var(--pgn-color-yellow-base),
+//     "yellow":     var(--pgn-color-yellow),
 //     "green":      var(--pgn-color-green),
 //     "teal":       var(--pgn-color-teal),
 //     "cyan":       var(--pgn-color-cyan),
@@ -62,9 +62,9 @@ $green:   #0D7D4D !default;
 $primary: #00262B !default; // elm
 $brand: #D23228 !default;
 $success: var(--pgn-color-green) !default;
-$info: var(--pgn-color-blue-base) !default;
+$info: var(--pgn-color-blue) !default;
 $danger: var(--pgn-color-red) !default;
-$warning: var(--pgn-color-yellow-base) !default;
+$warning: var(--pgn-color-yellow) !default;
 $light: #E1DDDB !default; // limestone
 $dark: #00262B !default; // elm
 $accent-a: #03C7E8 !default; // isotope blue
@@ -94,30 +94,30 @@ $theme-colors: map-merge(
 
 $primary-300: #2D494E;
 $primary-400: #0E3639;
-$primary-500: var(--pgn-color-primary-base);
+$primary-500: #00262B;
 $primary-600: #002326;
 $primary-700: #002121;
 
-$brand-500: var(--pgn-color-brand-base);
+$brand-500: $brand;
 $brand-700: #921108;
 
 $light-200: #FBFAF9;
 $light-300: #F2F0EF;
 $light-400: #EAE6E5;
-$light-500: var(--pgn-color-light-base);
+$light-500: #E1DDDB;
 $light-700: #D7D3D1;
 
 $dark-200: #475B65;
 $dark-300: #2D494E;
 $dark-400: #0E3639;
-$dark-500: var(--pgn-color-dark-base);
+$dark-500: #00262B;
 $dark-600: #002326;
 $dark-700: #002121;
 
 $info-100: #EFF8FA;
 $info-200: #9CD2E6;
 $info-300: #1C8DBE;
-$info-500: var(--pgn-color-info-base);
+$info-500: $blue;
 $info-700: #004972;
 $info-900: #002F4A;
 
@@ -702,8 +702,8 @@ $input-focus-box-shadow:                var(--pgn-core-input-btn-focus-box-shado
 // $custom-control-indicator-disabled-bg:          $input-disabled-bg !default;
 // $custom-control-label-disabled-color:           var(--pgn-color-gray-600) !default;
 
-// $custom-control-indicator-checked-color:        var(--pgn-core-component-active-color) !default;
-// $custom-control-indicator-checked-bg:           var(--pgn-core-component-active-bg) !default;
+// $custom-control-indicator-checked-color:        var(--pgn-component-active-color) !default;
+// $custom-control-indicator-checked-bg:           var(--pgn-component-active-bg) !default;
 // $custom-control-indicator-checked-disabled-bg:  rgba(theme-color("primary"), .5) !default;
 // $custom-control-indicator-checked-box-shadow:   null !default;
 // $custom-control-indicator-checked-border-color: $custom-control-indicator-checked-bg !default;
@@ -711,7 +711,7 @@ $input-focus-box-shadow:                var(--pgn-core-input-btn-focus-box-shado
 // $custom-control-indicator-focus-box-shadow:     $input-focus-box-shadow !default;
 // $custom-control-indicator-focus-border-color:   $input-focus-border-color !default;
 
-// $custom-control-indicator-active-color:         var(--pgn-core-component-active-color) !default;
+// $custom-control-indicator-active-color:         var(--pgn-component-active-color) !default;
 // $custom-control-indicator-active-bg:            lighten(var(--pgn-core-component-active-bg), 35%) !default;
 // $custom-control-indicator-active-box-shadow:    null !default;
 // $custom-control-indicator-active-border-color:  $custom-control-indicator-active-bg !default;
@@ -870,7 +870,7 @@ $nav-tabs-border-radius:            0 !default;
 // $nav-tabs-link-active-border-color: var(--pgn-color-gray-300) var(--pgn-color-gray-300) $nav-tabs-link-active-bg !default;
 
 $nav-pills-border-radius:           0 !default;
-// $nav-pills-link-active-color:       var(--pgn-core-component-active-color) !default;
+// $nav-pills-link-active-color:       var(--pgn-component-active-color) !default;
 // $nav-pills-link-active-bg:          var(--pgn-core-component-active-bg) !default;
 
 // $nav-divider-color:                 var(--pgn-color-gray-200) !default;
@@ -938,7 +938,7 @@ $dropdown-box-shadow:               var(--pgn-box-shadow-level-2) !default;
 // $dropdown-link-hover-color:         darken(var(--pgn-color-gray-900), 5%) !default;
 // $dropdown-link-hover-bg:            var(--pgn-color-gray-100) !default;
 
-// $dropdown-link-active-color:        var(--pgn-core-component-active-color) !default;
+// $dropdown-link-active-color:        var(--pgn-component-active-color) !default;
 // $dropdown-link-active-bg:           var(--pgn-core-component-active-bg) !default;
 
 // $dropdown-link-disabled-color:      var(--pgn-color-gray-600) !default;
@@ -972,7 +972,7 @@ $pagination-color:                  var(--pgn-color-primary-base) !default;
 // $pagination-hover-bg:               var(--pgn-color-gray-200) !default;
 // $pagination-hover-border-color:     var(--pgn-color-gray-300) !default;
 
-// $pagination-active-color:           var(--pgn-core-component-active-color) !default;
+// $pagination-active-color:           var(--pgn-component-active-color) !default;
 // $pagination-active-bg:              var(--pgn-core-component-active-bg) !default;
 // $pagination-active-border-color:    $pagination-active-bg !default;
 
@@ -1189,8 +1189,8 @@ $progress-bar-border-color:         var(--pgn-color-gray-500) !default;
 // $list-group-item-padding-x:         1.25rem !default;
 
 // $list-group-hover-bg:               var(--pgn-color-gray-100) !default;
-// $list-group-active-color:           var(--pgn-core-component-active-color) !default;
-// $list-group-active-bg:              var(--pgn-core-component-active-bg) !default;
+// $list-group-active-color:           var(--pgn-component-active-color) !default;
+// $list-group-active-bg:              var(--pgn-component-active-bg) !default;
 // $list-group-active-border-color:    var(--pgn-list-group-active-bg) !default;
 
 // $list-group-disabled-color:         var(--pgn-color-gray-600) !default;

@@ -22,11 +22,6 @@
       "width": { "value": "{border.width.value}", "themeable": true, "source": "$table-border-width" },
       "color": { "value": "{border.color.value}", "themeable": true, "source": "$table-border-color" }
     },
-    "font": {
-      "width": {
-        "th": { "value": "null", "themeable": true, "source": "$table-th-font-weight" }
-      }
-    },
     "dark": {
       "color": {
         "base": { "value": "{color.white.value}", "themeable": true, "source": "$table-dark-color" },
@@ -43,11 +38,16 @@
       "order": { "value": "odd", "themeable": true, "source": "$table-striped-order" }
     },
     "caption": {
-      "color": { "value": "{core.text.muted.value}", "themeable": true, "source": "$table-caption-color" }
+      "color": { "value": "{text.muted.value}", "themeable": true, "source": "$table-caption-color" }
     },
     "level": {
       "bg": { "value": "-9", "themeable": true, "source": "$table-bg-level" },
       "border": { "value": "-6", "themeable": true, "source": "$table-border-level" }
+    },
+    "th": {
+      "font": {
+        "weight": { "value": "null", "themeable": true, "source": "$table-th-font-weight" }
+      }
     }
   }
 }

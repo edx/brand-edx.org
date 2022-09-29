@@ -41,11 +41,7 @@
     },
     "box-shadow": {
       "base": { "value": "none", "themeable": true, "source": "$btn-box-shadow" },
-      "active": {
-        "value": "inset 0 3px 5px rgba({color.black.value}, .125)",
-        "themeable": true,
-        "source": "$btn-active-box-shadow"
-      },
+      "active": { "value": "none", "themeable": true, "source": "$btn-active-box-shadow" },
       "focus": {
         "value": "{core.input.btn.focus.box.shadow.value}",
         "themeable": true,
@@ -59,7 +55,7 @@
     "disabled": {
       "opacity": { "value": ".4", "themeable": true, "source": "$btn-disabled-opacity" },
       "link": {
-        "color": { "value": "{color.gray.600.value}", "themeable": true, "source": "$btn-link-disabled-color" }
+        "color": { "value": "{color.gray.500.value}", "themeable": true, "source": "$btn-link-disabled-color" }
       }
     },
     "tertiary": {
@@ -91,10 +87,6 @@
         "y": { "value": ".5rem", "themeable": true, "source": "$btn-block-spacing-y" }
       }
     },
-    "transition": {
-      "value": "color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out",
-      "themeable": true,
-      "source": "$btn-transition"
-    }
+    "transition": { "value": "null", "themeable": true, "source": "$btn-transition" }
   }
 }

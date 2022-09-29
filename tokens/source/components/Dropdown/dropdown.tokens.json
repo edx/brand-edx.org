@@ -1,12 +1,12 @@
 {
   "dropdown": {
     "min": {
-      "width": { "value": "10rem", "themeable": true, "source": "$dropdown-min-width" }
+      "width": { "value": "18rem", "themeable": true, "source": "$dropdown-min-width" }
     },
     "padding": {
       "x": {
         "base": { "value": "0", "themeable": true, "source": "$dropdown-padding-x" },
-        "item": { "value": "1.5rem", "themeable": true, "source": "$dropdown-item-padding-x" }
+        "item": { "value": "1rem", "themeable": true, "source": "$dropdown-item-padding-x" }
       },
       "y": {
         "base": { "value": ".5rem", "themeable": true, "source": "$dropdown-padding-y" },
@@ -24,18 +24,20 @@
     },
     "color": {
       "base": { "value": "{body.color.value}", "themeable": true, "source": "$dropdown-color" },
-      "header": { "value": "{color.gray.600.value}", "themeable": true, "source": "$dropdown-header-color" }
+      "header": { "value": "{color.gray.500.value}", "themeable": true, "source": "$dropdown-header-color" }
     },
     "bg": { "value": "{color.white.value}", "themeable": true, "source": "$dropdown-bg" },
     "border": {
-      "color": { "value": "rgba({color.black.value}, .15)", "themeable": true, "source": "$dropdown-border-color" },
+      "color": { "value": "rgba(0, 0, 0, .15)", "themeable": true, "source": "$dropdown-border-color" },
       "width": { "value": "0", "themeable": true, "source": "$dropdown-border-width" },
-      "radius": { "value": "{border.radius.base.value}", "themeable": true, "source": "$dropdown-border-radius" }
+      "radius": {
+        "base": { "value": "{border.radius.base.value}", "themeable": true, "source": "$dropdown-border-radius" }
+      }
     },
     "divider": {
-      "bg": { "value": "{color.gray.200.value}", "themeable": true, "source": "$dropdown-divider-bg" },
+      "bg": { "value": "{color.gray.100.value}", "themeable": true, "source": "$dropdown-divider-bg" },
       "margin": {
-        "y": { "value": "{nav.divider.margin.y.value}", "themeable": true, "source": "$dropdown-divider-margin-y" }
+        "y": { "value": "calc({core.spacer.value} / 2)", "themeable": true, "source": "$dropdown-divider-margin-y" }
       }
     },
     "box": {
@@ -45,17 +47,17 @@
       "color": { "value": "{color.gray.900.value}", "themeable": true, "source": "$dropdown-link-color" },
       "hover": {
         "color": { "value": "{color.gray.900.value}", "themeable": true, "source": "$dropdown-link-hover-color" },
-        "bg": { "value": "{color.gray.100.value}", "themeable": true, "source": "$dropdown-link-hover-bg" }
+        "bg": { "value": "{color.gray.300.value}", "themeable": true, "source": "$dropdown-link-hover-bg" }
       },
       "active": {
         "color": {
-          "value": "{core.component.active.color.value}", "themeable": true, "source": "$dropdown-link-active-color"
+          "value": "{component.active.color.value}", "themeable": true, "source": "$dropdown-link-active-color"
         },
         "bg": {
-          "value": "{core.component.active.color.value}", "themeable": true, "source": "$dropdown-link-active-bg" }
+          "value": "{component.active.color.value}", "themeable": true, "source": "$dropdown-link-active-bg" }
       },
       "disabled": {
-        "color": { "value": "{color.gray.600.value}", "themeable": true, "source": "$dropdown-link-disabled-color" }
+        "color": { "value": "{color.gray.500.value}", "themeable": true, "source": "$dropdown-link-disabled-color" }
       }
     }
   }

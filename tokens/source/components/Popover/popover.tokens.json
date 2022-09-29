@@ -5,11 +5,11 @@
     },
     "bg": { "value": "{color.white.value}", "themeable": true, "source": "$popover-bg" },
     "max": {
-      "width": { "value": "276px", "themeable": true, "source": "$popover-max-width" }
+      "width": { "value": "480px", "themeable": true, "source": "$popover-max-width" }
     },
     "border": {
-      "color": { "value": "rgba({color.black.value}, .2)", "themeable": true, "source": "$popover-border-color" },
-      "radius": { "value": "{border.radius.lg.value}", "themeable": true, "source": "$popover-border-radius" },
+      "color": { "value": "rgba(0, 0, 0, .2)", "themeable": true, "source": "$popover-border-color" },
+      "radius": { "value": "{border.radius.sm.value}", "themeable": true, "source": "$popover-border-radius" },
       "width": { "value": "0", "themeable": true, "source": "$popover-border-width" }
     },
     "box": {
@@ -24,7 +24,7 @@
       "color": { "value": "{headings.color.value}", "themeable": true, "source": "$popover-header-color" },
       "padding": {
         "y": { "value": ".5rem", "themeable": true, "source": "$popover-header-padding-y" },
-        "x": { "value": ".75rem", "themeable": true, "source": "$popover-header-padding-x" }
+        "x": { "value": "1rem", "themeable": true, "source": "$popover-header-padding-x" }
       }
     },
     "body": {

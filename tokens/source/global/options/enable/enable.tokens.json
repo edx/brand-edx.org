@@ -4,7 +4,7 @@
     "rounded": { "value": "true", "themeable": true, "source": "$enable-rounded" },
     "shadows": { "value": "true", "themeable": true, "source": "$enable-shadows" },
     "gradients": { "value": "false", "themeable": true, "source": "$enable-gradients" },
-    "transitions": { "value": "false", "themeable": true, "source": "$enable-transitions" },
+    "transitions": { "value": "true", "themeable": true, "source": "$enable-transitions" },
     "media": {
       "query": {
         "prefers": {

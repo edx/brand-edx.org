@@ -6,11 +6,15 @@
     },
     "border": {
       "width": { "value": "{border.width.value}", "themeable": true, "source": "$card-border-width" },
-      "radius": { "value": "{border.radius.base.value}", "themeable": true, "source": "$card-border-radius" },
-      "color": { "value": "rgba({color.black.value}, .125)", "themeable": true, "source": "$card-border-color" }
+      "radius": {
+        "base": { "value": "{border.radius.base.value}", "themeable": true, "source": "$card-border-radius" }
+      },
+      "color": {
+        "base": { "value": "rgba(0, 0, 0, .125)", "themeable": true, "source": "$card-border-color" }
+      }
     },
     "cap": {
-      "bg": { "value": "rgba({color.black.value}, .03)", "themeable": true, "source": "$card-cap-bg" },
+      "bg": { "value": "rgba(0, 0, 0, .03)", "themeable": true, "source": "$card-cap-bg" },
       "color": { "value": "null", "themeable": true, "source": "$card-cap-color" }
     },
     "height": {
@@ -24,7 +28,7 @@
       }
     },
     "margin": {
-      "group": { "value": "calc({grid.gutter.width.value} / 2)", "themeable": true, "source": "$card-group-margin" },
+      "group": { "value": "12px", "themeable": true, "source": "$card-group-margin" },
       "deck": { "value": "{card.margin.group.value}", "themeable": true, "source": "$card-deck-margin" }
     },
     "columns": {

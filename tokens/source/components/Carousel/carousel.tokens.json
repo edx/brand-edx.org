@@ -17,7 +17,7 @@
       "height": {
         "base": { "value": "3px", "themeable": true, "source": "$carousel-indicator-height" },
         "area": {
-          "hit": { "value": "10px", "themeable": true, "source": "$carousel-indicator-hit-area-height" }
+          "hit": { "value": "3px", "themeable": true, "source": "$carousel-indicator-hit-area-height" }
         }
       },
       "spacer": { "value": "3px", "themeable": true, "source": "$carousel-indicator-spacer" },

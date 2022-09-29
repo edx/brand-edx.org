@@ -12,7 +12,7 @@
     "nav": {
       "link": {
         "height": {
-          "value": "calc({font.size.base.value} * {line-height.base.value} + {nav.link.padding.y.value} * 2)",
+          "value": "calc({font.size.base.value} * {line-height.base.value} + .5rem * 2)",
           "themeable": true,
           "source": "$nav-link-height"
         }
@@ -54,7 +54,7 @@
     "dark": {
       "color": {
         "base": {
-          "value": "rgba({color.white.value}, .5)", "themeable": true, "source": "$navbar-dark-color"
+          "value": "rgba(255, 255, 255, .5)", "themeable": true, "source": "$navbar-dark-color"
         },
         "hover": {
           "value": "rgba({color.white.value}, .75)", "themeable": true, "source": "$navbar-dark-hover-color"
@@ -86,26 +86,14 @@
     },
     "light": {
       "color": {
-        "base": { "value": "rgba({color.black.value}, .5)", "themeable": true, "source": "$navbar-light-color" },
-        "hover": { "value": "rgba({color.black.value}, .7)", "themeable": true, "source": "$navbar-light-hover-color" },
-        "active": {
-          "value": "rgba({color.black.value}, .9)",
-          "themeable": true,
-          "source": "$navbar-light-active-color"
-        },
-        "disabled": {
-          "value": "rgba({color.black.value}, .3)",
-          "themeable": true,
-          "source": "$navbar-light-disabled-color"
-        }
+        "base": { "value": "rgba(0, 0, 0, .5)", "themeable": true, "source": "$navbar-light-color" },
+        "hover": { "value": "rgba(0, 0, 0, .7)", "themeable": true, "source": "$navbar-light-hover-color" },
+        "active": { "value": "rgba(0, 0, 0, .9)", "themeable": true, "source": "$navbar-light-active-color" },
+        "disabled": { "value": "rgba(0, 0, 0, .3)", "themeable": true, "source": "$navbar-light-disabled-color" }
       },
       "toggler": {
         "border": {
-          "color": {
-            "value": "rgba({color.black.value}, .1)",
-            "themeable": true,
-            "source": "$navbar-light-toggler-border-color"
-          }
+          "color": { "value": "rgba(0, 0, 0, .1)", "themeable": true, "source": "$navbar-light-toggler-border-color" }
         }
       },
       "brand": {

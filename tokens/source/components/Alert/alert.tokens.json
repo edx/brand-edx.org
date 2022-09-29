@@ -13,7 +13,7 @@
     },
     "font": {
       "weight": {
-        "link": { "value": "{font.weight.bold.value}", "themeable": true, "source": "$alert-link-font-weight" }
+        "link": { "value": "{font.weight.normal.value}", "themeable": true, "source": "$alert-link-font-weight" }
       }
     },
     "level": {

@@ -1,7 +1,9 @@
 {
   "modal": {
     "inner": {
-      "padding": { "value": "1rem", "themeable": true, "source": "$modal-inner-padding" }
+      "padding": {
+        "base": { "value": "1.5rem", "themeable": true, "source": "$modal-inner-padding" }
+      }
     },
     "footer": {
       "margin": {
@@ -36,7 +38,7 @@
       "bg": { "value": "{color.white.value}", "themeable": true, "source": "$modal-content-bg" },
       "border": {
         "color": {
-          "value": "rgba({color.black.value}, .2)", "themeable": true, "source": "$modal-content-border-color"
+          "value": "rgba(0, 0, 0, .2)", "themeable": true, "source": "$modal-content-border-color"
         },
         "width": { "value": "0", "themeable": true, "source": "$modal-content-border-width" },
         "radius": { "value": "{border.radius.lg.value}", "themeable": true, "source": "$modal-content-border-radius" }
@@ -74,13 +76,13 @@
           "source": "$modal-header-padding"
         },
         "y": { "value": "1rem", "themeable": true, "source": "$modal-header-padding-y" },
-        "x": { "value": "1rem", "themeable": true, "source": "$modal-header-padding-x" }
+        "x": { "value": "1.5rem", "themeable": true, "source": "$modal-header-padding-x" }
       }
     },
     "xl": { "value": "1140px", "themeable": true, "source": "$modal-xl" },
     "lg": { "value": "800px", "themeable": true, "source": "$modal-lg" },
     "md": { "value": "500px", "themeable": true, "source": "$modal-md" },
-    "sm": { "value": "300px", "themeable": true, "source": "$modal-sm" },
+    "sm": { "value": "500px", "themeable": true, "source": "$modal-sm" },
     "transition": { "value": "transform .3s ease-out", "themeable": true, "source": "$modal-transition" },
     "transform": {
       "fade": { "value": "translate(0, -50px)", "themeable": true, "source": "$modal-fade-transform" },

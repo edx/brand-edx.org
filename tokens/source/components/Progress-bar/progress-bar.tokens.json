@@ -1,12 +1,14 @@
 {
   "progress": {
-    "height": { "value": "1rem", "themeable": true, "source": "$progress-height" },
+    "height": {
+      "base": { "value": "1rem", "themeable": true, "source": "$progress-height" }
+    },
     "font": {
       "size": {
         "value": "calc({font.size.base.value} * .75)", "themeable": true, "source": "$progress-font-size"
       }
     },
-    "bg": { "value": "{color.gray.200.value}", "themeable": true, "source": "$progress-bg" },
+    "bg": { "value": "transparent", "themeable": true, "source": "$progress-bg" },
     "border": {
       "radius": { "value": "0", "themeable": true, "source": "$progress-border-radius" },
       "width": { "value": "1px", "themeable": true, "source": "$progress-bar-border-width" },
@@ -17,7 +19,9 @@
     },
     "bar": {
       "color": { "value": "{color.white.value}", "themeable": true, "source": "$progress-bar-color" },
-      "bg": { "value": "{color.accent.a.value}", "themeable": true, "source": "$progress-bar-bg" },
+      "bg": {
+        "base": { "value": "{color.accent.a.value}", "themeable": true, "source": "$progress-bar-bg" }
+      },
       "animation": {
         "timing": { "value": "1s linear infinite", "themeable": true, "source": "$progress-bar-animation-timing" }
       },

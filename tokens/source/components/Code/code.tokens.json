@@ -3,7 +3,7 @@
     "font": {
       "size": { "value": "87.5%", "themeable": true, "source": "$code-font-size" }
     },
-    "color": { "value": "{color.pink.value}", "themeable": true, "source": "$code-color" },
+    "color": { "value": "#E83E8C", "themeable": true, "source": "$code-color" },
     "kbd": {
       "font": {
         "size": { "value": "{code.font.size.value}", "themeable": true, "source": "$kbd-font-size" }
@@ -29,7 +29,7 @@
         "x": { "value": ".4rem", "themeable": true, "source": "$kbd-padding-x" }
       },
       "color": { "value": "{color.white.value}", "themeable": true, "source": "$kbd-color" },
-      "bg": { "value": "{color.gray.900.value}", "themeable": true, "source": "$kbd-bg" }
+      "bg": { "value": "{color.gray.700.value}", "themeable": true, "source": "$kbd-bg" }
     },
     "pre": {
       "color": { "value": "{color.gray.900.value}", "themeable": true, "source": "$pre-color" },

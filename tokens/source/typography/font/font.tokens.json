@@ -9,12 +9,12 @@
           "source": "$font-family-sans-serif"
         }
       },
+      "serif": { "value": "{font.family.sans.serif.value}", "themeable": true, "source": "$font-family-serif" },
       "monospace": {
         "value": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\",\n  \"Courier New\", monospace",
         "themeable": true,
         "source": "$font-family-monospace"
-      },
-      "serif": { "value": "{font.family.sans.serif.value}", "themeable": true, "source": "$font-family-serif" }
+      }
     },
     "size": {
       "base": { "value": "1.125rem", "themeable": true, "source": "$font-size-base" },

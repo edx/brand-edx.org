@@ -6,20 +6,20 @@
         "x": { "value": "1rem", "themeable": true, "source": "$nav-link-padding-x" }
       },
       "color": {
-        "disabled": { "value": "{color.gray.600.value}", "themeable": true, "source": "$nav-link-disabled-color" }
+        "disabled": { "value": "{color.gray.300.value}", "themeable": true, "source": "$nav-link-disabled-color" }
       }
     },
     "tabs": {
       "border": {
-        "color": { "value": "{color.gray.300.value}", "themeable": true, "source": "$nav-tabs-border-color" },
-        "width": { "value": "{border.width.value}", "themeable": true, "source": "$nav-tabs-border-width" },
+        "color": { "value": "{color.light.400.value}", "themeable": true, "source": "$nav-tabs-border-color" },
+        "width": { "value": "2px", "themeable": true, "source": "$nav-tabs-border-width" },
         "radius": { "value": "0", "themeable": true, "source": "$nav-tabs-border-radius" }
       },
       "link": {
         "hover": {
           "border": {
             "color": {
-              "value": "{color.gray.200.value} {color.gray.200.value} {nav.tabs.border.color.value}",
+              "value": "transparent transparent {nav.tabs.border.color.value}",
               "themeable": true,
               "source": "$nav-tabs-link-hover-border-color"
             }
@@ -28,9 +28,9 @@
         },
         "active": {
           "color": {
-            "base": { "value": "{color.gray.700.value}", "themeable": true, "source": "$nav-tabs-link-active-color" },
+            "base": { "value": "{color.primary.500.value}", "themeable": true, "source": "$nav-tabs-link-active-color" },
             "border": {
-              "value": "{color.gray.300.value} {color.gray.300.value} {nav.tabs.link.active.bg.value}",
+              "value": "transparent transparent {color.primary.500.value}",
               "themeable": true,
               "source": "$nav-tabs-link-active-border-color"
             }
@@ -46,12 +46,12 @@
       "link": {
         "active": {
           "color": {
-            "value": "{core.component.active.color.value}",
+            "value": "{component.active.color.value}",
             "themeable": true,
             "source": "$nav-pills-link-active-color"
           },
           "bg": {
-            "value": "{core.component.active.bg.value}",
+            "value": "{component.active.bg.value}",
             "themeable": true,
             "source": "$nav-pills-link-active-bg"
           }
@@ -59,7 +59,7 @@
       }
     },
     "divider": {
-      "color": { "value": "{color.gray.200.value}", "themeable": true, "source": "$nav-divider-color" },
+      "color": { "value": "{color.gray.100.value}", "themeable": true, "source": "$nav-divider-color" },
       "margin": {
         "y": { "value": "calc({core.spacer.value} / 2)", "themeable": true, "source": "$nav-divider-margin-y" }
       }

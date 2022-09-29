@@ -17,7 +17,7 @@
         "pill": { "value": "10rem", "themeable": true, "source": "$badge-pill-border-radius" }
       }
     },
-    "transition": { "value": "{btn.transition.value}", "themeable": true, "source": "$badge-transition" },
+    "transition": { "value": "none", "themeable": true, "source": "$badge-transition" },
     "focus": {
       "width": { "value": "{core.input.btn.focus.width.value}", "themeable": true, "source": "$badge-focus-width" }
     }

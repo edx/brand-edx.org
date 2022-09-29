@@ -13,6 +13,8 @@
       "3": { "value": "{font.weight.bold}", "themeable": true, "source": "$display3-weight" },
       "4": { "value": "{font.weight.bold}", "themeable": true, "source": "$display4-weight" }
     },
-    "line-height": { "value": "{headings.line.height.value}", "themeable": true, "source": "$display-line-height" }
+    "line-height": {
+      "base": { "value": "{headings.line.height.value}", "themeable": true, "source": "$display-line-height" }
+    }
   }
 }

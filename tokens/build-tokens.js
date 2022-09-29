@@ -68,7 +68,7 @@ const paragonStyleDictionary = StyleDictionary.extend({
                 },
                 {
                     format: 'css/variables',
-                    destination: path.resolve(__dirname, '../scss/core/tokens.css'),
+                    destination: path.resolve(__dirname, '../paragon/tokens.css'),
                     options: {
                         outputReferences: true,
                     },

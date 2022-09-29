@@ -37,15 +37,15 @@
       },
       "bg": {
         "base": { "value": "{color.white.value}", "themeable": true, "source": "$input-bg" },
-        "disabled": { "value": "{color.gray.200.value}", "themeable": true, "source": "$input-disabled-bg" }
+        "disabled": { "value": "{color.gray.100.value}", "themeable": true, "source": "$input-disabled-bg" }
       },
       "color": {
         "base": { "value": "{body.color.value}", "themeable": true, "source": "$input-color" },
-        "placeholder": { "value": "{color.gray.600.value}", "themeable": true, "source": "$input-placeholder-color" },
+        "placeholder": { "value": "{color.gray.500.value}", "themeable": true, "source": "$input-placeholder-color" },
         "plaintext": { "value": "{body.color.value}", "themeable": true, "source": "$input-placeholder-color" }
       },
       "border": {
-        "color": { "value": "{color.gray.400.value}", "themeable": true, "source": "$input-border-color" },
+        "color": { "value": "{color.gray.500.value}", "themeable": true, "source": "$input-border-color" },
         "width": { "value": "{core.input.btn.border.width.value}", "themeable": true, "source": "$input-border-width" },
         "height": {
           "value": "calc({form.input.border.width.value} * 2)",
@@ -73,25 +73,25 @@
         "color": {
           "base": { "value": "{form.input.color.base.value}", "themeable": true, "source": "$input-focus-color" },
           "border": {
-            "value": "{core.component.active.bg.value}", "themeable": true, "source": "$input-focus-border-color"
+            "value": "{component.active.bg.value}", "themeable": true, "source": "$input-focus-border-color"
           }
         },
-        "width": { "value": "{core.input.btn.focus.width.value}", "themeable": true, "source": "$input-focus-width" }
+        "width": { "value": "1px", "themeable": true, "source": "$input-focus-width" }
       },
       "height": {
         "sm": {
-          "value": "calc({form.input.line.height.sm.value} * 1em, calc({core.input.btn.padding.sm.y.value} * 2, {form.input.border.height.value}, false))",
+          "value": "calc(({form.input.line.height.sm.value} * 1em) + calc({core.input.btn.padding.sm.y.value} * 2) + {form.input.border.height.value})",
           "themeable": true,
           "source": "$input-height-sm"
         },
         "lg": {
-          "value": "calc({form.input.line.height.lg.value} * 1em, calc({core.input.btn.padding.lg.y.value} * 2, {form.input.border.height.value}, false))",
+          "value": "calc(({form.input.line.height.lg.value} * 1em) + calc({core.input.btn.padding.lg.y.value} * 2) + {form.input.border.height.value})",
           "themeable": true,
           "source": "$input-height-lg"
         },
         "inner": {
           "base": {
-            "value": "calc({form.input.line.height.base.value} * 1em, {form.input.padding.y.base.value} * 2)",
+            "value": "calc({form.input.line.height.base.value} * 1em + {form.input.padding.y.base.value} * 2)",
             "themeable": true,
             "source": "$input-height-inner"
           },
@@ -134,7 +134,7 @@
               "source": "$input-group-addon-border-color"
             }
           },
-          "bg": { "value": "{color.gray.200.value}", "themeable": true, "source": "$input-group-addon-bg" }
+          "bg": { "value": "{color.gray.100.value}", "themeable": true, "source": "$input-group-addon-bg" }
         }
       }
     },
@@ -173,12 +173,12 @@
         },
         "cursor": { "value": "null", "themeable": true, "source": "$custom-control-cursor" },
         "indicator": {
-          "size": { "value": "1rem", "themeable": true, "source": "$custom-control-indicator-size" },
+          "size": { "value": "1.25rem", "themeable": true, "source": "$custom-control-indicator-size" },
           "bg": {
             "base": {
               "value": "{form.input.bg.base.value}", "themeable": true, "source": "$custom-control-indicator-bg"
             },
-            "size": { "value": "50% 50%", "themeable": true, "source": "$custom-control-indicator-bg-size" }
+            "size": { "value": "100%", "themeable": true, "source": "$custom-control-indicator-bg-size" }
           },
           "box": {
             "shadow": {
@@ -189,15 +189,11 @@
           },
           "border": {
             "color": {
-              "value": "{color.gray.500.value}",
+              "value": "{color.gray.700.value}",
               "themeable": true,
               "source": "$custom-control-indicator-border-color"
             },
-            "width": {
-              "value": "{form.input.border.width.value}",
-              "themeable": true,
-              "source": "$custom-control-indicator-border-width"
-            }
+            "width": { "value": "2px", "themeable": true, "source": "$custom-control-indicator-border-width" }
           },
           "disabled": {
             "bg": {
@@ -208,27 +204,27 @@
           },
           "checked": {
             "color": {
-              "value": "{core.component.active.color.value}",
+              "value": "{component.active.bg.value}",
               "themeable": true,
               "source": "$custom-control-indicator-checked-color"
             },
             "bg": {
               "base": {
-                "value": "{core.component.active.bg.value}",
+                "value": "{component.active.bg.value}",
                 "themeable": true,
                 "source": "$custom-control-indicator-checked-bg"
               },
               "disabled": {
-                "value": "rgba({color.primary.base.value}, .5)",
+                "value": "rgba(10, 48, 85, .5)",
                 "themeable": true,
                 "source": "$custom-control-indicator-checked-disabled-bg"
               }
             },
             "box": {
               "shadow": {
-                "base": { "value": "null", "themeable": true, "source": "$custom-control-indicator-checked-box-shadow" },
+                "base": { "value": "none", "themeable": true, "source": "$custom-control-indicator-checked-box-shadow" },
                 "focus": {
-                  "value": "{form.input.box.shadow.focus.value}",
+                  "value": "0 0 0 4px rgba(0, 0, 0, .1)",
                   "themeable": true,
                   "source": "$custom-control-indicator-focus-box-shadow"
                 }
@@ -237,7 +233,7 @@
             "border": {
               "color": {
                 "base": {
-                  "value": "{form.custom.control.indicator.checked.bg.base.value}",
+                  "value": "{form.custom.control.indicator.checked.color.value}",
                   "themeable": true,
                   "source": "$custom-control-indicator-checked-border-color"
                 },
@@ -252,7 +248,7 @@
           "active": {
             "color": {
               "base": {
-                "value": "{core.component.active.color.value}",
+                "value": "{component.active.color.value}",
                 "themeable": true,
                 "source": "$custom-control-indicator-active-color"
               },
@@ -263,7 +259,7 @@
               }
             },
             "bg": {
-              "value": "{core.component.active.bg.value}",
+              "value": "{component.active.bg.value}",
               "themeable": true,
               "source": "$custom-control-indicator-active-bg"
             },
@@ -276,7 +272,7 @@
           "color": {
             "base": { "value": "null", "themeable": true, "source": "$custom-control-label-color" },
             "disabled": {
-              "value": "{color.gray.600.value}",
+              "value": "{color.gray.500.value}",
               "themeable": true,
               "source": "$custom-control-label-disabled-color"
             }
@@ -286,15 +282,11 @@
       "checkbox": {
         "indicator": {
           "border": {
-            "radius": {
-              "value": "{border.radius.base.value}",
-              "themeable": true,
-              "source": "$custom-checkbox-indicator-border-radius"
-            }
+            "radius": { "value": "0", "themeable": true, "source": "$custom-checkbox-indicator-border-radius" }
           },
           "indeterminate": {
             "bg": {
-              "value": "{core.component.active.bg.value}",
+              "value": "{component.active.bg.value}",
               "themeable": true,
               "source": "$custom-checkbox-indicator-indeterminate-bg"
             },
@@ -429,7 +421,7 @@
         "indicator": {
           "padding": { "value": "1rem", "themeable": true, "source": "$custom-select-indicator-padding" },
           "color": {
-            "value": "{color.primary.base.value}",
+            "value": "{color.gray.700.value}",
             "themeable": true,
             "source": "$custom-select-indicator-color"
           }
@@ -453,17 +445,17 @@
             "source": "$custom-select-bg"
           },
           "disabled": {
-            "value": "{color.gray.200.value}",
+            "value": "{color.gray.100.value}",
             "themeable": true,
             "source": "$custom-select-disabled-bg"
           },
-          "size": { "value": "8px 10px", "themeable": true, "source": "$custom-select-bg-size" }
+          "size": { "value": "24px 24px", "themeable": true, "source": "$custom-select-bg-size" }
         },
         "feedback": {
           "icon": {
             "padding": {
               "right": {
-                "value": "calc(1em * .75, (2 * {form.custom.select.padding.y.base.value} * .75) + {form.custom.select.padding.x.base.value} + {form.custom.select.indicator.padding.value})",
+                "value": "calc((1em + 2 * {form.custom.select.padding.y.base.value}) * 3 / 4 + {form.custom.select.padding.x.base.value} + {form.custom.select.indicator.padding.value})",
                 "themeable": true,
                 "source": "$custom-select-feedback-icon-padding-right"
               }
@@ -513,7 +505,7 @@
                 "source": "$custom-select-box-shadow"
               },
               "focus": {
-                "value": "0 0 0 {form.custom.select.width.focus.value} {core.input.btn.focus.color.value}",
+                "value": "{core.input.btn.focus.box.shadow.value}",
                 "themeable": true,
                 "source": "$custom-select-focus-box-shadow"
               }
@@ -561,7 +553,7 @@
           },
           "bg": {
             "base": {
-              "value": "{core.component.active.bg.value}",
+              "value": "{component.active.bg.value}",
               "themeable": true,
               "source": "$custom-range-thumb-bg"
             },
@@ -749,16 +741,12 @@
       },
       "tooltip": {
         "padding": {
-          "y": {
-            "value": "{tooltip.padding.y.value}", "themeable": true, "source": "$form-feedback-tooltip-padding-y"
-          },
-          "x": {
-            "value": "{tooltip.padding.x.value}", "themeable": true, "source": "$form-feedback-tooltip-padding-x"
-          }
+          "y": { "value": ".25rem", "themeable": true, "source": "$form-feedback-tooltip-padding-y" },
+          "x": { "value": ".5rem", "themeable": true, "source": "$form-feedback-tooltip-padding-x" }
         },
         "font": {
           "size": {
-            "value": "{tooltip.font.size.value}", "themeable": true, "source": "$form-feedback-tooltip-font-size"
+            "value": "{font.size.sm.value}", "themeable": true, "source": "$form-feedback-tooltip-font-size"
           }
         },
         "line": {
@@ -769,7 +757,7 @@
           }
         },
         "opacity": {
-          "value": "{tooltip.opacity.value}", "themeable": true, "source": "$form-feedback-tooltip-opacity"
+          "value": ".9", "themeable": true, "source": "$form-feedback-tooltip-opacity"
         },
         "border": {
           "radius": {
