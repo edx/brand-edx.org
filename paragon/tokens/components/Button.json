@@ -1,0 +1,12 @@
+{
+  "btn": {
+    "primary": {
+      "color": { "value": "{color.white}", "themeable": true, "source": "$btn-primary-color" },
+      "bg": {
+        "base": { "value": "{color.primary.500.value}", "themeable": true, "source": "$btn-primary-bg" },
+        "hover": { "value": "{color.primary.300.value}", "themeable": true, "source": "$btn-primary-hover-bg" },
+        "active": { "value": "{color.primary.500.value}", "themeable": true, "source": "$btn-primary-active-bg" }
+      }
+    }
+  }
+}

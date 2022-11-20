@@ -1,0 +1,19 @@
+{
+  "color": {
+    "primary": {
+      "base": { "value": "#00262B", "themeable": true, "source": "$primary" },
+      "300": {
+        "themeable": true,
+        "source": "$primary-300",
+        "modify": [
+          {
+            "type": "mix",
+            "otherColor": "white",
+            "amount": "0.25"
+          }
+        ]
+      },
+      "500": { "value": "{color.primary.base.value}", "themeable": true, "source": "$primary-500" }
+    }
+  }
+}

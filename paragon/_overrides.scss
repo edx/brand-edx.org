@@ -1,295 +1,305 @@
-// This file is included after all of Bootstrap. Any customization that can't
-// be made using variable definitions should be done here.
+// // This file is included after all of Bootstrap. Any customization that can't
+// // be made using variable definitions should be done here.
 
 
-// Alerts
+// // Alerts
 
-.alert-dismissible .close {
-  color: theme-color("gray");
-  opacity: 1;
+// .alert-dismissible .close {
+//   color: theme-color("gray");
+//   opacity: 1;
 
-  @include hover {
-    color: theme-color("gray");
-  }
-}
-
-
-// Badges
-
-.badge {
-  font-family: $font-family-sans-serif;
-  line-height: 1.25rem;
-
-  &.badge-info {
-    color: $gray-900;
-  }
-}
-
-// Buttons
-
-.btn {
-  text-decoration: none;
-}
-
-.btn-link {
-  text-decoration: none;
-
-  &.hover,
-  &:hover {
-    text-decoration: none;
-  }
-
-  &.focus,
-  &:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    text-decoration: none;
-  }
-}
+//   @include hover {
+//     color: theme-color("gray");
+//   }
+// }
 
 
-@each $color, $value in $theme-colors {
-  .btn-outline-#{$color} {
-    background: $white;
-    border-color: $light-300;
-    &:not(:disabled):not(.disabled) {
-      &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-        background: $value;
-        border-color: $value;
-        color: white;
-      }
-    }
-  }
-}
+// // Badges
+
+// .badge {
+//   font-family: $font-family-sans-serif;
+//   line-height: 1.25rem;
+
+//   &.badge-info {
+//     color: $gray-900;
+//   }
+// }
+
+// // Buttons
+
+// .btn {
+//   text-decoration: none;
+// }
+
+// .btn-link {
+//   text-decoration: none;
+
+//   &.hover,
+//   &:hover {
+//     text-decoration: none;
+//   }
+
+//   &.focus,
+//   &:focus {
+//     outline: 1px dotted;
+//     outline: 5px auto -webkit-focus-ring-color;
+//     text-decoration: none;
+//   }
+// }
+
+
+// @each $color, $value in $theme-colors {
+//   .btn-outline-#{$color} {
+//     background: $white;
+//     border-color: $light-300;
+//     &:not(:disabled):not(.disabled) {
+//       &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+//         background: $value;
+//         border-color: $value;
+//         color: white;
+//       }
+//     }
+//   }
+// }
+
+// .btn-primary {
+//   &:not(:disabled):not(.disabled) {
+//     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+//       background: var(--pgn-color-primary-300);
+//       border-color: transparent;
+//       color: $white;
+//     }
+//   }
+// }
+
+// .btn-inverse-outline-primary {
+//   background: transparent;
+//   color: $white;
+//   border-color: $gray-500;
+//   &:not(:disabled):not(.disabled) {
+//     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+//       background: $white;
+//       border-color: transparent;
+//       color: $primary;
+//     }
+//   }
+// }
+
+// .btn-inverse-outline-brand {
+//   background: transparent;
+//   color: $white;
+//   border-color: $white;
+//   &:not(:disabled):not(.disabled) {
+//     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+//       background: $brand;
+//       border-color: transparent;
+//       color: $white;
+//     }
+//   }
+// }
+
+// .btn-inverse-brand {
+//   background: $brand;
+//   color: $white;
+//   border-color: transparent;
+//   &:not(:disabled):not(.disabled) {
+//     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+//       background: $brand-700;
+//       border-color: transparent;
+//       color: white;
+//     }
+//   }
+// }
+
+// .btn-inverse-primary {
+//   background: $white;
+//   color: $primary;
+//   border-color: transparent;
+//   &:not(:disabled):not(.disabled) {
+//     &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+//       background: $primary-300;
+//       border-color: transparent;
+//       color: $white;
+//     }
+//   }
+// }
+
+// // Avatar buttons in tertiary style (the default) are darker than regular tertiary buttons
+// .btn-avatar.btn-tertiary {
+//   color: $primary-500;
+// }
+
+// // Forms
+
+// // This loop is modeled after the loop in bootstrap's _forms.scss
+// // which calls a mixin, form-validation-state($state, $color, $icon).
+// // We make several overrides here for icons and focus states.
+// @each $state, $data in $form-validation-states {
+//   $color: map-get($data, color);
+//   $icon: map-get($data, icon);
+
+//   // Do not use validation color for feedback text
+//   // Add the validation icon to feedback text
+//   .#{$state}-feedback {
+//     color: $body-color;
+//     font-weight: 400;
+//     &:before {
+//       background-image: str-replace($icon, "#", "%23");
+//       content: '';
+//       height:1rem;
+//       width:1rem;
+//       display: inline-block;
+//       vertical-align: text-bottom;
+//       margin-right: .3em;
+//     }
+//   }
+
+//   // Override focus states, use the standard focus
+//   // instead of a generated color.
+//   .form-control {
+//     .was-validated &:#{$state},
+//     &.is-#{$state} {
+//       &:focus {
+//         border-color: $color;
+//         box-shadow: 0 0 0 $input-focus-width $color;
+//       }
+//     }
+//   }
+
+//   .custom-select {
+//     .was-validated &:#{$state},
+//     &.is-#{$state} {
+//       &:focus {
+//         border-color: $color;
+//         box-shadow: 0 0 0 $input-focus-width $color;
+//       }
+//     }
+//   }
+// }
+
+// select.form-control {
+//   background-repeat: no-repeat;
+//   background-position: right 1rem center;
+//   background-image: str-replace($custom-select-indicator, "#", "%23");
+//   appearance: none;
+//   -moz-appearance: none;
+//   -webkit-appearance: none;
+// }
+
+// .popover-header {
+//   border-bottom: solid 1px $gray-100;
+// }
+
+// // Grid
+
+// .container {
+//   padding-left: $grid-gutter-width;
+//   padding-right: $grid-gutter-width;
+// }
+
+// .container-fluid {
+//   padding-left: $grid-gutter-width;
+//   padding-right: $grid-gutter-width;
+// }
+
+
+// // Typography
+
+// body {
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// h1, .h1 {
+//   line-height: calc((44 / 16) * 1rem);
+//   letter-spacing: -2%;
+
+//   @media (max-width: map-get($grid-breakpoints, "sm")) {
+//     line-height: calc((40 / 16) * 1rem);
+//   }
+//   .mobile-type & {
+//     line-height: calc((40 / 16) * 1rem);
+//   }
+// }
+
+// h2, .h2 {
+//   line-height: calc((36 / 16) * 1rem);
+// }
+
+// h3, .h3 {
+//   line-height: calc((28 / 16) * 1rem);
+// }
+
+// h4, .h4 {
+//   line-height: calc((24 / 16) * 1rem);
+// }
+
+// h5, .h5 {
+//   line-height: calc((20 / 16) * 1rem);
+// }
+
+// h6, .h6 {
+//   line-height: calc((20 / 16) * 1rem);
+// }
+
+// .lead {
+//   line-height: calc((36 / 16) * 1rem);
+// }
+
+// .small {
+//   line-height: calc((24 / 16) * 1rem);
+// }
+
+// .x-small {
+//   line-height: calc((20 / 16) * 1rem);
+// }
+
+// p > a[href]:not(.btn),
+// a.inline-link {
+//   text-decoration-line: underline;
+//   text-decoration-color: rgba($link-color, .3);
+//   &:hover {
+//     text-decoration-color: rgba($link-color, 1);
+//   }
+// }
+
+// // Temporary fix for search fields. See https://github.com/edx/brand-edx.org/pull/9#issuecomment-723208124
+
+// .pgn__searchfield {
+//   border-radius: 0 !important;
+//   .btn {
+//     background: $input-bg;
+//     display: flex;
+//   }
+//   &.has-focus {
+//     .btn {
+//       background: $input-focus-bg;
+//     }
+//     border-color: $input-focus-border-color !important;
+//   }
+// }
+
+// // Progress Bar
+// .progress {
+//   border: $progress-bar-border-width solid $progress-bar-border-color;
+// }
+// .progress-bar {
+//   background-color: $progress-bar-bg;
+// }
+
+// // Bubble
+// .pgn__bubble {
+//   &.pgn__bubble-warning {
+//     color: $gray-900;
+//   }
+// }
+
+// Design tokens
 
 .btn-primary {
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: $primary-300;
-      border-color: transparent;
-      color: $white;
-    }
-  }
-}
+  background-color: var(--pgn-btn-primary-bg-base);
 
-.btn-inverse-outline-primary {
-  background: transparent;
-  color: $white;
-  border-color: $gray-500;
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: $white;
-      border-color: transparent;
-      color: $primary;
-    }
-  }
-}
-
-.btn-inverse-outline-brand {
-  background: transparent;
-  color: $white;
-  border-color: $white;
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: $brand;
-      border-color: transparent;
-      color: $white;
-    }
-  }
-}
-
-.btn-inverse-brand {
-  background: $brand;
-  color: $white;
-  border-color: transparent;
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: $brand-700;
-      border-color: transparent;
-      color: white;
-    }
-  }
-}
-
-.btn-inverse-primary {
-  background: $white;
-  color: $primary;
-  border-color: transparent;
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
-      background: $primary-300;
-      border-color: transparent;
-      color: $white;
-    }
-  }
-}
-
-// Avatar buttons in tertiary style (the default) are darker than regular tertiary buttons
-.btn-avatar.btn-tertiary {
-  color: $primary-500;
-}
-
-// Forms
-
-// This loop is modeled after the loop in bootstrap's _forms.scss
-// which calls a mixin, form-validation-state($state, $color, $icon).
-// We make several overrides here for icons and focus states.
-@each $state, $data in $form-validation-states {
-  $color: map-get($data, color);
-  $icon: map-get($data, icon);
-
-  // Do not use validation color for feedback text
-  // Add the validation icon to feedback text
-  .#{$state}-feedback {
-    color: $body-color;
-    font-weight: 400;
-    &:before {
-      background-image: str-replace($icon, "#", "%23");
-      content: '';
-      height:1rem;
-      width:1rem;
-      display: inline-block;
-      vertical-align: text-bottom;
-      margin-right: .3em;
-    }
-  }
-
-  // Override focus states, use the standard focus
-  // instead of a generated color.
-  .form-control {
-    .was-validated &:#{$state},
-    &.is-#{$state} {
-      &:focus {
-        border-color: $color;
-        box-shadow: 0 0 0 $input-focus-width $color;
-      }
-    }
-  }
-
-  .custom-select {
-    .was-validated &:#{$state},
-    &.is-#{$state} {
-      &:focus {
-        border-color: $color;
-        box-shadow: 0 0 0 $input-focus-width $color;
-      }
-    }
-  }
-}
-
-select.form-control {
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  background-image: str-replace($custom-select-indicator, "#", "%23");
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-}
-
-.popover-header {
-  border-bottom: solid 1px $gray-100;
-}
-
-// Grid
-
-.container {
-  padding-left: $grid-gutter-width;
-  padding-right: $grid-gutter-width;
-}
-
-.container-fluid {
-  padding-left: $grid-gutter-width;
-  padding-right: $grid-gutter-width;
-}
-
-
-// Typography
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, .h1 {
-  line-height: calc((44 / 16) * 1rem);
-  letter-spacing: -2%;
-
-  @media (max-width: map-get($grid-breakpoints, "sm")) {
-    line-height: calc((40 / 16) * 1rem);
-  }
-  .mobile-type & {
-    line-height: calc((40 / 16) * 1rem);
-  }
-}
-
-h2, .h2 {
-  line-height: calc((36 / 16) * 1rem);
-}
-
-h3, .h3 {
-  line-height: calc((28 / 16) * 1rem);
-}
-
-h4, .h4 {
-  line-height: calc((24 / 16) * 1rem);
-}
-
-h5, .h5 {
-  line-height: calc((20 / 16) * 1rem);
-}
-
-h6, .h6 {
-  line-height: calc((20 / 16) * 1rem);
-}
-
-.lead {
-  line-height: calc((36 / 16) * 1rem);
-}
-
-.small {
-  line-height: calc((24 / 16) * 1rem);
-}
-
-.x-small {
-  line-height: calc((20 / 16) * 1rem);
-}
-
-p > a[href]:not(.btn),
-a.inline-link {
-  text-decoration-line: underline;
-  text-decoration-color: rgba($link-color, .3);
   &:hover {
-    text-decoration-color: rgba($link-color, 1);
-  }
-}
-
-// Temporary fix for search fields. See https://github.com/edx/brand-edx.org/pull/9#issuecomment-723208124
-
-.pgn__searchfield {
-  border-radius: 0 !important;
-  .btn {
-    background: $input-bg;
-    display: flex;
-  }
-  &.has-focus {
-    .btn {
-      background: $input-focus-bg;
-    }
-    border-color: $input-focus-border-color !important;
-  }
-}
-
-// Progress Bar
-.progress {
-  border: $progress-bar-border-width solid $progress-bar-border-color;
-}
-.progress-bar {
-  background-color: $progress-bar-bg;
-}
-
-// Bubble
-.pgn__bubble {
-  &.pgn__bubble-warning {
-    color: $gray-900;
+    background-color: var(--pgn-btn-primary-bg-hover);
   }
 }

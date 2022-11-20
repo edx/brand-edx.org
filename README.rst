@@ -105,3 +105,22 @@ Publishing with Semantic Release
 --------------------------------
 
 This project is published to npm with Semantic Release. When a pull request is merged to master Semantic Release reads the commit messages to determine whether to make a new patch. minor, or major release of this package. For more info see https://github.com/semantic-release/semantic-release#how-does-it-work
+
+--------------------------------------
+Customizing the theme with Paragon design tokens
+--------------------------------------
+
+* The `v21.0.0-alpha.x` release of Paragon is installed. This allows us to configure the `build-tokens.js` file to source the default/core Paragon design token JSON files from the published NPM package as the base tokens to use.
+  * We may want to consider the pros/cons of shipping the design tokens JSON files as a separate NPM package?
+* NOTE: Requires you to copy the `tokens/source` folder from `@edx/paragon` into `node_modules/@edx/paragon/tokens`.
+  * If we adopt this approach, we will need to include the source tokens in the NPM package.
+* This theming approach allows theme authors to essentially do a "deep merge" with the default/core Paragon design token JSON files, by combining the sources from the installed Paragon NPM package and the JSON design token files specific to the theme this code repository represents.
+  * NOTE: If the default/core Paragon design token uses the `modify` clause but the theme author doesn't want the default `modify` behavior, it may be overridden only with a `null` to disable the default behavior.
+
+
+Changes:
+1. Adds an `example` app to preview any theme customizations/extensions in a sample MFE.
+1. Adds `tokens` directory to `paragon`. This should follow the same folder/JSON structure as is used on whatever version of Paragon is installed in this repository. These JSON files are deep-merged with the default/standard Paragon design tokens to allow for theme customizations. We may want to explore defining types for the JSON schema as a way of self-documenting the theme API (aka the JSON file structure).
+1. Defines design tokens for `Button` component's primary variant base and hover states (note: these should likely be in the default/core Paragond design tokens as well)
+1. Brings in `style-dictionary` and the `build-tokens` script, allowing the approach of merging overrides to the core Paragon design tokens, while being able to utilize `style-dictionary` at this custom theme layer.
+1. To run the example app with hot reloading of the design tokens compilation, run: `npx nodemon build-tokens` from within the `paragon` directory in one terminal and `npm start` from within the `example` directory in another terminal.
