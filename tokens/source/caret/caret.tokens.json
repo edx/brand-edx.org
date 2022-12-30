@@ -1,9 +1,0 @@
-{
-  "caret": {
-    "width": { "value": ".3em", "themeable": true, "source": "$caret-width" },
-    "spacing": { "value": "calc({caret.width.value} * 1)", "themeable": true, "source": "$caret-spacing" },
-    "vertical": {
-      "align": { "value": "calc({caret.width.value} * .67)", "themeable": true, "source": "$caret-vertical-align" }
-    }
-  }
-}

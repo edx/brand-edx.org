@@ -17,7 +17,7 @@
 // Badges
 
 .badge {
-  font-family: var(--pgn-font-family-sans-serif);
+  font-family: $font-family-sans-serif;
   line-height: 1.25rem;
 
   &.badge-info {
@@ -81,6 +81,13 @@
       border-color: transparent;
     }
 
+.btn-primary {
+  &:not(:disabled):not(.disabled) {
+    &:hover, &:focus, &:active, &.hover, &.focus, &.active {
+      background: $primary-300;
+      border-color: transparent;
+      color: $white;
+    }
     &.focus, &:focus {
       background: $value;
 

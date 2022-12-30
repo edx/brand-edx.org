@@ -1,7 +1,0 @@
-{
-  "jumbotron": {
-    "padding": { "value": "2rem", "themeable": true, "source": "$jumbotron-padding" },
-    "color": { "value": "null", "themeable": true, "source": "$jumbotron-color" },
-    "bg": { "value": "{color.gray.200.value}", "themeable": true, "source": "$jumbotron-bg" }
-  }
-}
