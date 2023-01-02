@@ -1,0 +1,11 @@
+{
+  "size": {
+    "border": {
+      "radius": {
+        "base": { "value": ".375rem", "source": "$border-radius" },
+        "lg": { "value": ".375rem", "source": "$border-radius-lg" },
+        "sm": { "value": ".375rem", "source": "$border-radius-sm" }
+      }
+    }
+  }
+}

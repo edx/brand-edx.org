@@ -1,0 +1,14 @@
+{
+  "color": {
+    "headings": {
+      "base": { "value": "{color.dark.500.value}", "source": "$headings-color" }
+    }
+  },
+  "typography": {
+    "headings": {
+      "font": {
+        "weight": { "value": "700", "source": "$headings-font-weight" }
+      }
+    }
+  }
+}

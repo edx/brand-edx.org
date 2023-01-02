@@ -1,0 +1,5 @@
+{
+  "color": {
+    "text-muted": { "value": "{color.gray.500.value}", "source": "$text-muted" }
+  }
+}

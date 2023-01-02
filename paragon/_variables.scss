@@ -73,16 +73,16 @@ $accent-b: #F0CC00 !default; // oxide yellow
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
-    "primary":         $primary,
-    "brand":           $brand,
-    "success":         $success,
-    "info":            $accent-a,
-    "warning":         $accent-b,
-    "danger":          $danger,
-    "light":           $light,
-    "dark":            $dark,
-    "accent-a":        $accent-a,
-    "accent-b":        $accent-b,
+    "primary":  $primary,
+    "brand":    $brand,
+    "success":  $success,
+    "info":     $accent-a,
+    "warning":  $accent-b,
+    "danger":   $danger,
+    "light":    $light,
+    "dark":     $dark,
+    "accent-a": $accent-a,
+    "accent-b": $accent-b,
   ),
   $theme-colors
 );
@@ -828,17 +828,17 @@ $form-feedback-icon-invalid:        url("data:image/svg+xml,%3csvg xmlns='http:/
 
 $form-validation-states: () !default;
 $form-validation-states: map-merge(
-                (
-                        "valid": (
-                                "color": $form-feedback-valid-color,
-                                "icon": $form-feedback-icon-valid
-                        ),
-                        "invalid": (
-                                "color": $form-feedback-invalid-color,
-                                "icon": $form-feedback-icon-invalid
-                        ),
-                ),
-                $form-validation-states
+  (
+    "valid": (
+      "color": $form-feedback-valid-color,
+      "icon": $form-feedback-icon-valid
+    ),
+    "invalid": (
+      "color": $form-feedback-invalid-color,
+      "icon": $form-feedback-icon-invalid
+    ),
+  ),
+  $form-validation-states
 );
 
 // Z-index master list

@@ -1,0 +1,10 @@
+{
+  "spacing": {
+    "card": {
+      "spacer": {
+        "x": { "value": "1.5rem", "source": "$card-spacer-x" },
+        "y": { "value": "1rem", "source": "$card-spacer-y" }
+      }
+    }
+  }
+}

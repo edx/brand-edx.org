@@ -1,0 +1,18 @@
+{
+  "elevation": {
+    "image": {
+      "thumbnail": {
+        "box-shadow": { "value": "none", "source": "$thumbnail-box-shadow" }
+      }
+    }
+  },
+  "size": {
+    "image": {
+      "thumbnail": {
+        "border": {
+          "radius": { "value": "0", "source": "$thumbnail-border-radius"}
+        }
+      }
+    }
+  }
+}

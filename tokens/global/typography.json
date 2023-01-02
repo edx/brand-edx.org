@@ -1,0 +1,51 @@
+{
+  "typography": {
+    "font": {
+      "family": {
+        "sans": {
+          "serif": {
+            "value": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif",
+            "source": "$font-family-sans-serif"
+          }
+        },
+        "serif": { "value": "{typography.font.family.sans.serif.value}", "source": "$font-family-serif" },
+        "monospace": {
+          "value": "\"Roboto Mono\", SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+          "source": "$font-family-monospace"
+        }
+      },
+      "size": {
+        "base": { "value": "1.125rem", "source": "$font-size-base" },
+        "lg": { "value": "calc({typography.font.size.base} * 1.25})", "source": "$font-size-lg" },
+        "sm": { "value": ".875rem", "source": "$font-size-sm" },
+        "small": {
+          "base": { "value": "0.875rem", "source": "$small-font-size" },
+          "x": { "value": "0.75rem", "source": "$x-small-font-size" }
+        },
+        "h1": { "value": "2.5rem", "source": "$h1-font-size" },
+        "h2": { "value": "2rem", "source": "$h2-font-size" },
+        "h3": { "value": "1.375rem", "source": "$h3-font-size" },
+        "h4": { "value": "1.125rem", "source": "$h4-font-size" },
+        "h5": { "value": ".875rem", "source": "$h5-font-size" },
+        "h6": { "value": ".75rem", "source": "$h6-font-size" },
+        "mobile": {
+          "h1": { "value": "2.25rem", "source": "$h1-mobile-font-size" },
+          "h2": { "value": "{typography.font.size.h2.value}", "source": "$h2-mobile-font-size" },
+          "h3": { "value": "{typography.font.size.h3.value}", "source": "$h3-mobile-font-size" },
+          "h4": { "value": "{typography.font.size.h4.value}", "source": "$h4-mobile-font-size" },
+          "h5": { "value": "{typography.font.size.h5.value}", "source": "$h5-mobile-font-size" },
+          "h6": { "value": "{typography.font.size.h6.value}", "source": "$h6-mobile-font-size" }
+        },
+        "lead": { "value": "1.375rem", "source": "$lead-font-size" }
+      },
+      "weight": {
+        "lead": { "value": "400", "source": "$lead-font-weight" }
+      }
+    },
+    "line-height": {
+      "base": { "value": "1.5556", "source": "$line-height-base" },
+      "lg": { "value": "1.5", "source": "$line-height-lg" },
+      "sm": { "value": "1.5", "source": "$line-height-sm" }
+    }
+  }
+}

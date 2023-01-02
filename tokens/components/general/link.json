@@ -1,0 +1,16 @@
+{
+  "color": {
+    "link": {
+      "base": { "value": "{color.info.base.value}", "source": "$link-color" },
+      "hover": { "value": "{color.info.700.value}", "source": "$link-hover-color" }
+    }
+  },
+  "typography": {
+    "link": {
+      "decoration": {
+        "base": { "value": "none", "source": "$link-decoration" },
+        "hover": { "value": "underline", "source": "$link-hover-decoration" }
+      }
+    }
+  }
+}

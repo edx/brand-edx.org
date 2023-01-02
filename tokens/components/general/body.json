@@ -1,0 +1,8 @@
+{
+  "color": {
+    "body": {
+      "base": { "value": "{color.gray.700.value}", "source": "$body-color" },
+      "bg": { "value": "{color.white.value}", "source": "$body-bg" }
+    }
+  }
+}

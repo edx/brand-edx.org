@@ -1,0 +1,91 @@
+{
+  "color": {
+    "white": { "value": "#FFFFFF", "source": "$white" },
+    "black": { "value": "#000000", "source": "$black" },
+    "blue": { "value": "#00688D", "source": "$blue" },
+    "red": { "value": "#AB0D02", "source": "$red" },
+    "green": { "value": "#0D7D4D", "source": "$green" },
+    "yellow": { "value": "#D6B600", "source": "$yellow" },
+    "accent": {
+      "a": { "value": "#03C7E8", "source": "$accent-a" },
+      "b": { "value": "#F0CC00", "source": "$accent-b" }
+    },
+    "gray": {
+      "100": { "value": "#EBEBEB", "source": "$gray-100" },
+      "200": { "value": "#CCCCCC", "source": "$gray-200" },
+      "300": { "value": "#ADADAD", "source": "$gray-300" },
+      "400": { "value": "#8F8F8F", "source": "$gray-400" },
+      "500": { "value": "#707070", "source": "$gray-500" },
+      "600": { "value": "#5C5C5C", "source": "$gray-600" },
+      "700": { "value": "#454545", "source": "$gray-700" },
+      "800": { "value": "#333333", "source": "$gray-800" },
+      "900": { "value": "#212529", "source": "$gray-900" }
+    },
+    "primary": {
+      "base": { "value": "#00262B", "source": "$primary" },
+      "300": { "value": "#2D494E", "source": "$primary-300" },
+      "400": { "value": "#0E3639", "source": "$primary-400" },
+      "500": { "value": "{color.primary.base.value}", "source": "$primary-500" },
+      "600": { "value": "#002326", "source": "$primary-600" },
+      "700": { "value": "#002121", "source": "$primary-700" }
+    },
+    "brand": {
+      "base": { "value": "#D23228", "source": "$brand" },
+      "500": { "value": "{color.brand.base.value}", "source": "$brand-500" },
+      "700": { "value": "#921108", "source": "$brand-700" }
+    },
+    "success": {
+      "base": { "value": "{color.green.value}", "source": "$success" },
+      "100": { "value": "#F2FAF7", "source": "$success-100" },
+      "200": { "value": "#BBE6D7", "source": "$success-200" },
+      "300": { "value": "#30A171", "source": "$success-300" },
+      "500": { "value": "{color.success.base.value}", "source": "$success-500" },
+      "700": { "value": "#175B3C", "source": "$success-700" },
+      "900": { "value": "#0F4D0F", "source": "$success-900" }
+    },
+    "info": {
+      "base": { "value": "{color.blue.value}", "source": "$info" },
+      "100": { "value": "#EFF8FA", "source": "$info-100" },
+      "200": { "value": "#9CD2E6", "source": "$info-200" },
+      "300": { "value": "#1C8DBE", "source": "$info-300" },
+      "500": { "value": "{color.info.base.value}", "source": "$info-500" },
+      "700": { "value": "#004972", "source": "$info-700" },
+      "900": { "value": "#002F4A", "source": "$info-900" }
+    },
+    "warning": {
+      "base": { "value": "{color.yellow.value}", "source": "$warning" },
+      "100": { "value": "#FFFADB", "source": "$warning-100" },
+      "200": { "value": "#FFEA75", "source": "$warning-200" },
+      "300": { "value": "#F0CC00", "source": "$warning-300" },
+      "500": { "value": "{color.warning.base.value}", "source": "$warning-500" },
+      "700": { "value": "#998200", "source": "$warning-700" },
+      "900": { "value": "#7A6800", "source": "$warning-900" }
+    },
+    "danger": {
+      "base": { "value": "{color.red.value}", "source": "$danger" },
+      "100": { "value": "#FCF1F4", "source": "$danger-100" },
+      "200": { "value": "#F3AEA9", "source": "$danger-200" },
+      "300": { "value": "#CA3A2F", "source": "$danger-300" },
+      "500": { "value": "{color.danger.base.value}", "source": "$danger-500" },
+      "700": { "value": "#951C13", "source": "$danger-700" },
+      "900": { "value": "#690E07", "source": "$danger-900" }
+    },
+    "light": {
+      "base": { "value": "#E1DDDB", "source": "$light" },
+      "200": { "value": "#FBFAF9", "source": "$light-200" },
+      "300": { "value": "#F2F0EF", "source": "$light-300" },
+      "400": { "value": "#EAE6E5", "source": "$light-400" },
+      "500": { "value": "{color.light.base.value}", "source": "$light-500" },
+      "700": { "value": "#D7D3D1", "source": "$light-700" }
+    },
+    "dark": {
+      "base": { "value": "#00262B", "source": "$dark" },
+      "200": { "value": "#475B65", "source": "$dark-200" },
+      "300": { "value": "#2D494E", "source": "$dark-300" },
+      "400": { "value": "#0E3639", "source": "$dark-400" },
+      "500": { "value": "{color.dark.base.value}", "source": "$dark-500" },
+      "600": { "value": "#002326", "source": "$dark-600" },
+      "700": { "value": "#002121", "source": "$dark-700" }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "color": {
+    "btn": {
+      "text": {
+        "tertiary": { "value": "{color.gray.700.value}", "source": "$btn-tertiary-color" },
+        "inverse-tertiary": { "value": "{color.white.value}", "source": "$btn-inverse-tertiary-color" }
+      },
+      "bg": {
+        "tertiary": { "value": "transparent", "source": "$btn-tertiary-bg" },
+        "inverse-tertiary": { "value": "transparent", "source": "$btn-inverse-tertiary-bg" }
+      },
+      "hover": {
+        "bg": {
+          "tertiary": { "value": "{color.light.500.value}", "source": "$btn-tertiary-hover-bg" },
+          "inverse-tertiary": { "value": "{color.primary.300.value}", "source": "$btn-inverse-tertiary-hover-bg" }
+        }
+      },
+      "active": {
+        "bg": {
+          "tertiary": { "value": "{color.light.500.value}", "source": "$btn-tertiary-active-bg" },
+          "inverse-tertiary":  { "value": "{color.primary.300.value}", "source": "$btn-inverse-tertiary-active-bg" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "color": {
+    "bg": {
+      "active": { "value": "{color.primary.base.value}", "source": "$component-active-bg" }
+    },
+    "theme": {
+      "focus": {
+        "primary": { "value": "{color.primary.700.value}" },
+        "secondary": { "value": "{color.secondary.700.value}" },
+        "brand": { "value": "{color.brand.700.value}" },
+        "success": { "value": "{color.success.700.value}" },
+        "info": { "value": "{color.info.700.value}" },
+        "warning": { "value": "{color.warning.700.value}" },
+        "danger": { "value": "{color.danger.700.value}" },
+        "light": { "value": "{color.light.700.value}" },
+        "dark": { "value": "{color.dark.700.value}" },
+        "gray": { "value": "{color.gray.700.value}" }
+      }
+    }
+  }
+}
