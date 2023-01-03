@@ -112,6 +112,47 @@ Use the theme in this package as described in the Paragon docs: https://edx.gith
   @import "@edx/brand/paragon/overrides";
 
 
+-------------------------------------------
+Developing with Design Tokens Until Release
+-------------------------------------------
+
+#. Modify tokens in ``tokens`` directory
+#. Install local version of Paragon with
+
+   .. code-block:: bash
+
+     npm install <path_to_local_paragon_repository>
+
+#. Run following commands to build updated CSS files and replace SCSS variables definition with CSS
+
+   .. code-block:: bash
+
+     build-design-tokens --source './tokens/**/*.json'
+     replace-scss-with-css -p ./paragon/_variables.scss --source ./tokens/
+
+#. View changes on the docs site
+
+   #. Go to Paragon repository, cd to ``www`` project and run
+
+     .. code-block:: bash
+
+       npm install <path_to_this_repository>
+
+   #. Modify ``www/src/scss/edxorg-theme.scss`` to be
+
+     .. code-block:: sass
+
+       @import "~font-awesome/css/font-awesome.min.css";
+       @import "~@edx/brand-edx.org/paragon/fonts";
+       @import "~@edx/brand-edx.org/paragon/variables";
+       @import "~paragon-style/core/core";
+       @import "~@edx/brand-edx.org/paragon/overrides";
+       @import "~@edx/brand-edx.org/paragon/css/variables";
+       @import "base";
+
+   #. Start docs site with ``npm start``
+
+
 --------------------------------
 Publishing with Semantic Release
 --------------------------------

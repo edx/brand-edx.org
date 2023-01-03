@@ -1,39 +1,39 @@
 {
   "spacing": {
     "btn": {
-      "focus-gap": { "value": "2px", "source": "$btn-focus-gap" }
+      "focus-gap": { "value": "2px" }
     }
   },
   "typography": {
     "btn": {
       "font": {
-        "weight": { "value": "500", "source": "$btn-font-weight" }
+        "weight": { "value": "500" }
       }
     }
   },
   "elevation":  {
     "btn": {
       "box-shadow": {
-        "base": { "value": "none", "source": "$btn-box-shadow" }
+        "base": { "value": "none" }
       }
     }
   },
   "other": {
     "btn": {
-      "disabled-opacity": { "value": ".4", "source": "$btn-disabled-opacity" }
+      "disabled-opacity": { "value": ".4" }
     }
   },
   "size": {
     "btn": {
       "border": {
-        "width": { "value": "{size.input.btn.border-width.value}", "source": "$btn-border-width" },
+        "width": { "value": "{size.input.btn.border-width.value}" },
         "radius": {
-          "base": { "value": "0px", "source": "$btn-border-radius" },
-          "lg": { "value": "0px", "source": "$btn-border-radius-lg" },
-          "sm": { "value": "0px", "source": "$btn-border-radius-sm" }
+          "base": { "value": "0px" },
+          "lg": { "value": "0px" },
+          "sm": { "value": "0px" }
         }
       },
-      "focus-width": { "value": "2px", "source": "$btn-focus-width" }
+      "focus-width": { "value": "2px" }
     }
   }
 }

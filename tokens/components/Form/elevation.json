@@ -2,8 +2,7 @@
   "elevation": {
     "form": {
       "input": {
-        "base": { "value": "none", "source": "$input-box-shadow" },
-        "focus": { "value": "{elevation.input.btn-focus.box-shadow.value}", "source": "$input-focus-box-shadow" }
+        "base": { "value": "none", "source": "$input-box-shadow" }
       }
     }
   }

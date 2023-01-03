@@ -16,7 +16,7 @@
       },
       "size": {
         "base": { "value": "1.125rem", "source": "$font-size-base" },
-        "lg": { "value": "calc({typography.font.size.base} * 1.25})", "source": "$font-size-lg" },
+        "lg": { "value": "calc({typography.font.size.base} * 1.25)", "source": "$font-size-lg" },
         "sm": { "value": ".875rem", "source": "$font-size-sm" },
         "small": {
           "base": { "value": "0.875rem", "source": "$small-font-size" },

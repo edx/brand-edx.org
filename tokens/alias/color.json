@@ -1,7 +1,7 @@
 {
   "color": {
     "bg": {
-      "active": { "value": "{color.primary.base.value}", "source": "$component-active-bg" }
+      "active": { "value": "{color.primary.base.value}" }
     },
     "theme": {
       "focus": {

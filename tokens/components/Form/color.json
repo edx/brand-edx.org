@@ -10,14 +10,6 @@
           "border": { "value": "{color.body.base.value}", "source": "$input-focus-border-color" },
           "bg": { "value": "{color.white.value}", "source": "$input-focus-bg" }
         }
-      },
-      "feedback": {
-        "valid": { "value": "{color.success.base.value}", "source": "$form-feedback-valid-color" },
-        "invalid": { "value": "{color.danger.base.value}", "source": "$form-feedback-invalid-color" },
-        "icon": {
-          "valid": { "value": "{color.form.feedback.valid.value}", "source": "$form-feedback-icon-valid-color" },
-          "invalid": { "value": "{color.form.feedback.invalid.value}", "source": "$form-feedback-icon-invalid-color" }
-        }
       }
     }
   }
