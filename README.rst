@@ -86,6 +86,18 @@ edX Favicon
 
   // @edx/brand/favicon.ico;
 
+Default fallback image
+--------
+
+.. image:: /fallback-default.png
+    :alt: fallback-default
+    :width: 380px
+
+.. code-block:: javascript
+
+  // the png version
+  import fallbackImg from '@edx/brand/fallback-default.png';
+
 -------------
 Paragon Theme
 -------------
