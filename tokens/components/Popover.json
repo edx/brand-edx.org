@@ -2,23 +2,20 @@
   "color": {
     "popover": {
       "header": {
-        "bg": { "value": "transparent", "source": "$popover-header-bg" }
+        "bg": { "value": "transparent" }
       }
     }
   },
   "size": {
     "popover": {
       "border": {
-        "width": { "value": "0", "source": "$popover-border-width" }
+        "width": { "value": "0" }
       }
     }
   },
   "elevation": {
     "popover": {
-      "box-shadow": {
-        "value": "{elevation.box-shadow.level.2.value}",
-        "source": "$popover-box-shadow"
-      }
+      "box-shadow": { "value": "{elevation.box-shadow.level.2.value}" }
     }
   }
 }

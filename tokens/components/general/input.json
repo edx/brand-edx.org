@@ -1,24 +1,13 @@
 {
   "color": {
     "input": {
-      "btn-focus": { "value": "{color.bg.active.value}", "source": "$input-btn-focus-color" }
+      "btn-focus": { "value": "{color.bg.active.value}" }
     }
   },
   "size": {
     "input": {
       "btn": {
-        "border-width": { "value": "1px", "source": "$input-btn-border-width" },
-        "focus-width": { "value": "1px", "source": "$input-btn-focus-width" }
-      }
-    }
-  },
-  "elevation": {
-    "input": {
-      "btn-focus": {
-        "box-shadow": {
-          "value": "0 0 0 {size.input.btn.focus-width.value} {color.input.btn-focus.value}",
-          "source": "$input-btn-focus-box-shadow"
-        }
+        "border-width": { "value": "1px" }
       }
     }
   }

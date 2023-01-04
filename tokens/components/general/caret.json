@@ -1,13 +1,8 @@
 {
-  "size": {
-    "caret": {
-      "width": { "value": ".3em", "source": "$caret-width" }
-    }
-  },
   "spacing": {
     "caret": {
-      "base": { "value": "calc({size.caret.width.value} * 1)", "source": "$caret-spacing" },
-      "vertical-align": { "value": "calc({size.caret.width.value} * .67)", "source": "$caret-vertical-align" }
+      "base": { "value": "calc({size.caret.width.value} * 1)" },
+      "vertical-align": { "value": "calc({size.caret.width.value} * .67)" }
     }
   }
 }

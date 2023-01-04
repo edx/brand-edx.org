@@ -2,12 +2,7 @@
   "size": {
     "nav": {
       "pills": {
-        "border-radius": { "value": "0", "source": "$nav-pills-border-radius" }
-      },
-      "tabs": {
-        "border": {
-          "radius": { "value": "0", "source": "$nav-tabs-border-radius" }
-        }
+        "border-radius": { "value": "0" }
       }
     }
   }

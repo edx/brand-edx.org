@@ -2,7 +2,7 @@
   "elevation": {
     "image": {
       "thumbnail": {
-        "box-shadow": { "value": "none", "source": "$thumbnail-box-shadow" }
+        "box-shadow": { "value": "none" }
       }
     }
   },
@@ -10,7 +10,7 @@
     "image": {
       "thumbnail": {
         "border": {
-          "radius": { "value": "0", "source": "$thumbnail-border-radius"}
+          "radius": { "value": "0" }
         }
       }
     }

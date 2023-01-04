@@ -11,13 +11,6 @@
       }
     }
   },
-  "elevation":  {
-    "btn": {
-      "box-shadow": {
-        "base": { "value": "none" }
-      }
-    }
-  },
   "other": {
     "btn": {
       "disabled-opacity": { "value": ".4" }
@@ -26,14 +19,12 @@
   "size": {
     "btn": {
       "border": {
-        "width": { "value": "{size.input.btn.border-width.value}" },
         "radius": {
           "base": { "value": "0px" },
           "lg": { "value": "0px" },
           "sm": { "value": "0px" }
         }
-      },
-      "focus-width": { "value": "2px" }
+      }
     }
   }
 }

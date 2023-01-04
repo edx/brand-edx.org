@@ -2,7 +2,7 @@
   "size": {
     "dropdown": {
       "border": {
-        "width": { "value": "0", "source": "$dropdown-border-width" }
+        "width": { "value": "0" }
       }
     }
   },
@@ -10,15 +10,15 @@
     "dropdown": {
       "padding": {
         "y": {
-          "base": { "value": ".5rem", "source": "$dropdown-padding-y" },
-          "item": { "value": ".625rem", "source": "$dropdown-item-padding-y" }
+          "base": { "value": ".5rem" },
+          "item": { "value": ".625rem" }
         }
       }
     }
   },
   "elevation": {
     "dropdown": {
-      "box-shadow": { "value": "{elevation.box-shadow.level.2.value}", "source": "$dropdown-box-shadow" }
+      "box-shadow": { "value": "{elevation.box-shadow.level.2.value}" }
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "color": {
     "body": {
-      "bg": { "value": "{color.white.value}", "source": "$body-bg" }
+      "bg": { "value": "{color.white.value}" }
     }
   }
 }

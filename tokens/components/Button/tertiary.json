@@ -8,7 +8,7 @@
       },
       "active": {
         "bg": {
-          "inverse-tertiary":  { "value": "{color.primary.300.value}", "source": "$btn-inverse-tertiary-active-bg" }
+          "inverse-tertiary":  { "value": "{color.primary.300.value}" }
         }
       }
     }

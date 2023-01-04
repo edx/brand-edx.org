@@ -1,13 +1,13 @@
 {
   "color": {
     "headings": {
-      "base": { "value": "{color.dark.500.value}", "source": "$headings-color" }
+      "base": { "value": "{color.dark.500.value}" }
     }
   },
   "typography": {
     "headings": {
       "font": {
-        "weight": { "value": "700", "source": "$headings-font-weight" }
+        "weight": { "value": "700" }
       }
     }
   }

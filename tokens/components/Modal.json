@@ -3,15 +3,8 @@
     "modal": {
       "content": {
         "box-shadow": {
-          "sm-up": { "value": "{elevation.box-shadow.level.3.value}", "source": "$modal-content-box-shadow-sm-up" }
+          "sm-up": { "value": "{elevation.box-shadow.level.3.value}" }
         }
-      }
-    }
-  },
-  "size": {
-    "modal": {
-      "content-border": {
-        "width": { "value": "0", "source": "$modal-content-border-width" }
       }
     }
   }

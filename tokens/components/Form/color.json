@@ -2,13 +2,13 @@
   "color": {
     "form": {
       "input": {
-        "base": { "value": "{color.body.base.value}", "source": "$input-color" },
+        "base": { "value": "{color.body.base.value}" },
         "bg": {
-          "base": { "value": "{color.white.value}", "source": "$input-bg" }
+          "base": { "value": "{color.white.value}" }
         },
         "focus": {
-          "border": { "value": "{color.body.base.value}", "source": "$input-focus-border-color" },
-          "bg": { "value": "{color.white.value}", "source": "$input-focus-bg" }
+          "border": { "value": "{color.body.base.value}" },
+          "bg": { "value": "{color.white.value}" }
         }
       }
     }

@@ -1,9 +1,9 @@
 {
   "color": {
     "tooltip": {
-      "light": { "value": "{color.primary.base.value}", "source": "$tooltip-color-light" },
+      "light": { "value": "{color.primary.base.value}" },
       "bg": {
-        "base": { "value": "{color.primary.base.value}", "source": "$tooltip-bg" }
+        "base": { "value": "{color.primary.base.value}" }
       }
     }
   }
