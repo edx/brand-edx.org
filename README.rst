@@ -86,6 +86,18 @@ edX Favicon
 
   // @edx/brand/favicon.ico;
 
+Default fallback image for `Card.ImageCap` component
+--------
+
+.. image:: /paragon/images/card-imagecap-fallback.png
+    :alt: card-imagecap-fallback
+    :width: 380px
+
+.. code-block:: javascript
+
+  // the png version
+  import cardFallbackImg from '@edx/brand/paragon/images/card-imagecap-fallback.png';
+
 -------------
 Paragon Theme
 -------------
