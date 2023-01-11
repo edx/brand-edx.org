@@ -4,6 +4,12 @@
       "active": { "value": "{color.primary.base.value}" }
     },
     "theme": {
+      "bg": {
+        "primary": { "value": "{color.primary.base.value}" },
+        "brand": { "value": "{color.brand.base.value}" },
+        "light": { "value": "{color.light.base.value}" },
+        "dark": { "value": "{color.dark.base.value}" }
+      },
       "focus": {
         "primary": { "value": "{color.primary.700.value}" },
         "secondary": { "value": "{color.secondary.700.value}" },
@@ -15,6 +21,9 @@
         "light": { "value": "{color.light.700.value}" },
         "dark": { "value": "{color.dark.700.value}" },
         "gray": { "value": "{color.gray.700.value}" }
+      },
+      "active": {
+        "primary": { "value": "{color.primary.300.value}" }
       }
     }
   }

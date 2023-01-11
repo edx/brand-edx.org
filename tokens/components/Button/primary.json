@@ -1,0 +1,35 @@
+{
+  "color": {
+    "btn": {
+      "bg": {
+        "inverse-primary": { "value": "{color.white.value}", "modify": null }
+      },
+      "border": {
+        "outline-primary": { "value": "{color.light.300.value}" }
+      },
+      "hover": {
+        "text": {
+          "outline-primary": { "value": "{color.white.value}" },
+          "inverse-primary": { "value": "{color.white.value}", "modify": null }
+        },
+        "bg": {
+          "primary": { "value": "{color.primary.300.value}" },
+          "outline-primary": { "value": "{color.primary.base.value}" },
+          "inverse-primary": { "value": "{color.primary.300.value}", "modify": null }
+        },
+        "border": {
+          "outline-primary": { "value": "{color.light.900.value}" }
+        }
+      },
+      "active": {
+        "text": {
+          "inverse-primary": { "value": "{color.white.value}", "modify": null },
+          "inverse-outline-primary": { "value": "{color.primary.base.value}", "modify": null }
+        },
+        "bg": {
+          "inverse-outline-primary": { "value": "{color.white.value}" }
+        }
+      }
+    }
+  }
+}

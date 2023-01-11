@@ -1,0 +1,32 @@
+{
+  "color": {
+    "btn": {
+      "border": {
+        "danger": { "value": "transparent" },
+        "outline-danger": { "value": "{color.light.300.value}" }
+      },
+      "hover": {
+        "text": {
+          "outline-danger": { "value": "{color.white.value}" }
+        },
+        "bg": {
+          "outline-danger": { "value": "{color.danger.base.value}" }
+        },
+        "border": {
+          "outline-danger": { "value": "{color.danger.base.value}" }
+        }
+      },
+      "active": {
+        "text": {
+          "inverse-outline-danger": { "value": "{color.primary.base.value}", "modify": null }
+        },
+        "bg": {
+          "outline-danger": { "value": "{color.danger.base.value}" }
+        },
+        "border": {
+          "outline-danger": { "value": "{color.danger.base.value}" }
+        }
+      }
+    }
+  }
+}

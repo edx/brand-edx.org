@@ -564,6 +564,8 @@ $input-btn-border-width: var(--pgn-size-input-btn-border-width) !default;
 // $btn-font-size-lg:            $input-btn-font-size-lg !default;
 // $btn-line-height-lg:          $input-btn-line-height-lg !default;
 
+$btn-primary-inverse-outline-active-bg: var(--pgn-color-btn-active-bg-inverse-outline-primary) !default;
+
 $btn-border-width: var(--pgn-size-btn-border-width) !default;
 
 $btn-font-weight: var(--pgn-typography-btn-font-weight) !default;
@@ -1025,6 +1027,7 @@ $toast-box-shadow: var(--pgn-elevation-toast-box-shadow) !default;
 
 $badge-font-size: var(--pgn-typography-badge-font-size) !default;
 $badge-font-weight: var(--pgn-typography-badge-font-weight) !default;
+$badge-info-bg: var(--pgn-color-badge-bg-info) !default;
 
 // $badge-transition:                  $btn-transition !default;
 // $badge-focus-width:                 $input-btn-focus-width !default;

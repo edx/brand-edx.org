@@ -1,0 +1,32 @@
+{
+  "color": {
+    "btn": {
+      "border": {
+        "success": { "value": "{color.light.300.value}" },
+        "outline-success": { "value": "{color.light.300.value}" }
+      },
+      "hover": {
+        "text": {
+          "outline-success": { "value": "{color.white.value}" }
+        },
+        "bg": {
+          "outline-success": { "value": "{color.success.base.value}" }
+        },
+        "border": {
+          "outline-success": { "value": "{color.success.base.value}" }
+        }
+      },
+      "active": {
+        "bg": {
+          "outline-success": { "value": "{color.success.base.value}" }
+        },
+        "border": {
+          "outline-success": { "value": "{color.success.base.value}" }
+        },
+        "text": {
+          "inverse-outline-success": { "value": "{color.primary.base.value}", "modify": null  }
+        }
+      }
+    }
+  }
+}

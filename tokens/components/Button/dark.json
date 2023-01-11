@@ -1,0 +1,25 @@
+{
+  "color": {
+    "btn": {
+      "active": {
+        "bg": {
+          "inverse-outline-dark": { "value": "{color.white.value}" }
+        },
+        "text": {
+          "inverse-outline-dark": { "value": "{color.primary.base.value}", "modify": null }
+        }
+      },
+      "border": {
+        "outline-dark": { "value": "{color.light.300.value}" }
+      },
+      "hover": {
+        "text": {
+          "outline-dark": { "value": "{color.white.value}" }
+        },
+        "bg": {
+          "outline-dark": { "value": "{color.dark.base.value}" }
+        }
+      }
+    }
+  }
+}

@@ -6,5 +6,12 @@
         "weight": { "value": "400" }
       }
     }
+  },
+  "color": {
+    "badge": {
+      "bg": {
+        "info": { "value": "{color.accent.a.value}" }
+      }
+    }
   }
 }
