@@ -117,11 +117,11 @@ Developing with Design Tokens Until Release
 -------------------------------------------
 
 #. Modify tokens in ``tokens`` directory
-#. Install local version of Paragon with
+#. Install alpha version of Paragon with
 
    .. code-block:: bash
 
-     npm install <path_to_local_paragon_repository>
+     npm install
 
 #. Run following commands to build updated CSS files and replace SCSS variables definition with CSS
 
