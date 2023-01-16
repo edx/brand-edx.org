@@ -67,7 +67,6 @@
 
         &:before {
           border-color: $value;
-          border-radius: 0;
         }
       }
     }
@@ -87,21 +86,7 @@
       background: $value;
 
       &::before {
-        border-radius: 0;
         border-color: $value;
-      }
-
-      &.btn-lg::before,
-      &.btn-sm::before {
-        border-radius: 0;
-      }
-    }
-  }
-
-  .btn-inverse-#{$color} {
-    &.focus, &:focus {
-      &::before {
-        border-radius: 0;
       }
     }
   }
@@ -110,10 +95,6 @@
 .btn-tertiary:not(:disabled):not(.disabled) {
   &:focus, &.focus {
     background: $white;
-
-    &:before {
-      border-radius: 0;
-    }
   }
 }
 
@@ -148,7 +129,6 @@
 
       &:before {
         border-color: $white;
-        border-radius: 0;
       }
     }
   }
@@ -174,7 +154,6 @@
 
       &:before {
         border-color: $white;
-        border-radius: 0;
       }
     }
   }
@@ -197,7 +176,6 @@
 
       &:before {
         border-color: $brand-500;
-        border-radius: 0;
       }
     }
   }
@@ -215,7 +193,6 @@
 
     &:before {
       border-color: $white;
-      border-radius: 0;
     }
   }
 }
@@ -238,7 +215,6 @@
 
       &:before {
         border-color: $white;
-        border-radius: 0;
       }
     }
   }
