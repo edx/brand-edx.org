@@ -112,25 +112,32 @@ Use the theme in this package as described in the Paragon docs: https://edx.gith
   @import "@edx/brand/paragon/overrides";
 
 
--------------------------------------------
-Developing with Design Tokens Until Release
--------------------------------------------
+-------------------------------------
+Theming with Paragon's Design Tokens
+-------------------------------------
+Starting from `v21` Paragon uses style-dictionary to build CSS variables from design tokens (i.e. JSON files), Paragon
+allows to override design tokens values before building CSS variables allowing to apply custom theme.
 
-#. Modify tokens in ``tokens`` directory
-#. Install alpha version of Paragon with
+See `tokens` directory for tokens that edX.org theme overrides. This directory should follow the same folder/JSON structure as is used on whatever version of Paragon is installed in this repository. These JSON files are deep-merged with the default/standard Paragon design tokens.
+Note that some tokens have `"modify": null` property specified, this is done to disable default Paragon's behaviour that modifies this specific token in some way, read more about token's modifications during build time here[TODO: add link to Paragon readme].
+
+Developing with design tokens
+#############################
+
+#. Install Paragon with
 
    .. code-block:: bash
 
      npm install
 
-#. Run following commands to build updated CSS files and replace SCSS variables definition with CSS
+#. Update values in `tokens` folder
+#. Run following commands to build updated CSS files
 
    .. code-block:: bash
 
-     build-design-tokens --source './tokens/**/*.json'
-     replace-scss-with-css -p ./paragon/_variables.scss --source ./tokens/
+     build-design-tokens --source './paragon/tokens/**/*.json'
 
-#. View changes on the docs site
+#. View changes on the local version of Paragon's documentation site
 
    #. Go to Paragon repository, cd to ``www`` project and run
 
