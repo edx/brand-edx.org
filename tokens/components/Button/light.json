@@ -1,45 +1,70 @@
 {
   "color": {
     "btn": {
+      "text": {
+        "light": { "value": "{color.black.value}", "modify": null }
+      },
       "bg": {
-        "inverse-light": {
-          "value": "{color.black.value}",
-          "source": "$btn-light-inverse-bg",
-          "modify": null
-        }
+        "inverse-light": { "value": "{color.black.value}", "modify": null },
+        "outline-light": { "value": "{color.white.value}" }
       },
       "border": {
-        "outline-light": { "value": "{color.light.300.value}", "source": "$btn-light-outline-border-color" }
+        "outline-light": { "value": "{color.light.300.value}" }
       },
       "hover": {
         "text": {
-          "outline-light": { "value": "{color.white.value}", "source": "$btn-light-outline-hover-color" }
+          "light": { "value": "{color.btn.text.light.value}", "modify": null },
+          "outline-light": { "value": "{color.white.value}" }
         },
         "bg": {
-          "outline-light": { "value": "{color.light.base.value}", "source": "$btn-light-outline-hover-bg" }
+          "outline-light": { "value": "{color.theme.bg.light.value}" }
         },
         "border": {
-          "outline-light": { "value": "{color.light.base.value}", "source": "$btn-light-outline-hover-border-color" }
+          "outline-light": { "value": "{color.theme.bg.light.value}" }
         }
       },
       "active": {
+        "text": {
+          "light": { "value": "{color.btn.text.light.value}", "modify": null },
+          "inverse-outline-light": { "value": "{color.primary.base.value}", "modify": null },
+          "outline-light": { "value": "{color.white.value}", "modify": null }
+        },
         "border": {
-          "outline-light": { "value": "{color.theme.bg.light.value}", "source": "$btn-light-outline-active-border-color" }
+          "outline-light": { "value": "{color.theme.bg.light.value}" }
         },
         "bg": {
-          "inverse-outline-light": { "value": "{color.light.100.value}", "source": "$btn-light-inverse-outline-active-bg" }
-        },
-        "text": {
-          "inverse-outline-light": {
-            "value": "{color.primary.base.value}",
-            "source": "$btn-light-inverse-outline-active-color",
-            "modify": null 
-          }
+          "inverse-outline-light": { "value": "{color.light.100.value}" }
         }
       },
       "focus": {
+        "text": {
+          "light": { "value": "{color.btn.text.light.value}", "modify": null },
+          "outline-light": { "value": "{color.white.value}" }
+        },
         "border": {
-          "light": { "value": "{color.primary.700.value}", "source": "$btn-light-focus-border-color" }
+          "light": { "value": "{color.btn.focus.bg.light.value}" },
+          "outline-light": { "value": "{color.btn.focus.bg.outline-light.value}" }
+        },
+        "bg": {
+          "light": { "value": "{color.theme.bg.light.value}" },
+          "outline-light": { "value": "{color.theme.bg.light.value}" },
+          "inverse-light": { "value": "{color.btn.bg.inverse-light.value}" }
+        },
+        "outline": {
+          "outline-light": { "value": "{color.btn.focus.bg.outline-light.value}" }
+        }
+      },
+      "disabled": {
+        "text": {
+          "outline-light": { "value": "{color.theme.bg.light.value}" }
+        },
+        "bg": {
+          "light": { "value": "{color.theme.bg.light.value}" }
+        },
+        "border": {
+          "outline-light": { "value": "{color.btn.border.outline-light.value}" },
+          "inverse-light": { "value": "transparent" },
+          "inverse-outline-light": { "value": "{color.white.value}" }
         }
       }
     }

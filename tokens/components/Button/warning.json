@@ -25,8 +25,7 @@
       },
       "active": {
         "text": {
-          "outline-warning": {
-            "value": "{color.white.value}", "modify": null },
+          "outline-warning": { "value": "{color.white.value}", "modify": null },
           "inverse-outline-warning": { "value": "{color.black.value}", "modify": null }
         },
         "bg": {
@@ -34,6 +33,31 @@
         },
         "border": {
           "outline-warning": { "value": "{color.accent.b.value}" }
+        }
+      },
+      "focus": {
+        "text": {
+          "warning": { "value": "{color.btn.text.warning.value}" },
+          "outline-warning": { "value": "{color.white.value}" },
+          "inverse-warning": { "value": "{color.btn.text.inverse-warning.value}" }
+        },
+        "bg": {
+          "warning": { "value": "{color.btn.bg.warning.value}" },
+          "outline-warning": { "value": "{color.btn.hover.bg.outline-warning.value}" },
+          "inverse-warning": { "value": "{color.btn.bg.inverse-warning.value}" }
+        },
+        "border": {
+          "outline-warning": { "value": "{color.btn.focus.bg.outline-warning.value}" }
+        }
+      },
+      "disabled": {
+        "text": {
+          "outline-warning": { "value": "{color.warning.500.value}" },
+          "inverse-warning": { "value": "{color.btn.text.inverse-warning.value}" }
+        },
+        "border": {
+          "outline-warning": { "value": "{color.light.300.value}" },
+          "inverse-outline-warning": { "value": "{color.light.300.value}" }
         }
       }
     }

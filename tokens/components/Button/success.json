@@ -26,6 +26,32 @@
         "text": {
           "inverse-outline-success": { "value": "{color.primary.base.value}", "modify": null  }
         }
+      },
+      "focus": {
+        "text": {
+          "outline-success": { "value": "{color.white.value}" },
+          "inverse-success": { "value": "{color.btn.text.inverse-success.value}" }
+        },
+        "bg": {
+          "success": { "value": "{color.btn.bg.success.value}" },
+          "outline-success": { "value": "{color.btn.bg.success.value}" },
+          "inverse-success": { "value": "{color.white.value}" }
+        },
+        "border": {
+          "success": { "value": "{color.btn.focus.bg.success.value}" },
+          "outline-success": { "value": "{color.btn.focus.bg.outline-success.value}" }
+        }
+      },
+      "disabled": {
+        "text": {
+          "outline-success": { "value": "{color.success.500.value}" },
+          "inverse-success": { "value": "{color.success.500.value}" }
+        },
+        "border": {
+          "outline-success": { "value": "{color.light.300.value}" },
+          "inverse-success": { "value": "transparent" },
+          "inverse-outline-success": { "value": "{color.light.300.value}" }
+        }
       }
     }
   }

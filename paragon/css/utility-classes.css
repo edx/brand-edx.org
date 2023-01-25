@@ -1030,30 +1030,6 @@ a.text-gray-600:focus {
   border-color: #5C5C5CFF !important;
 }
 
-.bg-gray-500 {
-  background-color: #707070FF !important;
-}
-
-a.bg-gray-500:hover,
-a.bg-gray-500:focus,
-button.bg-gray-500:hover,
-button.bg-gray-500:focus {
-  background-color: #575757FF !important;
-}
-
-.text-gray-500 {
-  color: #707070FF !important;
-}
-
-a.text-gray-500:hover,
-a.text-gray-500:focus {
-  color: #4A4A4AFF !important;
-}
-
-.border-gray-500 {
-  border-color: #707070FF !important;
-}
-
 .bg-gray-400 {
   background-color: #8F8F8FFF !important;
 }
@@ -1844,6 +1820,30 @@ a.text-primary-100:focus {
 
 .border-primary-100 {
   border-color: #F0F2F2FF !important;
+}
+
+.bg-gray-500 {
+  background-color: #707070FF !important;
+}
+
+a.bg-gray-500:hover,
+a.bg-gray-500:focus,
+button.bg-gray-500:hover,
+button.bg-gray-500:focus {
+  background-color: #575757FF !important;
+}
+
+.text-gray-500 {
+  color: #707070FF !important;
+}
+
+a.text-gray-500:hover,
+a.text-gray-500:focus {
+  color: #4A4A4AFF !important;
+}
+
+.border-gray-500 {
+  border-color: #707070FF !important;
 }
 
 .bg-danger-800 {

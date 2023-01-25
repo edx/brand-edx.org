@@ -6,7 +6,8 @@
         "inverse-info": { "value": "{color.accent.a.value}" }
       },
       "bg": {
-        "info": { "value": "{color.accent.a.value}" }
+        "info": { "value": "{color.accent.a.value}" },
+        "outline-info": { "value": "{color.white.value}" }
       },
       "border": {
         "info": { "value": "transparent" },
@@ -32,6 +33,30 @@
         },
         "border": {
           "outline-info": { "value": "{color.accent.a.value}" }
+        }
+      },
+      "focus": {
+        "text": {
+          "inverse-outline-info": { "value": "{color.white.value}" },
+          "outline-info": { "value": "{color.white.value}" }
+        },
+        "bg": {
+          "info": { "value": "{color.btn.bg.info.value}" },
+          "outline-info": { "value": "{color.btn.active.bg.outline-info.value}" },
+          "inverse-info": { "value": "{color.white.value}" }
+        },
+        "border": {
+          "outline-info": { "value": "{color.btn.focus.bg.outline-info.value}" }
+        }
+      },
+      "disabled": {
+        "text": {
+          "outline-info": { "value": "{color.accent.a.value}" },
+          "inverse-info": { "value": "{color.btn.text.inverse-info.value}" }
+        },
+        "border": {
+          "outline-info": { "value": "{color.light.300.value}" },
+          "inverse-outline-info": { "value": "{color.light.300.value}" }
         }
       }
     }

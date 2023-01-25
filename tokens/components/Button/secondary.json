@@ -1,6 +1,9 @@
 {
   "color": {
     "btn": {
+      "bg": {
+        "outline-secondary": { "value": "{color.white.value}" }
+      },
       "border": {
         "secondary": { "value": "transparent" },
         "outline-secondary": { "value": "{color.light.300.value}" }
@@ -19,6 +22,32 @@
         },
         "bg": {
           "outline-secondary": { "value": "{color.gray.700.value}" }
+        },
+        "border": {
+          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary.value}" }
+        }
+      },
+      "focus": {
+        "text": {
+          "inverse-secondary": { "value": "{color.gray.700.value}" },
+          "outline-secondary": { "value": "{color.white.value}" }
+        },
+        "bg": {
+          "secondary": { "value": "{color.gray.700.value}" },
+          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary.value}" },
+          "inverse-secondary": { "value": "{color.white.value}", "modify": null }
+        },
+        "border": {
+          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary.value}" }
+        }
+      },
+      "disabled": {
+        "text": {
+          "outline-secondary": { "value": "{color.gray.700.value}" }
+        },
+        "border": {
+          "outline-secondary": { "value": "{color.light.300.value}" },
+          "inverse-outline-secondary": { "value": "{color.light.300.value}" }
         }
       }
     }

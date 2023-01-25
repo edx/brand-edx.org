@@ -10,6 +10,11 @@
         "bg": {
           "inverse-tertiary":  { "value": "{color.primary.300.value}" }
         }
+      },
+      "focus": {
+        "text": {
+          "tertiary": { "value": "{color.btn.text.tertiary.value}" }
+        }
       }
     }
   }
