@@ -45,12 +45,7 @@
     outline: 5px auto -webkit-focus-ring-color;
     text-decoration: none;
   }
-
-  .btn-#{$color} {
-    &:hover {
-      border-color: transparent;
-    }
-
+}
 // Avatar buttons in tertiary style (the default) are darker than regular tertiary buttons
 .btn-avatar.btn-tertiary {
   color: $primary-500;
