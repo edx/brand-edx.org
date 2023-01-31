@@ -7,9 +7,9 @@
         "3": { "value": "0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15)" },
         "4": { "value": "0px 8px 48px 0px rgba(0,0,0,0.15), 0px 20px 40px 0px rgba(0,0,0,0.15)" }
       },
-      "base": { "value": "{elevation.box-shadow.level.2.value}" },
-      "sm": { "value": "{elevation.box-shadow.level.1.value}" },
-      "lg": { "value": "{elevation.box-shadow.level.3.value}" }
+      "base": { "value": "{elevation.box-shadow.level.2}" },
+      "sm": { "value": "{elevation.box-shadow.level.1}" },
+      "lg": { "value": "{elevation.box-shadow.level.3}" }
     }
   }
 }

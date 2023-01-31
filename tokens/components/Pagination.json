@@ -2,7 +2,7 @@
   "color": {
     "pagination": {
       "text": {
-        "base": { "value": "{color.primary.base.value}" }
+        "base": { "value": "{color.primary.base}" }
       }
     }
   }

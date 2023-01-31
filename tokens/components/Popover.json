@@ -15,7 +15,7 @@
   },
   "elevation": {
     "popover": {
-      "box-shadow": { "value": "{elevation.box-shadow.level.2.value}" }
+      "box-shadow": { "value": "{elevation.box-shadow.level.2}" }
     }
   }
 }

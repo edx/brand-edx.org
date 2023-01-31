@@ -27,7 +27,7 @@
       "900": { "value": "#0F4D0F", "modify": null }
     },
     "info": {
-      "base": { "value": "{color.blue.value}" },
+      "base": { "value": "{color.blue}" },
       "100": { "value": "#EFF8FA", "modify": null },
       "200": { "value": "#9CD2E6", "modify": null },
       "300": { "value": "#1C8DBE", "modify": null },

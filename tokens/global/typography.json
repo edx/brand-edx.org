@@ -5,7 +5,7 @@
         "sans": {
           "serif": { "value": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif" }
         },
-        "serif": { "value": "{typography.font.family.sans.serif.value}" },
+        "serif": { "value": "{typography.font.family.sans.serif}" },
         "monospace": {
           "value": "\"Roboto Mono\", SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
         }
