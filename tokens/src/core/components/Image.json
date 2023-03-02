@@ -1,11 +1,4 @@
 {
-  "elevation": {
-    "image": {
-      "thumbnail": {
-        "box-shadow": { "value": "none" }
-      }
-    }
-  },
   "size": {
     "image": {
       "thumbnail": {

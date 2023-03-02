@@ -1,7 +1,9 @@
 {
   "spacing": {
     "btn": {
-      "focus-gap": { "value": "2px" }
+      "focus": {
+        "gap": { "value": "2px" }
+      }
     }
   },
   "typography": {
@@ -9,11 +11,6 @@
       "font": {
         "weight": { "value": "500" }
       }
-    }
-  },
-  "other": {
-    "btn": {
-      "disabled-opacity": { "value": ".4" }
     }
   },
   "size": {

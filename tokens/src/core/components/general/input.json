@@ -1,9 +1,4 @@
 {
-  "color": {
-    "input": {
-      "btn-focus": { "value": "{color.bg.active}" }
-    }
-  },
   "size": {
     "input": {
       "btn": {

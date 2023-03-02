@@ -1,0 +1,9 @@
+{
+  "size": {
+    "popover": {
+      "border": {
+        "width": { "value": "0" }
+      }
+    }
+  }
+}

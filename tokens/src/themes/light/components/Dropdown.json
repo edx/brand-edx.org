@@ -1,0 +1,7 @@
+{
+  "elevation": {
+    "dropdown": {
+      "box-shadow": { "value": "{elevation.box-shadow.level.2}" }
+    }
+  }
+}

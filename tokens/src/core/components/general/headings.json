@@ -1,9 +1,4 @@
 {
-  "color": {
-    "headings": {
-      "base": { "value": "{color.dark.500}" }
-    }
-  },
   "typography": {
     "headings": {
       "font": {

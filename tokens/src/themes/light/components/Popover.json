@@ -6,13 +6,6 @@
       }
     }
   },
-  "size": {
-    "popover": {
-      "border": {
-        "width": { "value": "0" }
-      }
-    }
-  },
   "elevation": {
     "popover": {
       "box-shadow": { "value": "{elevation.box-shadow.level.2}" }

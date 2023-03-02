@@ -1,0 +1,9 @@
+{
+  "elevation": {
+    "image": {
+      "thumbnail": {
+        "box-shadow": { "value": "none" }
+      }
+    }
+  }
+}
