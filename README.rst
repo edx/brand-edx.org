@@ -131,11 +131,11 @@ Developing with design tokens
      npm install
 
 #. Update values in `tokens` folder
-#. Run following commands to build updated CSS files
+#. Run following command to build updated CSS files
 
    .. code-block:: bash
 
-     build-design-tokens --source './paragon/tokens/**/*.json'
+     build-design-tokens --source ./tokens/src --build-dir ./paragon/css/
 
 #. View changes on the local version of Paragon's documentation site
 
@@ -144,18 +144,6 @@ Developing with design tokens
      .. code-block:: bash
 
        npm install <path_to_this_repository>
-
-   #. Modify ``www/src/scss/edxorg-theme.scss`` to be
-
-     .. code-block:: sass
-
-       @import "~font-awesome/css/font-awesome.min.css";
-       @import "~@edx/brand-edx.org/paragon/fonts";
-       @import "~@edx/brand-edx.org/paragon/variables";
-       @import "~paragon-style/core/core";
-       @import "~@edx/brand-edx.org/paragon/overrides";
-       @import "~@edx/brand-edx.org/paragon/css/variables";
-       @import "base";
 
    #. Start docs site with ``npm start``
 
