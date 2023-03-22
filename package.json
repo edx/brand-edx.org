@@ -14,5 +14,12 @@
   "homepage": "https://github.com/edx/brand-edx.org#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "build-design-tokens": "build-design-tokens --source ./tokens/src --build-dir ./paragon/css/",
+    "build-scss": "build-scss --corePath ./paragon/core.scss --themesPath ./paragon/css/themes"
+  },
+  "dependencies": {
+    "@edx/paragon": "^21.0.0-alpha.16"
   }
 }
