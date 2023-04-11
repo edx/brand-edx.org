@@ -8,7 +8,7 @@ This project contains branding assets and themes for edx.org. It is the edX impl
 Usage
 -----
 
-Install this package one of two ways.
+Install this package one of two ways:
 
 
 Versioned with npm. Including this project this way will allow you to control the version you pull into your application. This is safer, but it also means you will need to manually update it or use some automation to update it for you.
