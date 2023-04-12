@@ -111,7 +111,7 @@ You can use the theme in two ways:
 
     @import "@edx/brand/paragon/core";
     @import "@edx/brand/paragon/css/themes/light/variables";
-		@import "@edx/brand/paragon/css/themes/light/utility-classes";
+    @import "@edx/brand/paragon/css/themes/light/utility-classes";
 
 
 -------------------------------------
