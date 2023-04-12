@@ -20,6 +20,6 @@
     "build-scss": "build-scss --corePath ./paragon/core.scss --themesPath ./paragon/css/themes"
   },
   "dependencies": {
-    "@edx/paragon": "^21.0.0-alpha.16"
+    "@edx/paragon": "^21.0.0-alpha.17"
   }
 }

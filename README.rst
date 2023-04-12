@@ -102,14 +102,16 @@ Default fallback image for `Card.ImageCap` component
 Paragon Theme
 -------------
 
-Use the theme in this package as described in the Paragon docs: https://edx.github.io/paragon/
+You can use the theme in two ways:
 
-.. code-block:: sass
+1. this repo builds and publishes its own CSS files (located in the `dist` directory) by including and overriding Paragon's styles,
+   so you can just inject them into your application **without** needing to import / compile Paragon's style separately
+2. compile the styles on your own in your application
+  .. code-block:: sass
 
-  @import "@edx/brand/paragon/fonts";
-  @import "@edx/brand/paragon/variables";
-  @import "@edx/paragon/scss/core/core";
-  @import "@edx/brand/paragon/overrides";
+    @import "@edx/brand/paragon/core";
+    @import "@edx/brand/paragon/css/themes/light/variables";
+		@import "@edx/brand/paragon/css/themes/light/utility-classes";
 
 
 -------------------------------------
@@ -121,7 +123,7 @@ allows to override design tokens values before building CSS variables allowing t
 See `tokens` directory for tokens that edX.org theme overrides. This directory should follow the same folder/JSON structure as is used on whatever version of Paragon is installed in this repository. These JSON files are deep-merged with the default/standard Paragon design tokens.
 Note that some tokens have `"modify": null` property specified, this is done to disable default Paragon's behaviour that modifies this specific token in some way, read more about token's modifications during build time here[TODO: add link to Paragon readme].
 
-Developing with design tokens
+Building design tokens
 #############################
 
 #. Install Paragon with
@@ -131,21 +133,11 @@ Developing with design tokens
      npm install
 
 #. Update values in `tokens` folder
-#. Run following command to build updated CSS files
+#. Run following command to build updated CSS files with CSS variables (they are located in `paragon/css` directory)
 
    .. code-block:: bash
 
-     build-design-tokens --source ./tokens/src --build-dir ./paragon/css/
-
-#. View changes on the local version of Paragon's documentation site
-
-   #. Go to Paragon repository, cd to ``www`` project and run
-
-     .. code-block:: bash
-
-       npm install <path_to_this_repository>
-
-   #. Start docs site with ``npm start``
+     npm run build-design-tokens
 
 
 --------------------------------
