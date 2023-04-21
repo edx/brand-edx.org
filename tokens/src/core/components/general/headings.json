@@ -1,0 +1,9 @@
+{
+  "typography": {
+    "headings": {
+      "font": {
+        "weight": { "value": "700" }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "color": {
+    "badge": {
+      "bg": {
+        "info": { "value": "{color.accent.a}" }
+      }
+    }
+  }
+}

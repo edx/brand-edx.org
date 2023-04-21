@@ -1,0 +1,7 @@
+{
+  "color": {
+    "input": {
+      "btn-focus": { "value": "{color.bg.active}" }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "color": {
+    "pagination": {
+      "text": {
+        "base": { "value": "{color.primary.base}" }
+      }
+    }
+  }
+}

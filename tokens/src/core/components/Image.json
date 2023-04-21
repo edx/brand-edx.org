@@ -1,0 +1,11 @@
+{
+  "size": {
+    "image": {
+      "thumbnail": {
+        "border": {
+          "radius": { "value": "0" }
+        }
+      }
+    }
+  }
+}

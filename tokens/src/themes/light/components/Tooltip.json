@@ -1,0 +1,10 @@
+{
+  "color": {
+    "tooltip": {
+      "light": { "value": "{color.primary.base}" },
+      "bg": {
+        "base": { "value": "{color.primary.base}" }
+      }
+    }
+  }
+}
