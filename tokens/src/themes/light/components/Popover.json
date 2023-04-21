@@ -1,0 +1,14 @@
+{
+  "color": {
+    "popover": {
+      "header": {
+        "bg": { "value": "transparent" }
+      }
+    }
+  },
+  "elevation": {
+    "popover": {
+      "box-shadow": { "value": "{elevation.box-shadow.level.2}" }
+    }
+  }
+}

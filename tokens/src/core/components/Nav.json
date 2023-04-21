@@ -1,0 +1,9 @@
+{
+  "size": {
+    "nav": {
+      "pills": {
+        "border-radius": { "value": "0" }
+      }
+    }
+  }
+}

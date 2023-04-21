@@ -1,7 +1,6 @@
 // This file is included after all of Bootstrap. Any customization that can't
 // be made using variable definitions should be done here.
 
-
 // Alerts
 
 .alert-dismissible .close {
@@ -20,8 +19,8 @@
   font-family: $font-family-sans-serif;
   line-height: 1.25rem;
 
-  &.badge-info {
-    color: $gray-900;
+  .badge-info {
+    --pgn-badge-bg-color: #{$badge-info-bg};
   }
 }
 
@@ -46,185 +45,6 @@
     text-decoration: none;
   }
 }
-
-
-@each $color, $value in $theme-colors {
-  .btn-outline-#{$color} {
-    background: $white;
-    border-color: $light-300;
-
-    &:not(:disabled):not(.disabled) {
-      &:hover, &:active, &.hover, &.active {
-        background: $value;
-        border-color: $value;
-        color: $white;
-      }
-
-      &:focus, &.focus {
-        background: $white;
-        color: $value;
-        border-color: $light-300;
-
-        &:before {
-          border-color: $value;
-        }
-      }
-    }
-
-    &:disabled, &.disabled {
-      border-color: $light-300;
-      background-color: $white;
-    }
-  }
-
-  .btn-#{$color} {
-    &:hover {
-      border-color: transparent;
-    }
-
-    &.focus, &:focus {
-      background: $value;
-
-      &::before {
-        border-color: $value;
-      }
-    }
-  }
-}
-
-.btn-tertiary:not(:disabled):not(.disabled) {
-  &:focus, &.focus {
-    background: $btn-tertiary-bg;
-  }
-}
-
-.btn-primary:not(:disabled):not(.disabled) {
-  &:hover, &:active, &.hover, &.active {
-    background: $primary-300;
-    border-color: transparent;
-    color: $white;
-  }
-
-  &:focus, &.focus {
-    background: $primary-500;
-  }
-}
-
-.btn-inverse-outline-primary {
-  background: transparent;
-  color: $white;
-  border-color: $gray-500;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $white;
-      border-color: transparent;
-      color: $primary;
-    }
-
-    &:focus, &.focus {
-      background: transparent;
-      border-color: $gray-500;
-      color: $white;
-
-      &:before {
-        border-color: $white;
-      }
-    }
-  }
-}
-
-.btn-inverse-outline-brand {
-  background: transparent;
-  color: $white;
-  border-color: $white;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $brand;
-      border-color: transparent;
-      color: $white;
-    }
-  }
-
-  &:not(:disabled):not(.disabled) {
-    &:focus, &.focus {
-      background: transparent;
-      border-color: $white;
-
-      &:before {
-        border-color: $white;
-      }
-    }
-  }
-}
-
-.btn-inverse-brand {
-  background: $brand;
-  color: $white;
-  border-color: transparent;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $brand-700;
-      border-color: transparent;
-      color: white;
-    }
-
-    &:focus, &.focus {
-      background-color: $brand-500;
-
-      &:before {
-        border-color: $brand-500;
-      }
-    }
-  }
-
-  &:disabled, &.disabled {
-    background-color: $brand-500;
-    border-color: $brand-500;
-    color: $white;
-  }
-}
-
-.btn-inverse-tertiary:not(:disabled):not(.disabled) {
-  &:focus, &.focus {
-    background: transparent;
-
-    &:before {
-      border-color: $white;
-    }
-  }
-}
-
-.btn-inverse-primary {
-  background: $white;
-  color: $primary;
-  border-color: transparent;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $primary-300;
-      border-color: transparent;
-      color: $white;
-    }
-
-    &:focus, &.focus {
-      background: $white;
-      color: $primary-500;
-
-      &:before {
-        border-color: $white;
-      }
-    }
-  }
-
-  &:disabled, &.disabled {
-    background-color: $white;
-    border-color: $white;
-  }
-}
-
 // Avatar buttons in tertiary style (the default) are darker than regular tertiary buttons
 .btn-avatar.btn-tertiary {
   color: $primary-500;
@@ -244,11 +64,12 @@
   .#{$state}-feedback {
     color: $body-color;
     font-weight: 400;
+
     &:before {
-      background-image: str-replace($icon, "#", "%23");
       content: '';
-      height:1rem;
-      width:1rem;
+      background-image: $icon;
+      height: 1rem;
+      width: 1rem;
       display: inline-block;
       vertical-align: text-bottom;
       margin-right: .3em;
@@ -386,11 +207,4 @@ a.inline-link {
 }
 .progress-bar {
   background-color: $progress-bar-bg;
-}
-
-// Bubble
-.pgn__bubble {
-  &.pgn__bubble-warning {
-    color: $gray-900;
-  }
 }

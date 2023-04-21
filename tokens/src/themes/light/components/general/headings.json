@@ -1,0 +1,7 @@
+{
+  "color": {
+    "headings": {
+      "base": { "value": "{color.dark.500}" }
+    }
+  }
+}

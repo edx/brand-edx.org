@@ -1,0 +1,7 @@
+{
+  "color": {
+    "body": {
+      "bg": { "value": "{color.white}" }
+    }
+  }
+}

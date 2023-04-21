@@ -1,0 +1,9 @@
+{
+  "elevation": {
+    "form": {
+      "input": {
+        "base": { "value": "none" }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "size": {
+    "dropdown": {
+      "border": {
+        "width": { "value": "0" }
+      }
+    }
+  },
+  "spacing": {
+    "dropdown": {
+      "padding": {
+        "y": {
+          "base": { "value": ".5rem" },
+          "item": { "value": ".625rem" }
+        }
+      }
+    }
+  }
+}

@@ -102,14 +102,42 @@ Default fallback image for `Card.ImageCap` component
 Paragon Theme
 -------------
 
-Use the theme in this package as described in the Paragon docs: https://edx.github.io/paragon/
+You can use the theme in two ways:
 
-.. code-block:: sass
+1. this repo builds and publishes its own CSS files (located in the `dist` directory) by including and overriding Paragon's styles,
+   so you can just inject them into your application **without** needing to import / compile Paragon's style separately
+2. compile the styles on your own in your application
+  .. code-block:: sass
 
-  @import "@edx/brand/paragon/fonts";
-  @import "@edx/brand/paragon/variables";
-  @import "@edx/paragon/scss/core/core";
-  @import "@edx/brand/paragon/overrides";
+    @import "@edx/brand/paragon/core";
+    @import "@edx/brand/paragon/css/themes/light/variables";
+    @import "@edx/brand/paragon/css/themes/light/utility-classes";
+
+
+-------------------------------------
+Theming with Paragon's Design Tokens
+-------------------------------------
+Starting from `v21` Paragon uses style-dictionary to build CSS variables from design tokens (i.e. JSON files), Paragon
+allows to override design tokens values before building CSS variables allowing to apply custom theme.
+
+See `tokens` directory for tokens that edX.org theme overrides. This directory should follow the same folder/JSON structure as is used on whatever version of Paragon is installed in this repository. These JSON files are deep-merged with the default/standard Paragon design tokens.
+Note that some tokens have `"modify": null` property specified, this is done to disable default Paragon's behaviour that modifies this specific token in some way, read more about token's modifications during build time here[TODO: add link to Paragon readme].
+
+Building design tokens
+#############################
+
+#. Install Paragon with
+
+   .. code-block:: bash
+
+     npm install
+
+#. Update values in `tokens` folder
+#. Run following command to build updated CSS files with CSS variables (they are located in `paragon/css` directory)
+
+   .. code-block:: bash
+
+     npm run build-design-tokens
 
 
 --------------------------------
