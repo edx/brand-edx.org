@@ -94,7 +94,7 @@
 
 .btn-tertiary:not(:disabled):not(.disabled) {
   &:focus, &.focus {
-    background: $white;
+    background: $btn-tertiary-bg;
   }
 }
 
@@ -211,7 +211,7 @@
 
     &:focus, &.focus {
       background: $white;
-      color: $primary-300;
+      color: $primary-500;
 
       &:before {
         border-color: $white;
