@@ -3,7 +3,7 @@ on:
   pull_request:
 jobs:
   ci:
-    name: Release
+    name: CI
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
