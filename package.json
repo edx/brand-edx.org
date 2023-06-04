@@ -21,6 +21,6 @@
     "build": "make build"
   },
   "devDependencies": {
-    "@edx/paragon": "github:openedx/paragon#ags/source-tokens-only"
+    "@edx/paragon": "21.0.0-alpha.34"
   }
 }
