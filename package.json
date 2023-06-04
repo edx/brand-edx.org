@@ -16,11 +16,11 @@
     "access": "public"
   },
   "scripts": {
-    "build-design-tokens": "build-design-tokens --source ./tokens/src --build-dir ./paragon/css/",
+    "build-design-tokens": "build-design-tokens --source ./tokens/src --build-dir ./paragon/css --source-tokens-only",
     "build-scss": "build-scss --corePath ./paragon/core.scss --themesPath ./paragon/css/themes",
     "build": "make build"
   },
-  "dependencies": {
-    "@edx/paragon": "21.0.0-alpha.33"
+  "devDependencies": {
+    "@edx/paragon": "github:openedx/paragon#ags/source-tokens-only"
   }
 }
