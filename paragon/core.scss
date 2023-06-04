@@ -4,3 +4,8 @@
 @import './css/core/index.css';
 
 // Define custom styles here...
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
