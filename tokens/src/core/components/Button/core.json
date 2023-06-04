@@ -21,6 +21,11 @@
           "lg": { "value": "0px" },
           "sm": { "value": "0px" }
         }
+      },
+      "focus": {
+        "border-radius": {
+          "value": "0px"
+        }
       }
     }
   }

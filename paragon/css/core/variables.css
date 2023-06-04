@@ -1,7 +1,7 @@
 /**
  * IMPORTANT: This file is the result of assembling design tokens
  * Do not edit directly
- * Generated on Sun, 04 Jun 2023 16:12:06 GMT
+ * Generated on Sun, 04 Jun 2023 17:58:33 GMT
  */
 
 :root {
@@ -32,6 +32,7 @@
   --pgn-size-form-input-radius-border-lg: 0;
   --pgn-size-form-input-radius-border-base: 0;
   --pgn-size-dropdown-border-width: 0;
+  --pgn-size-btn-focus-border-radius: 0px;
   --pgn-size-btn-border-radius-sm: 0px;
   --pgn-size-btn-border-radius-lg: 0px;
   --pgn-size-btn-border-radius-base: 0px;
