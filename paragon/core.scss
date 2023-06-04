@@ -1,7 +1,2 @@
-@import "variables";
-@import '~@edx/paragon/styles/scss/core/core.scss';
-@import "overrides";
-
-// Core CSS overrides
-@import "css/core/variables";
-@import "css/core/custom-media-breakpoints";
+// Imported by `@edx/paragon` during the execution of its `build-scss` script. Include
+// any custom overrides for the Paragon theme below.
