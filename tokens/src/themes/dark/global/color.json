@@ -2,6 +2,10 @@
   "color": {
     "primary": {
       "base": { "value": "red" }
+    },
+    "300": {
+      "value": "{color.primary.base}",
+      "modify": [{ "type": "mix", "otherColor": "white", "amount": "0.50"}]
     }
   }
 }
