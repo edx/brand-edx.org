@@ -16,8 +16,8 @@
     "access": "public"
   },
   "scripts": {
-    "build-design-tokens": "build-design-tokens --source ./tokens/src --build-dir ./paragon/css --source-tokens-only --themes light dark",
-    "build-scss": "build-scss --corePath ./paragon/core.scss --themesPath ./paragon/css/themes --defaultThemeVariants light dark",
+    "build-design-tokens": "build-design-tokens --source ./tokens/src --build-dir ./paragon/css --source-tokens-only",
+    "build-scss": "build-scss --corePath ./paragon/core.scss --themesPath ./paragon/css/themes --defaultThemeVariants light",
     "build": "make build"
   },
   "devDependencies": {
