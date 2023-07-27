@@ -2,7 +2,6 @@
   "color": {
     "btn": {
       "border": {
-        "success": { "value": "{color.light.300}" },
         "outline-success": { "value": "{color.light.300}" }
       },
       "hover": {
@@ -24,22 +23,21 @@
           "outline-success": { "value": "{color.success.base}" }
         },
         "text": {
+          "outline-success": { "value": "{color.white}", "modify": null },
           "inverse-outline-success": { "value": "{color.primary.base}", "modify": null  }
         }
       },
       "focus": {
         "text": {
-          "outline-success": { "value": "{color.white}" },
           "inverse-success": { "value": "{color.btn.text.inverse-success}" }
         },
         "bg": {
           "success": { "value": "{color.btn.bg.success}" },
-          "outline-success": { "value": "{color.btn.bg.success}" },
+          "outline-success": { "value": "{color.white}" },
           "inverse-success": { "value": "{color.white}" }
         },
         "border": {
-          "success": { "value": "{color.btn.focus.bg.success}" },
-          "outline-success": { "value": "{color.btn.focus.bg.outline-success}" }
+          "success": { "value": "{color.btn.focus.bg.success}" }
         }
       },
       "disabled": {

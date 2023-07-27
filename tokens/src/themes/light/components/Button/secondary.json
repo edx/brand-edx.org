@@ -27,20 +27,6 @@
           "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary}" }
         }
       },
-      "focus": {
-        "text": {
-          "inverse-secondary": { "value": "{color.gray.700}" },
-          "outline-secondary": { "value": "{color.white}" }
-        },
-        "bg": {
-          "secondary": { "value": "{color.gray.700}" },
-          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary}" },
-          "inverse-secondary": { "value": "{color.white}", "modify": null }
-        },
-        "border": {
-          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary}" }
-        }
-      },
       "disabled": {
         "text": {
           "outline-secondary": { "value": "{color.gray.700}" }

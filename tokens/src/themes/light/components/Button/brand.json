@@ -5,7 +5,7 @@
         "inverse-brand": { "value": "{color.white}" }
       },
       "bg": {
-        "inverse-brand": { "value": "{color.brand.base}", "modify": null }
+        "inverse-brand": { "value": "{color.brand.500}", "modify": null }
       },
       "border": {
         "brand": { "value": "transparent" },
@@ -14,57 +14,69 @@
       },
       "hover": {
         "text": {
+          "inverse-brand": { "value": "{color.white}", "modify": null },
           "outline-brand": { "value": "{color.white}" },
           "inverse-outline-brand": { "value": "{color.white}" }
         },
         "bg": {
-          "outline-brand": { "value": "{color.brand.base}" },
-          "inverse-outline-brand": { "value": "{color.brand.base}" }
+          "inverse-brand": { "value": "{color.brand.700}", "modify": null },
+          "outline-brand": { "value": "{color.brand.500}" },
+          "inverse-outline-brand": { "value": "{color.brand.500}" }
         },
         "border": {
-          "brand": { "value": "{color.brand.700}" },
           "outline-brand": { "value": "{color.brand.base}" }
         }
       },
       "active": {
         "text": {
-          "inverse-brand": { "modify": null }
+          "outline-brand": { "value": "{color.white}", "modify": null },
+          "inverse-brand": { "value": "{color.white}", "modify": null },
+          "inverse-outline-brand": { "value": "{color.white}", "modify": null }
         },
         "border": {
+          "brand": { "value": "{color.brand.900}" },
           "outline-brand": { "value": "{color.brand.base}" }
         },
         "bg": {
-          "inverse-brand": { "value": "{color.brand.700}" }
+          "brand": { "value": "{color.brand.900}" },
+          "inverse-brand": { "value": "{color.brand.base}" }
         }
       },
       "focus": {
         "text": {
           "inverse-brand": { "value": "{color.white}" },
-          "outline-brand": { "value": "{color.white}" }
+          "outline-brand": { "value": "{color.brand.base}" }
         },
         "bg": {
           "brand": { "value": "{color.brand.base}" },
-          "inverse-brand": { "value": "{color.brand.700}" },
-          "outline-brand": { "value": "{color.brand.base}" },
-          "inverse-outline-brand": { "value": "{color.brand.base}" }
+          "inverse-brand": { "value": "{color.brand.base}" },
+          "outline-brand": { "value": "{color.white}" },
+          "inverse-outline-brand": { "value": "transparent" }
         },
         "border": {
-          "outline-brand": { "value": "{color.btn.focus.bg.outline-brand}" },
+          "outline-brand": { "value": "{color.btn.border.outline-brand}" },
           "inverse-brand": { "value": "{color.btn.focus.bg.inverse-brand}" },
-          "inverse-outline-brand": { "value": "{color.btn.focus.bg.inverse-outline-brand}" }
+          "inverse-outline-brand": { "value": "{color.white}" }
         },
         "outline": {
-          "inverse-brand": { "value": "{color.white}" },
+          "brand": { "value": "{color.brand.base}" },
+          "outline-brand": { "value": "{color.brand.base}" },
+          "inverse-brand": { "value": "{color.brand.base}" },
           "inverse-outline-brand": { "value": "{color.white}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-brand": { "value": "{color.brand.base}" },
+          "outline-brand": { "value": "{color.brand.500}" },
+          "inverse-brand": { "value": "{color.white}" },
           "inverse-outline-brand": { "value": "{color.light.300}" }
         },
         "border": {
-          "outline-brand": { "value": "{color.light.300}" }
+          "outline-brand": { "value": "{color.light.300}" },
+          "inverse-brand": { "value": "{color.brand.500}" }
+        },
+        "bg": {
+          "inverse-brand": { "value": "{color.brand.500}" }
         }
       }
     }

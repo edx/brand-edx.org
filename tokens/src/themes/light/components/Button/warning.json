@@ -14,6 +14,7 @@
       },
       "hover": {
         "text": {
+          "warning": { "value": "{color.white}", "modify": null },
           "outline-warning": { "value": "{color.white}" }
         },
         "bg": {
@@ -25,6 +26,7 @@
       },
       "active": {
         "text": {
+          "warning": { "value": "{color.white}", "modify": null },
           "outline-warning": { "value": "{color.white}", "modify": null },
           "inverse-outline-warning": { "value": "{color.black}", "modify": null }
         },
@@ -36,18 +38,8 @@
         }
       },
       "focus": {
-        "text": {
-          "warning": { "value": "{color.btn.text.warning}" },
-          "outline-warning": { "value": "{color.white}" },
-          "inverse-warning": { "value": "{color.btn.text.inverse-warning}" }
-        },
         "bg": {
-          "warning": { "value": "{color.btn.bg.warning}" },
-          "outline-warning": { "value": "{color.btn.hover.bg.outline-warning}" },
-          "inverse-warning": { "value": "{color.btn.bg.inverse-warning}" }
-        },
-        "border": {
-          "outline-warning": { "value": "{color.btn.focus.bg.outline-warning}" }
+          "outline-warning": { "value": "{color.white}" }
         }
       },
       "disabled": {
