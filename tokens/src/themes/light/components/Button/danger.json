@@ -18,6 +18,7 @@
       },
       "active": {
         "text": {
+          "outline-danger": { "value": "{color.white}", "modify": null },
           "inverse-outline-danger": { "value": "{color.primary.base}", "modify": null }
         },
         "bg": {
@@ -31,16 +32,11 @@
       },
       "focus": {
         "text": {
-          "inverse-danger": { "value": "{color.red}" },
-          "outline-danger": { "value": "{color.white}" }
+          "inverse-danger": { "value": "{color.red}" }
         },
         "bg": {
           "danger": { "value": "{color.red}" },
-          "outline-danger": { "value": "{color.btn.active.bg.outline-danger}" },
-          "inverse-danger": { "value": "{color.gray.100}" }
-        },
-        "border": {
-          "outline-danger": { "value": "{color.btn.focus.bg.outline-danger}" }
+          "outline-danger": { "value": "{color.white}" }
         }
       },
       "disabled": {

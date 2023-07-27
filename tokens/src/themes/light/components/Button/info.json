@@ -26,6 +26,7 @@
       },
       "active": {
         "text": {
+          "outline-info": { "value": "{color.white}", "modify": null },
           "inverse-outline-info": { "value": "{color.primary.base}", "modify": null }
         },
         "bg": {
@@ -37,16 +38,11 @@
       },
       "focus": {
         "text": {
-          "inverse-outline-info": { "value": "{color.white}" },
-          "outline-info": { "value": "{color.white}" }
+          "inverse-outline-info": { "value": "{color.white}" }
         },
         "bg": {
-          "info": { "value": "{color.btn.bg.info}" },
-          "outline-info": { "value": "{color.btn.active.bg.outline-info}" },
+          "outline-info": { "value": "{color.white}" },
           "inverse-info": { "value": "{color.white}" }
-        },
-        "border": {
-          "outline-info": { "value": "{color.btn.focus.bg.outline-info}" }
         }
       },
       "disabled": {

@@ -6,6 +6,7 @@
           "inverse-outline-dark": { "value": "{color.white}" }
         },
         "text": {
+          "outline-dark": { "value": "{color.white}", "modify": null },
           "inverse-outline-dark": { "value": "{color.primary.base}", "modify": null }
         }
       },
@@ -22,16 +23,11 @@
       },
       "focus": {
         "text": {
-          "inverse-dark": { "value": "{color.dark.base}" },
-          "outline-dark": { "value": "{color.white}" }
+          "inverse-dark": { "value": "{color.dark.base}" }
         },
         "bg": {
-          "dark": { "value": "{color.dark.base}" },
-          "outline-dark": { "value": "{color.btn.hover.bg.outline-dark}" },
+          "outline-dark": { "value": "{color.white}" },
           "inverse-dark": { "value": "{color.white}" }
-        },
-        "border": {
-          "outline-dark": { "value": "{color.btn.focus.bg.outline-dark}" }
         }
       },
       "disabled": {
