@@ -5,6 +5,7 @@
         "inverse-brand": { "value": "{color.white}" }
       },
       "bg": {
+        "outline-brand": { "value": "{color.white}" },
         "inverse-brand": { "value": "{color.brand.500}", "modify": null }
       },
       "border": {

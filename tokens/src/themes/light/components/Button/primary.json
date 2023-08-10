@@ -2,6 +2,7 @@
   "color": {
     "btn": {
       "bg": {
+        "outline-primary": { "value": "{color.white}" },
         "inverse-primary": { "value": "{color.white}", "modify": null }
       },
       "border": {

@@ -1,6 +1,9 @@
 {
   "color": {
     "btn": {
+      "bg": {
+        "outline-dark": { "value": "{color.white}" }
+      },
       "active": {
         "bg": {
           "inverse-outline-dark": { "value": "{color.white}" }

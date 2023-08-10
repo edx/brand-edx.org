@@ -1,6 +1,9 @@
 {
   "color": {
     "btn": {
+      "bg": {
+        "outline-success": { "value": "{color.white}" }
+      },
       "border": {
         "outline-success": { "value": "{color.light.300}" }
       },

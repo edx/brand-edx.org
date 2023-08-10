@@ -1,6 +1,9 @@
 {
   "color": {
     "btn": {
+      "bg": {
+        "outline-danger": { "value": "{color.white}" }
+      },
       "border": {
         "danger": { "value": "transparent" },
         "outline-danger": { "value": "{color.light.300}" }
