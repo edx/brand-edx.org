@@ -1,7 +1,7 @@
 /**
  * IMPORTANT: This file is the result of assembling design tokens
  * Do not edit directly
- * Generated on Thu, 27 Jul 2023 08:38:40 GMT
+ * Generated on Thu, 10 Aug 2023 08:21:39 GMT
  */
 
 :root {
@@ -195,12 +195,17 @@
   --pgn-color-btn-border-outline-brand: #F2F0EFFF;
   --pgn-color-btn-bg-inverse-warning: #000000FF;
   --pgn-color-btn-bg-warning: #F0CC00FF;
+  --pgn-color-btn-bg-outline-success: #FFFFFFFF;
   --pgn-color-btn-bg-outline-secondary: #FFFFFFFF;
   --pgn-color-btn-bg-inverse-primary: #FFFFFFFF;
+  --pgn-color-btn-bg-outline-primary: #FFFFFFFF;
   --pgn-color-btn-bg-outline-light: #FFFFFFFF;
   --pgn-color-btn-bg-inverse-light: #000000FF;
   --pgn-color-btn-bg-outline-info: #FFFFFFFF;
   --pgn-color-btn-bg-info: #03C7E8FF;
+  --pgn-color-btn-bg-outline-dark: #FFFFFFFF;
+  --pgn-color-btn-bg-outline-danger: #FFFFFFFF;
+  --pgn-color-btn-bg-outline-brand: #FFFFFFFF;
   --pgn-color-btn-text-warning: #000000FF;
   --pgn-color-btn-text-light: #000000FF;
   --pgn-color-btn-text-inverse-info: #03C7E8FF;
