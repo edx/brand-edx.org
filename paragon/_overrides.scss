@@ -5,8 +5,8 @@
 // Alerts
 
 .alert-dismissible .close {
-  color: theme-color("gray");
   opacity: 1;
+  color: theme-color("gray");
 
   &:hover {
     color: theme-color("gray");
