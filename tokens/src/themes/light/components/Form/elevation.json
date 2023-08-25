@@ -2,7 +2,47 @@
   "elevation": {
     "form": {
       "input": {
-        "base": { "value": "none" }
+        "base": { "value": "inset 0 1px 1px rgba(0, 0, 0, .075)" },
+        "focus": {
+          "value": "{elevation.input.btn-focus.box-shadow}",
+          "type": "shadow",
+          "source": "$input-focus-box-shadow"
+        }
+      },
+      "control": {
+        "indicator": {
+          "checked": {
+            "focus": {
+              "value": "{elevation.form.input.base}",
+              "type": "shadow",
+              "source": "$custom-control-indicator-focus-box-shadow"
+            }
+          }
+        },
+        "range": {
+          "track": {
+            "value": "inset 0 .25rem .25rem rgba(0, 0, 0, .1)",
+            "type": "shadow",
+            "source": "$custom-range-track-box-shadow"
+          },
+          "thumb": {
+            "base": {
+              "value": "0 .1rem .25rem rgba(0, 0, 0, .1)", "type": "shadow", "source": "$custom-range-thumb-box-shadow"
+            }
+          }
+        },
+        "select": {
+          "border": {
+            "base": {
+              "value": "inset 0 1px 2px rgba(0, 0, 0, .075)", "type": "shadow", "source": "$custom-select-box-shadow"
+            },
+            "focus": {
+              "value": "{elevation.form.control.select.border.base}",
+              "type": "shadow",
+              "source": "$custom-select-focus-box-shadow"
+            }
+          }
+        }
       }
     }
   }
