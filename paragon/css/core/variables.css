@@ -1,7 +1,7 @@
 /**
  * IMPORTANT: This file is the result of assembling design tokens
  * Do not edit directly
- * Generated on Sun, 23 Jul 2023 16:09:04 GMT
+ * Generated on Mon, 27 Nov 2023 16:19:13 GMT
  */
 
 :root {
@@ -25,7 +25,7 @@
   --pgn-spacing-card-spacer-y: 1rem;
   --pgn-spacing-card-spacer-x: 1.5rem;
   --pgn-spacing-btn-focus-gap: 2px;
-  --pgn-size-popover-border-width: 0;
+  --pgn-size-popover-border-width: 0px;
   --pgn-size-nav-pills-border-radius: 0;
   --pgn-size-image-thumbnail-border-radius: 0;
   --pgn-size-input-btn-border-width: 1px;
