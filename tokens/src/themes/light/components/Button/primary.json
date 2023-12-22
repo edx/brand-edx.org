@@ -5,7 +5,7 @@
         "inverse-primary": { "value": "{color.white}", "modify": null }
       },
       "border": {
-        "outline-primary": { "value": "{color.light.300}" },
+        "outline-primary": { "value": "{color.primary.500}" },
         "inverse-outline-primary": { "value": "{color.gray.500}" }
       },
       "hover": {
