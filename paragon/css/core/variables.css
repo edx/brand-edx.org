@@ -1,7 +1,7 @@
 /**
  * IMPORTANT: This file is the result of assembling design tokens
  * Do not edit directly
- * Generated on Mon, 27 Nov 2023 16:19:13 GMT
+ * Generated on Mon, 11 Dec 2023 11:05:39 GMT
  */
 
 :root {
@@ -19,7 +19,7 @@
   --pgn-typography-btn-font-weight: 500;
   --pgn-typography-badge-font-weight: 400;
   --pgn-typography-badge-font-size: 0.75rem;
-  --pgn-spacing-grid-gutter-width: 64px;
+  --pgn-spacing-grid-gutter-width: 32px;
   --pgn-spacing-dropdown-padding-y-item: .625rem;
   --pgn-spacing-dropdown-padding-y-base: .5rem;
   --pgn-spacing-card-spacer-y: 1rem;
