@@ -23,8 +23,10 @@
         }
       },
       "focus": {
-        "border-radius": {
-          "value": "0px"
+        "border": {
+          "radius": {
+            "base": { "value": "0px" }
+          }
         }
       }
     }
