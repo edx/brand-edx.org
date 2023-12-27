@@ -1,13 +1,14 @@
+@import 'variables';
 // This file is included after all of Bootstrap. Any customization that can't
 // be made using variable definitions should be done here.
 
 // Alerts
 
 .alert-dismissible .close {
-  color: theme-color("gray");
   opacity: 1;
+  color: theme-color("gray");
 
-  @include hover {
+  &:hover {
     color: theme-color("gray");
   }
 }
@@ -16,11 +17,11 @@
 // Badges
 
 .badge {
-  font-family: $font-family-sans-serif;
+  font-family: var(--pgn-typography-font-family-sans-serif);
   line-height: 1.25rem;
 
   .badge-info {
-    --pgn-badge-bg-color: #{$badge-info-bg};
+    --pgn-badge-bg-color: var(--pgn-color-badge-bg-info);
   }
 }
 
@@ -46,186 +47,9 @@
   }
 }
 
-@each $color, $value in $theme-colors {
-  .btn-outline-#{$color} {
-    background: $white;
-    border-color: $light-300;
-
-    &:not(:disabled):not(.disabled) {
-      &:hover, &:active, &.hover, &.active {
-        background: $value;
-        border-color: $value;
-        color: $white;
-      }
-
-      &:focus, &.focus {
-        background: $white;
-        color: $value;
-        border-color: $light-300;
-
-        &:before {
-          border-color: $value;
-        }
-      }
-    }
-
-    &:disabled, &.disabled {
-      border-color: $light-300;
-      background-color: $white;
-    }
-  }
-
-  .btn-#{$color} {
-    &:hover {
-      border-color: transparent;
-    }
-
-    &.focus, &:focus {
-      background: $value;
-
-      &::before {
-        border-color: $value;
-      }
-    }
-  }
-}
-
-.btn-tertiary:not(:disabled):not(.disabled) {
-  &:focus, &.focus {
-    background: $btn-tertiary-bg;
-  }
-}
-
-.btn-primary:not(:disabled):not(.disabled) {
-  &:hover, &:active, &.hover, &.active {
-    background: $primary-300;
-    border-color: transparent;
-    color: $white;
-  }
-
-  &:focus, &.focus {
-    background: $primary-500;
-  }
-}
-
-.btn-inverse-outline-primary {
-  background: transparent;
-  color: $white;
-  border-color: $gray-500;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $white;
-      border-color: transparent;
-      color: $primary;
-    }
-
-    &:focus, &.focus {
-      background: transparent;
-      border-color: $gray-500;
-      color: $white;
-
-      &:before {
-        border-color: $white;
-      }
-    }
-  }
-}
-
-.btn-inverse-outline-brand {
-  background: transparent;
-  color: $white;
-  border-color: $white;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $brand;
-      border-color: transparent;
-      color: $white;
-    }
-  }
-
-  &:not(:disabled):not(.disabled) {
-    &:focus, &.focus {
-      background: transparent;
-      border-color: $white;
-
-      &:before {
-        border-color: $white;
-      }
-    }
-  }
-}
-
-.btn-inverse-brand {
-  background: $brand;
-  color: $white;
-  border-color: transparent;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $brand-700;
-      border-color: transparent;
-      color: white;
-    }
-
-    &:focus, &.focus {
-      background-color: $brand-500;
-
-      &:before {
-        border-color: $brand-500;
-      }
-    }
-  }
-
-  &:disabled, &.disabled {
-    background-color: $brand-500;
-    border-color: $brand-500;
-    color: $white;
-  }
-}
-
-.btn-inverse-tertiary:not(:disabled):not(.disabled) {
-  &:focus, &.focus {
-    background: transparent;
-
-    &:before {
-      border-color: $white;
-    }
-  }
-}
-
-.btn-inverse-primary {
-  background: $white;
-  color: $primary;
-  border-color: transparent;
-
-  &:not(:disabled):not(.disabled) {
-    &:hover, &:active, &.hover, &.active {
-      background: $primary-300;
-      border-color: transparent;
-      color: $white;
-    }
-
-    &:focus, &.focus {
-      background: $white;
-      color: $primary-500;
-
-      &:before {
-        border-color: $white;
-      }
-    }
-  }
-
-  &:disabled, &.disabled {
-    background-color: $white;
-    border-color: $white;
-  }
-}
-
 // Avatar buttons in tertiary style (the default) are darker than regular tertiary buttons
 .btn-avatar.btn-tertiary {
-  color: $primary-500;
+  color: var(--pgn-color-primary-500);
 }
 
 // Forms
@@ -233,73 +57,92 @@
 // This loop is modeled after the loop in bootstrap's _forms.scss
 // which calls a mixin, form-validation-state($state, $color, $icon).
 // We make several overrides here for icons and focus states.
-@each $state, $data in $form-validation-states {
-  $color: map-get($data, color);
-  $icon: map-get($data, icon);
+.valid-feedback {
+  color: var(--pgn-color-body-base);
+  font-weight: 400;
 
-  // Do not use validation color for feedback text
-  // Add the validation icon to feedback text
-  .#{$state}-feedback {
-    color: $body-color;
-    font-weight: 400;
-
-    &:before {
-      content: '';
-      background-image: $icon;
-      height: 1rem;
-      width: 1rem;
-      display: inline-block;
-      vertical-align: text-bottom;
-      margin-right: .3em;
-    }
+  &:before {
+    content: '';
+    background-image: var(--pgn-other-content-form-feedback-icon-valid);
+    height: var(--pgn-spacing-spacer-base);
+    width: var(--pgn-spacing-spacer-base);
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: .3em;
   }
+}
 
-  // Override focus states, use the standard focus
-  // instead of a generated color.
-  .form-control {
-    .was-validated &:#{$state},
-    &.is-#{$state} {
-      &:focus {
-        border-color: $color;
-        box-shadow: 0 0 0 $input-focus-width $color;
-      }
-    }
+// Override focus states, use the standard focus
+// instead of a generated color.
+.form-control {
+  .was-validated &:valid, &.is-valid:focus {
+    border-color: var(--pgn-color-form-feedback-valid);
+    box-shadow: 0 0 0 var(--pgn-size-form-input-width-focus) var(--pgn-color-form-feedback-valid);
   }
+}
 
-  .custom-select {
-    .was-validated &:#{$state},
-    &.is-#{$state} {
-      &:focus {
-        border-color: $color;
-        box-shadow: 0 0 0 $input-focus-width $color;
-      }
-    }
+.custom-select {
+  .was-validated &:valid, &.is-valid:focus {
+    border-color: var(--pgn-color-form-feedback-valid);
+    box-shadow: 0 0 0 var(--pgn-size-form-input-width-focus) var(--pgn-color-form-feedback-valid);
+  }
+}
+
+// Do not use validation color for feedback text
+// Add the validation icon to feedback text
+.invalid-feedback {
+  color: var(--pgn-color-body-base);
+  font-weight: 400;
+
+  &:before {
+    content: '';
+    background-image: var(--pgn-other-content-form-feedback-icon-invalid);
+    height: var(--pgn-spacing-spacer-base);
+    width: var(--pgn-spacing-spacer-base);
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: .3em;
+  }
+}
+
+// Override focus states, use the standard focus
+// instead of a generated color.
+.form-control {
+  .was-validated &:invalid, &.is-invalid:focus {
+    border-color: var(--pgn-color-form-feedback-invalid);
+    box-shadow: 0 0 0 var(--pgn-size-form-input-width-focus) var(--pgn-color-form-feedback-invalid);
+  }
+}
+
+.custom-select {
+  .was-validated &:invalid, &.is-invalid:focus {
+    border-color: var(--pgn-color-form-feedback-invalid);
+    box-shadow: 0 0 0 var(--pgn-size-form-input-width-focus) var(--pgn-color-form-feedback-invalid);
   }
 }
 
 select.form-control {
   background-repeat: no-repeat;
-  background-position: right 1rem center;
-  background-image: str-replace($custom-select-indicator, "#", "%23");
+  background-position: right var(--pgn-spacing-spacer-base) center;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
 
 .popover-header {
-  border-bottom: solid 1px $gray-100;
+  border-bottom: solid 1px var(--pgn-color-gray-100);
 }
 
 // Grid
 
 .container {
-  padding-left: $grid-gutter-width;
-  padding-right: $grid-gutter-width;
+  padding-left: var(--pgn-spacing-grid-gutter-width);
+  padding-right: var(--pgn-spacing-grid-gutter-width);
 }
 
 .container-fluid {
-  padding-left: $grid-gutter-width;
-  padding-right: $grid-gutter-width;
+  padding-left: var(--pgn-spacing-grid-gutter-width);
+  padding-right: var(--pgn-spacing-grid-gutter-width);
 }
 
 
@@ -311,55 +154,57 @@ body {
 }
 
 h1, .h1 {
-  line-height: calc((44 / 16) * 1rem);
+  line-height: calc((44 / 16) * var(--pgn-spacing-spacer-base));
   letter-spacing: -2%;
 
-  @media (max-width: map-get($grid-breakpoints, "sm")) {
-    line-height: calc((40 / 16) * 1rem);
+  @media (--max-pgn-size-breakpoint-xs) {
+    line-height: calc((40 / 16) * var(--pgn-spacing-spacer-base));
   }
+
   .mobile-type & {
-    line-height: calc((40 / 16) * 1rem);
+    line-height: calc((40 / 16) * var(--pgn-spacing-spacer-base));
   }
 }
 
 h2, .h2 {
-  line-height: calc((36 / 16) * 1rem);
+  line-height: calc((36 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 h3, .h3 {
-  line-height: calc((28 / 16) * 1rem);
+  line-height: calc((28 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 h4, .h4 {
-  line-height: calc((24 / 16) * 1rem);
+  line-height: calc((24 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 h5, .h5 {
-  line-height: calc((20 / 16) * 1rem);
+  line-height: calc((20 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 h6, .h6 {
-  line-height: calc((20 / 16) * 1rem);
+  line-height: calc((20 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 .lead {
-  line-height: calc((36 / 16) * 1rem);
+  line-height: calc((36 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 .small {
-  line-height: calc((24 / 16) * 1rem);
+  line-height: calc((24 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 .x-small {
-  line-height: calc((20 / 16) * 1rem);
+  line-height: calc((20 / 16) * var(--pgn-spacing-spacer-base));
 }
 
 p > a[href]:not(.btn),
 a.inline-link {
   text-decoration-line: underline;
-  text-decoration-color: rgba($link-color, .3);
+  text-decoration-color: rgba(var(--pgn-color-link-base), .3);
+
   &:hover {
-    text-decoration-color: rgba($link-color, 1);
+    text-decoration-color: rgba(var(--pgn-color-link-base), 1);
   }
 }
 
@@ -367,22 +212,26 @@ a.inline-link {
 
 .pgn__searchfield {
   border-radius: 0 !important;
+
   .btn {
-    background: $input-bg;
+    background: var(--pgn-color-form-input-bg-base);
     display: flex;
   }
+
   &.has-focus {
+    border-color: var(--pgn-color-form-input-focus-border) !important;
+
     .btn {
-      background: $input-focus-bg;
+      background: var(--pgn-color-form-input-focus-bg);
     }
-    border-color: $input-focus-border-color !important;
   }
 }
 
 // Progress Bar
 .progress {
-  border: $progress-bar-border-width solid $progress-bar-border-color;
+  border: var(--pgn-size-progress-bar-border-width) solid var(--pgn-color-progress-bar-border);
 }
+
 .progress-bar {
-  background-color: $progress-bar-bg;
+  background-color: var(--pgn-color-progress-bar-bar-bg-base);
 }

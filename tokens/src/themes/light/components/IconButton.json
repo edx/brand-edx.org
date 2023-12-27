@@ -1,0 +1,13 @@
+{
+  "color": {
+    "icon-button": {
+      "bg": { 
+        "primary": {
+          "inverse-active": {
+            "base": { "value": "{color.white}", "type": "color" }
+          }
+        }
+      }
+    }
+  }
+}

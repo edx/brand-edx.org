@@ -38,20 +38,16 @@
       },
       "focus": {
         "text": {
-          "light": { "value": "{color.btn.text.light}", "modify": null },
-          "outline-light": { "value": "{color.white}" }
+          "light": { "value": "{color.btn.text.light}", "modify": null }
         },
         "border": {
-          "light": { "value": "{color.btn.focus.bg.light}" },
-          "outline-light": { "value": "{color.btn.focus.bg.outline-light}" }
+          "light": { "value": "{color.btn.focus.bg.light}" }
         },
         "bg": {
-          "light": { "value": "{color.theme.bg.light}" },
-          "outline-light": { "value": "{color.theme.bg.light}" },
           "inverse-light": { "value": "{color.btn.bg.inverse-light}" }
         },
         "outline": {
-          "outline-light": { "value": "{color.btn.focus.bg.outline-light}" }
+          "outline-light": { "value": "{color.theme.bg.light}" }
         }
       },
       "disabled": {
