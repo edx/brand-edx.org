@@ -1,7 +1,7 @@
 /**
  * IMPORTANT: This file is the result of assembling design tokens
  * Do not edit directly
- * Generated on Fri, 25 Aug 2023 10:06:18 GMT
+ * Generated on Wed, 27 Dec 2023 09:23:32 GMT
  */
 
 :root {
@@ -63,7 +63,6 @@
   --pgn-elevation-box-shadow-level-3: 0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15);
   --pgn-elevation-box-shadow-level-2: 0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15);
   --pgn-elevation-box-shadow-level-1: 0px 2px 8px 0px rgba(0,0,0,0.15), 0px 2px 4px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-image-thumbnail-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
   --pgn-elevation-form-control-select-border-base: inset 0 1px 2px rgba(0, 0, 0, .075);
   --pgn-elevation-form-control-range-thumb-base: 0 .1rem .25rem rgba(0, 0, 0, .1);
   --pgn-elevation-form-control-range-track: inset 0 .25rem .25rem rgba(0, 0, 0, .1);
