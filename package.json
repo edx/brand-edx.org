@@ -1,17 +1,17 @@
 {
-  "name": "@edx/brand-edx.org",
+  "name": "@mitol/brand-mitxonline",
   "version": "1.0.0",
-  "description": "A package containing brand elements and SASS themes for edx.org",
+  "description": "A package containing brand elements and SASS themes for MITxOnline",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/brand-edx.org.git"
+    "url": "git+https://github.com/mitodl/brand-mitxonline.git"
   },
-  "author": "edX",
-  "license": "UNLICENSED",
+  "author": "MIT",
+  "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/edx/brand-edx.org/issues"
+    "url": "https://github.com/mitodl/brand-mitxonline/issues"
   },
-  "homepage": "https://github.com/edx/brand-edx.org#readme",
+  "homepage": "https://github.com/mitodl/brand-mitonline#readme",
   "publishConfig": {
     "access": "public"
   }

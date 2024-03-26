@@ -394,3 +394,11 @@ a.inline-link {
     color: $gray-900;
   }
 }
+
+div:has(> [data-testid="helpToggleButton"]) {
+  display: none;
+}
+
+.help-sidebar-about{
+  display: none;
+}
