@@ -1,7 +1,7 @@
 /**
  * IMPORTANT: This file is the result of assembling design tokens
  * Do not edit directly
- * Generated on Sun, 23 Jul 2023 16:09:04 GMT
+ * Generated on Wed, 27 Mar 2024 14:31:16 GMT
  */
 
 :root {
@@ -40,6 +40,7 @@
   --pgn-color-primary-base: #00262BFF;
   --pgn-color-primary-700: #002121FF;
   --pgn-color-primary-600: #002326FF;
+  --pgn-color-primary-500: #00262BFF;
   --pgn-color-primary-400: #0E3639FF;
   --pgn-color-primary-300: #2D494EFF;
   --pgn-color-accent-b: #F0CC00FF;
@@ -90,6 +91,7 @@
   --pgn-color-btn-disabled-text-outline-secondary: #454545FF;
   --pgn-color-btn-disabled-text-outline-primary: #00262BFF;
   --pgn-color-btn-disabled-text-outline-info: #03C7E8FF;
+  --pgn-color-btn-disabled-text-outline-dark: #00262BFF;
   --pgn-color-btn-disabled-text-inverse-danger: #AB0D02FF;
   --pgn-color-btn-disabled-text-outline-danger: #AB0D02FF;
   --pgn-color-btn-disabled-text-inverse-outline-brand: #F2F0EFFF;
@@ -241,7 +243,6 @@
   --pgn-color-btn-disabled-bg-light: #E1DDDBFF;
   --pgn-color-btn-disabled-text-outline-light: #E1DDDBFF;
   --pgn-color-btn-disabled-text-inverse-info: #03C7E8FF;
-  --pgn-color-btn-disabled-text-outline-dark: #00262BFF;
   --pgn-color-btn-focus-bg-inverse-warning: #000000FF;
   --pgn-color-btn-focus-bg-outline-warning: #F0CC00FF;
   --pgn-color-btn-focus-bg-warning: #F0CC00FF;
