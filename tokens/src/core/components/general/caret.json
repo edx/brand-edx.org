@@ -1,8 +1,8 @@
 {
   "spacing": {
     "caret": {
-      "base": { "value": "calc({size.caret.width} * 1)" },
-      "vertical-align": { "value": "calc({size.caret.width} * .67)" }
+      "base": { "$value": "calc({size.caret.width} * 1)" },
+      "vertical-align": { "$value": "calc({size.caret.width} * .67)" }
     }
   }
 }

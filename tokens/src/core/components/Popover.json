@@ -2,7 +2,7 @@
   "size": {
     "popover": {
       "border": {
-        "width": { "value": "0px", "_comment": "A pixel next to zero is necessary for correct display Popover arrow." }
+        "width": { "$value": "0px", "_comment": "A pixel next to zero is necessary for correct display Popover arrow." }
       }
     }
   }

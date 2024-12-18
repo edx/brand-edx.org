@@ -2,7 +2,7 @@
   "color": {
     "badge": {
       "bg": {
-        "info": { "value": "{color.accent.a}" }
+        "info": { "$value": "{color.accent.a}" }
       }
     }
   }

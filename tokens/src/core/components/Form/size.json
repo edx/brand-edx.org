@@ -4,9 +4,9 @@
       "input": {
         "radius": {
           "border": {
-            "base": { "value": "0" },
-            "lg": { "value": "0" },
-            "sm": { "value": "0" }
+            "base": { "$value": "0" },
+            "lg": { "$value": "0" },
+            "sm": { "$value": "0" }
           }
         }
       }

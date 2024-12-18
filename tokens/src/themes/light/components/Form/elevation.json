@@ -2,7 +2,7 @@
   "elevation": {
     "form": {
       "input": {
-        "base": { "value": "none" }
+        "base": { "$value": "none" }
       }
     }
   }

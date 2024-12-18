@@ -1,7 +1,7 @@
 {
   "other": {
     "btn": {
-      "disabled-opacity": { "value": ".4" }
+      "disabled-opacity": { "$value": ".4" }
     }
   }
 }

@@ -3,17 +3,17 @@
     "btn": {
       "hover": {
         "bg": {
-          "inverse-tertiary": { "value": "{color.primary.300}", "modify": null }
+          "inverse-tertiary": { "$value": "{color.primary.300}", "modify": null }
         }
       },
       "active": {
         "bg": {
-          "inverse-tertiary":  { "value": "{color.primary.300}" }
+          "inverse-tertiary":  { "$value": "{color.primary.300}" }
         }
       },
       "focus": {
         "text": {
-          "tertiary": { "value": "{color.btn.text.tertiary}" }
+          "tertiary": { "$value": "{color.btn.text.tertiary}" }
         }
       }
     }

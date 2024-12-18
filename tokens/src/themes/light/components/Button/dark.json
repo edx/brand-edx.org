@@ -3,48 +3,48 @@
     "btn": {
       "active": {
         "bg": {
-          "inverse-outline-dark": { "value": "{color.white}" }
+          "inverse-outline-dark": { "$value": "{color.white}" }
         },
         "text": {
-          "inverse-outline-dark": { "value": "{color.primary.base}", "modify": null }
+          "inverse-outline-dark": { "$value": "{color.primary.base}", "modify": null }
         }
       },
       "border": {
-        "outline-dark": { "value": "{color.light.300}" }
+        "outline-dark": { "$value": "{color.light.300}" }
       },
       "hover": {
         "text": {
-          "outline-dark": { "value": "{color.white}" }
+          "outline-dark": { "$value": "{color.white}" }
         },
         "bg": {
-          "outline-dark": { "value": "{color.dark.base}" }
+          "outline-dark": { "$value": "{color.dark.base}" }
         }
       },
       "focus": {
         "text": {
-          "inverse-dark": { "value": "{color.dark.base}" },
-          "outline-dark": { "value": "{color.white}" }
+          "inverse-dark": { "$value": "{color.dark.base}" },
+          "outline-dark": { "$value": "{color.white}" }
         },
         "bg": {
-          "dark": { "value": "{color.dark.base}" },
-          "outline-dark": { "value": "{color.btn.hover.bg.outline-dark}" },
-          "inverse-dark": { "value": "{color.white}" }
+          "dark": { "$value": "{color.dark.base}" },
+          "outline-dark": { "$value": "{color.btn.hover.bg.outline-dark}" },
+          "inverse-dark": { "$value": "{color.white}" }
         },
         "border": {
-          "outline-dark": { "value": "{color.btn.focus.bg.outline-dark}" }
+          "outline-dark": { "$value": "{color.btn.focus.bg.outline-dark}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-dark": { "value": "{color.primary.500}" }
+          "outline-dark": { "$value": "{color.primary.500}" }
         },
         "bg": {
-          "outline-dark": { "value": "{color.white}" }
+          "outline-dark": { "$value": "{color.white}" }
         },
         "border": {
-          "outline-dark": { "value": "{color.light.300}" },
-          "inverse-dark": { "value": "transparent" },
-          "inverse-outline-dark": { "value": "{color.light.300}" }
+          "outline-dark": { "$value": "{color.light.300}" },
+          "inverse-dark": { "$value": "transparent" },
+          "inverse-outline-dark": { "$value": "{color.light.300}" }
         }
       }
     }

@@ -2,8 +2,8 @@
   "typography": {
     "badge": {
       "font": {
-        "size": { "value": "0.75rem" },
-        "weight": { "value": "400" }
+        "size": { "$value": "0.75rem" },
+        "weight": { "$value": "400" }
       }
     }
   }

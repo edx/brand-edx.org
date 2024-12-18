@@ -1,304 +1,387 @@
 /**
- * IMPORTANT: This file is the result of assembling design tokens
- * Do not edit directly
- * Generated on Wed, 27 Mar 2024 14:31:16 GMT
+ * Do not edit directly, this file was auto-generated. while transforming design tokens.
+ * See <root>/tokens/README.md for more details.
  */
 
 :root {
-  --pgn-color-dark-base: #00262BFF;
-  --pgn-color-dark-700: #002121FF;
-  --pgn-color-dark-600: #002326FF;
-  --pgn-color-dark-400: #0E3639FF;
-  --pgn-color-dark-300: #2D494EFF;
-  --pgn-color-dark-200: #475B65FF;
-  --pgn-color-light-700: #D7D3D1FF;
-  --pgn-color-light-400: #EAE6E5FF;
-  --pgn-color-light-300: #F2F0EFFF;
-  --pgn-color-light-200: #FBFAF9FF;
-  --pgn-color-danger-900: #690E07FF;
-  --pgn-color-danger-700: #951C13FF;
-  --pgn-color-danger-300: #CA3A2FFF;
-  --pgn-color-danger-200: #F3AEA9FF;
-  --pgn-color-danger-100: #FCF1F4FF;
-  --pgn-color-warning-900: #7A6800FF;
-  --pgn-color-warning-700: #998200FF;
-  --pgn-color-warning-300: #F0CC00FF;
-  --pgn-color-warning-200: #FFEA75FF;
-  --pgn-color-warning-100: #FFFADBFF;
-  --pgn-color-info-900: #002F4AFF;
-  --pgn-color-info-700: #004972FF;
-  --pgn-color-info-300: #1C8DBEFF;
-  --pgn-color-info-200: #9CD2E6FF;
-  --pgn-color-info-100: #EFF8FAFF;
-  --pgn-color-success-900: #0F4D0FFF;
-  --pgn-color-success-700: #175B3CFF;
-  --pgn-color-success-300: #30A171FF;
-  --pgn-color-success-200: #BBE6D7FF;
-  --pgn-color-success-100: #F2FAF7FF;
-  --pgn-color-brand-base: #D23228FF;
-  --pgn-color-brand-700: #921108FF;
-  --pgn-color-primary-base: #00262BFF;
-  --pgn-color-primary-700: #002121FF;
-  --pgn-color-primary-600: #002326FF;
-  --pgn-color-primary-500: #00262BFF;
-  --pgn-color-primary-400: #0E3639FF;
-  --pgn-color-primary-300: #2D494EFF;
-  --pgn-color-accent-b: #F0CC00FF;
-  --pgn-color-accent-a: #03C7E8FF;
-  --pgn-color-yellow: #D6B600FF;
-  --pgn-color-green: #0D7D4DFF;
-  --pgn-color-red: #AB0D02FF;
-  --pgn-color-blue: #00688DFF;
-  --pgn-color-popover-header-bg: #00000000;
-  --pgn-color-btn-disabled-border-inverse-success: #00000000;
-  --pgn-color-btn-disabled-border-inverse-light: #00000000;
-  --pgn-color-btn-disabled-border-inverse-dark: #00000000;
-  --pgn-color-btn-border-warning: #00000000;
-  --pgn-color-btn-border-secondary: #00000000;
-  --pgn-color-btn-border-info: #00000000;
-  --pgn-color-btn-border-danger: #00000000;
-  --pgn-color-btn-border-brand: #00000000;
-  --pgn-other-btn-disabled-opacity: .4;
-  --pgn-elevation-box-shadow-level-4: 0px 8px 48px 0px rgba(0,0,0,0.15), 0px 20px 40px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-box-shadow-level-3: 0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-box-shadow-level-2: 0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-box-shadow-level-1: 0px 2px 8px 0px rgba(0,0,0,0.15), 0px 2px 4px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-image-thumbnail-box-shadow: none;
+  --pgn-size-btn-focus-width: 2px;
+  --pgn-size-input-btn-focus-width: 1px;
+  --pgn-spacing-input-btn-padding-y: 0.5625rem;
   --pgn-elevation-form-input-base: none;
-  --pgn-color-info-base: #00688DFF;
-  --pgn-color-tooltip-bg-base: #00262BFF;
-  --pgn-color-tooltip-light: #00262BFF;
-  --pgn-color-pagination-text-base: #00262BFF;
-  --pgn-color-link-hover: #004972FF;
-  --pgn-color-body-bg: #FFFFFFFF;
-  --pgn-color-form-input-focus-bg: #FFFFFFFF;
-  --pgn-color-form-input-bg-base: #FFFFFFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-warning: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-warning: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-success: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-success: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-secondary: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-secondary: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-light: #FFFFFFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-info: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-info: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-dark: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-dark: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-inverse-outline-danger: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-danger: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-brand: #F2F0EFFF;
-  --pgn-color-btn-disabled-bg-outline-dark: #FFFFFFFF;
-  --pgn-color-btn-disabled-text-outline-secondary: #454545FF;
-  --pgn-color-btn-disabled-text-outline-primary: #00262BFF;
-  --pgn-color-btn-disabled-text-outline-info: #03C7E8FF;
-  --pgn-color-btn-disabled-text-outline-dark: #00262BFF;
-  --pgn-color-btn-disabled-text-inverse-danger: #AB0D02FF;
-  --pgn-color-btn-disabled-text-outline-danger: #AB0D02FF;
-  --pgn-color-btn-disabled-text-inverse-outline-brand: #F2F0EFFF;
-  --pgn-color-btn-disabled-text-outline-brand: #D23228FF;
-  --pgn-color-btn-focus-outline-inverse-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-focus-outline-inverse-primary: #FFFFFFFF;
-  --pgn-color-btn-focus-outline-inverse-outline-brand: #FFFFFFFF;
-  --pgn-color-btn-focus-outline-inverse-brand: #FFFFFFFF;
-  --pgn-color-btn-focus-bg-inverse-success: #FFFFFFFF;
-  --pgn-color-btn-focus-bg-inverse-secondary: #FFFFFFFF;
-  --pgn-color-btn-focus-bg-secondary: #454545FF;
-  --pgn-color-btn-focus-bg-inverse-primary: #2D494EFF;
-  --pgn-color-btn-focus-bg-outline-primary: #00262BFF;
-  --pgn-color-btn-focus-bg-inverse-info: #FFFFFFFF;
-  --pgn-color-btn-focus-bg-inverse-dark: #FFFFFFFF;
-  --pgn-color-btn-focus-bg-dark: #00262BFF;
-  --pgn-color-btn-focus-bg-inverse-danger: #EBEBEBFF;
-  --pgn-color-btn-focus-bg-danger: #AB0D02FF;
-  --pgn-color-btn-focus-bg-inverse-outline-brand: #D23228FF;
-  --pgn-color-btn-focus-bg-outline-brand: #D23228FF;
-  --pgn-color-btn-focus-bg-inverse-brand: #921108FF;
-  --pgn-color-btn-focus-bg-brand: #D23228FF;
-  --pgn-color-btn-focus-border-inverse-primary: #2D494EFF;
-  --pgn-color-btn-focus-border-outline-primary: #00262BFF;
-  --pgn-color-btn-focus-text-outline-warning: #FFFFFFFF;
-  --pgn-color-btn-focus-text-outline-success: #FFFFFFFF;
-  --pgn-color-btn-focus-text-outline-secondary: #FFFFFFFF;
-  --pgn-color-btn-focus-text-inverse-secondary: #454545FF;
-  --pgn-color-btn-focus-text-inverse-outline-primary: #00262BFF;
-  --pgn-color-btn-focus-text-inverse-primary: #FFFFFFFF;
-  --pgn-color-btn-focus-text-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-focus-text-outline-light: #FFFFFFFF;
-  --pgn-color-btn-focus-text-inverse-outline-info: #FFFFFFFF;
-  --pgn-color-btn-focus-text-outline-info: #FFFFFFFF;
-  --pgn-color-btn-focus-text-outline-dark: #FFFFFFFF;
-  --pgn-color-btn-focus-text-inverse-dark: #00262BFF;
-  --pgn-color-btn-focus-text-outline-danger: #FFFFFFFF;
-  --pgn-color-btn-focus-text-inverse-danger: #AB0D02FF;
-  --pgn-color-btn-focus-text-outline-brand: #FFFFFFFF;
-  --pgn-color-btn-focus-text-inverse-brand: #FFFFFFFF;
-  --pgn-color-btn-active-border-outline-warning: #F0CC00FF;
-  --pgn-color-btn-active-border-outline-info: #03C7E8FF;
-  --pgn-color-btn-active-border-outline-danger: #AB0D02FF;
-  --pgn-color-btn-active-border-outline-brand: #D23228FF;
-  --pgn-color-btn-active-bg-outline-warning: #F0CC00FF;
-  --pgn-color-btn-active-bg-inverse-tertiary: #2D494EFF;
-  --pgn-color-btn-active-bg-outline-secondary: #454545FF;
-  --pgn-color-btn-active-bg-inverse-primary: #2D494EFF;
-  --pgn-color-btn-active-bg-inverse-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-active-bg-outline-info: #03C7E8FF;
-  --pgn-color-btn-active-bg-inverse-outline-dark: #FFFFFFFF;
-  --pgn-color-btn-active-bg-outline-danger: #AB0D02FF;
-  --pgn-color-btn-active-bg-danger: #690E07FF;
-  --pgn-color-btn-active-bg-inverse-brand: #921108FF;
-  --pgn-color-btn-active-text-inverse-outline-warning: #000000FF;
-  --pgn-color-btn-active-text-outline-warning: #FFFFFFFF;
-  --pgn-color-btn-active-text-inverse-outline-success: #00262BFF;
-  --pgn-color-btn-active-text-outline-secondary: #FFFFFFFF;
-  --pgn-color-btn-active-text-inverse-outline-primary: #00262BFF;
-  --pgn-color-btn-active-text-inverse-primary: #FFFFFFFF;
-  --pgn-color-btn-active-text-inverse-outline-light: #00262BFF;
-  --pgn-color-btn-active-text-outline-light: #FFFFFFFF;
-  --pgn-color-btn-active-text-inverse-outline-info: #00262BFF;
-  --pgn-color-btn-active-text-inverse-outline-dark: #00262BFF;
-  --pgn-color-btn-active-text-inverse-outline-danger: #00262BFF;
-  --pgn-color-btn-hover-border-outline-warning: #F0CC00FF;
-  --pgn-color-btn-hover-border-outline-primary: #00262BFF;
-  --pgn-color-btn-hover-border-primary: #2D494EFF;
-  --pgn-color-btn-hover-border-outline-info: #03C7E8FF;
-  --pgn-color-btn-hover-border-outline-danger: #AB0D02FF;
-  --pgn-color-btn-hover-border-outline-brand: #D23228FF;
-  --pgn-color-btn-hover-border-brand: #921108FF;
-  --pgn-color-btn-hover-bg-outline-warning: #F0CC00FF;
-  --pgn-color-btn-hover-bg-inverse-tertiary: #2D494EFF;
-  --pgn-color-btn-hover-bg-outline-secondary: #454545FF;
-  --pgn-color-btn-hover-bg-inverse-primary: #2D494EFF;
-  --pgn-color-btn-hover-bg-outline-primary: #00262BFF;
-  --pgn-color-btn-hover-bg-primary: #2D494EFF;
-  --pgn-color-btn-hover-bg-outline-info: #03C7E8FF;
-  --pgn-color-btn-hover-bg-outline-dark: #00262BFF;
-  --pgn-color-btn-hover-bg-outline-danger: #AB0D02FF;
-  --pgn-color-btn-hover-bg-inverse-outline-brand: #D23228FF;
-  --pgn-color-btn-hover-bg-outline-brand: #D23228FF;
-  --pgn-color-btn-hover-text-outline-warning: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-success: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-secondary: #FFFFFFFF;
-  --pgn-color-btn-hover-text-inverse-primary: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-light: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-info: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-dark: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-danger: #FFFFFFFF;
-  --pgn-color-btn-hover-text-inverse-outline-brand: #FFFFFFFF;
-  --pgn-color-btn-hover-text-outline-brand: #FFFFFFFF;
-  --pgn-color-btn-border-outline-warning: #F2F0EFFF;
-  --pgn-color-btn-border-outline-success: #F2F0EFFF;
-  --pgn-color-btn-border-success: #F2F0EFFF;
-  --pgn-color-btn-border-outline-secondary: #F2F0EFFF;
-  --pgn-color-btn-border-outline-primary: #F2F0EFFF;
-  --pgn-color-btn-border-outline-light: #F2F0EFFF;
-  --pgn-color-btn-border-outline-info: #F2F0EFFF;
-  --pgn-color-btn-border-outline-dark: #F2F0EFFF;
-  --pgn-color-btn-border-outline-danger: #F2F0EFFF;
-  --pgn-color-btn-border-inverse-outline-brand: #FFFFFFFF;
-  --pgn-color-btn-border-outline-brand: #F2F0EFFF;
-  --pgn-color-btn-bg-inverse-warning: #000000FF;
-  --pgn-color-btn-bg-warning: #F0CC00FF;
-  --pgn-color-btn-bg-outline-secondary: #FFFFFFFF;
-  --pgn-color-btn-bg-inverse-primary: #FFFFFFFF;
-  --pgn-color-btn-bg-outline-light: #FFFFFFFF;
-  --pgn-color-btn-bg-inverse-light: #000000FF;
-  --pgn-color-btn-bg-outline-info: #FFFFFFFF;
-  --pgn-color-btn-bg-info: #03C7E8FF;
-  --pgn-color-btn-bg-inverse-brand: #D23228FF;
-  --pgn-color-btn-text-warning: #000000FF;
-  --pgn-color-btn-text-light: #000000FF;
-  --pgn-color-btn-text-inverse-info: #03C7E8FF;
-  --pgn-color-btn-text-outline-info: #03C7E8FF;
-  --pgn-color-btn-text-inverse-brand: #FFFFFFFF;
-  --pgn-color-badge-bg-info: #03C7E8FF;
-  --pgn-color-theme-active-primary: #2D494EFF;
-  --pgn-color-theme-focus-gray: #454545FF;
-  --pgn-color-theme-focus-dark: #002121FF;
-  --pgn-color-theme-focus-light: #D7D3D1FF;
-  --pgn-color-theme-focus-danger: #951C13FF;
-  --pgn-color-theme-focus-warning: #998200FF;
-  --pgn-color-theme-focus-info: #004972FF;
-  --pgn-color-theme-focus-success: #175B3CFF;
-  --pgn-color-theme-focus-brand: #921108FF;
-  --pgn-color-theme-focus-primary: #002121FF;
-  --pgn-color-theme-bg-dark: #00262BFF;
-  --pgn-color-theme-bg-light: #E1DDDBFF;
-  --pgn-color-theme-bg-brand: #D23228FF;
-  --pgn-color-theme-bg-primary: #00262BFF;
-  --pgn-color-bg-active: #00262BFF;
-  --pgn-elevation-box-shadow-lg: 0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-box-shadow-sm: 0px 2px 8px 0px rgba(0,0,0,0.15), 0px 2px 4px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-box-shadow-base: 0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-toast-box-shadow: 0px 8px 48px 0px rgba(0,0,0,0.15), 0px 20px 40px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-popover-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-modal-content-box-shadow-sm-up: 0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15);
-  --pgn-elevation-dropdown-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15);
-  --pgn-color-link-base: #00688DFF;
-  --pgn-color-headings-base: #00262BFF;
-  --pgn-color-form-input-focus-border: #454545FF;
-  --pgn-color-form-input-base: #454545FF;
-  --pgn-color-btn-disabled-border-outline-primary: #F2F0EFFF;
-  --pgn-color-btn-disabled-border-outline-light: #F2F0EFFF;
-  --pgn-color-btn-disabled-bg-light: #E1DDDBFF;
-  --pgn-color-btn-disabled-text-outline-light: #E1DDDBFF;
-  --pgn-color-btn-disabled-text-inverse-info: #03C7E8FF;
-  --pgn-color-btn-focus-bg-inverse-warning: #000000FF;
-  --pgn-color-btn-focus-bg-outline-warning: #F0CC00FF;
-  --pgn-color-btn-focus-bg-warning: #F0CC00FF;
-  --pgn-color-btn-focus-bg-outline-secondary: #454545FF;
-  --pgn-color-btn-focus-bg-inverse-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-focus-bg-primary: #2D494EFF;
-  --pgn-color-btn-focus-bg-inverse-light: #000000FF;
-  --pgn-color-btn-focus-bg-outline-light: #E1DDDBFF;
-  --pgn-color-btn-focus-bg-light: #E1DDDBFF;
-  --pgn-color-btn-focus-bg-outline-info: #03C7E8FF;
-  --pgn-color-btn-focus-bg-info: #03C7E8FF;
-  --pgn-color-btn-focus-bg-outline-dark: #00262BFF;
-  --pgn-color-btn-focus-bg-outline-danger: #AB0D02FF;
-  --pgn-color-btn-focus-border-outline-secondary: #454545FF;
-  --pgn-color-btn-focus-border-inverse-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-focus-border-primary: #2D494EFF;
-  --pgn-color-btn-focus-border-inverse-outline-brand: #D23228FF;
-  --pgn-color-btn-focus-border-inverse-brand: #921108FF;
-  --pgn-color-btn-focus-border-outline-brand: #D23228FF;
-  --pgn-color-btn-focus-text-warning: #000000FF;
-  --pgn-color-btn-focus-text-tertiary: #454545FF;
-  --pgn-color-btn-focus-text-light: #000000FF;
-  --pgn-color-btn-active-border-outline-success: #0D7D4DFF;
-  --pgn-color-btn-active-border-outline-secondary: #454545FF;
-  --pgn-color-btn-active-border-outline-light: #E1DDDBFF;
-  --pgn-color-btn-active-border-danger: #690E07FF;
-  --pgn-color-btn-active-bg-outline-success: #0D7D4DFF;
-  --pgn-color-btn-active-bg-inverse-outline-light: #FDFDFDFF;
-  --pgn-color-btn-active-text-light: #000000FF;
-  --pgn-color-btn-hover-border-outline-success: #0D7D4DFF;
-  --pgn-color-btn-hover-border-outline-light: #E1DDDBFF;
-  --pgn-color-btn-hover-bg-outline-success: #0D7D4DFF;
-  --pgn-color-btn-hover-bg-inverse-outline-primary: #FFFFFFFF;
-  --pgn-color-btn-hover-bg-outline-light: #E1DDDBFF;
-  --pgn-color-btn-hover-text-light: #000000FF;
-  --pgn-color-btn-border-inverse-outline-primary: #707070FF;
-  --pgn-color-input-btn-focus: #00262BFF;
-  --pgn-color-btn-disabled-border-inverse-outline-primary: #707070FF;
-  --pgn-color-btn-disabled-text-inverse-warning: #D6B600FF;
-  --pgn-color-btn-disabled-text-outline-warning: #D6B600FF;
-  --pgn-color-btn-disabled-text-inverse-success: #0D7D4DFF;
-  --pgn-color-btn-disabled-text-outline-success: #0D7D4DFF;
-  --pgn-color-btn-focus-outline-outline-light: #E1DDDBFF;
-  --pgn-color-btn-focus-bg-outline-success: #0D7D4DFF;
-  --pgn-color-btn-focus-bg-success: #0D7D4DFF;
-  --pgn-color-btn-focus-border-outline-warning: #F0CC00FF;
-  --pgn-color-btn-focus-border-outline-light: #E1DDDBFF;
-  --pgn-color-btn-focus-border-light: #E1DDDBFF;
-  --pgn-color-btn-focus-border-outline-info: #03C7E8FF;
-  --pgn-color-btn-focus-border-outline-dark: #00262BFF;
-  --pgn-color-btn-focus-border-outline-danger: #AB0D02FF;
-  --pgn-color-btn-focus-text-inverse-warning: #D6B600FF;
-  --pgn-color-btn-focus-text-inverse-success: #0D7D4DFF;
-  --pgn-color-theme-focus-secondary: #373737FF;
-  --pgn-color-btn-focus-border-outline-success: #0D7D4DFF;
-  --pgn-color-btn-focus-border-success: #0D7D4DFF;
-  --pgn-other-content-form-feedback-icon-invalid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23AB0D02FF' viewBox='2 2 20 20'%3e%3cpath d='M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M13.25,15.5 L10.75,15.5 C10.6119288,15.5 10.5,15.6119288 10.5,15.75 L10.5,15.75 L10.5,18.25 C10.5,18.3880712 10.6119288,18.5 10.75,18.5 L10.75,18.5 L13.25,18.5 C13.3880712,18.5 13.5,18.3880712 13.5,18.25 L13.5,18.25 L13.5,15.75 C13.5,15.6119288 13.3880712,15.5 13.25,15.5 L13.25,15.5 Z M13.492539,5.5 L10.5001113,5.50010806 C10.3620998,5.50416722 10.2535099,5.61933826 10.2575691,5.75734976 L10.2575691,5.75734976 L10.4928632,13.7573498 C10.4968382,13.8925005 10.607546,14 10.7427552,14 L10.7427552,14 L13.2572448,14 C13.392454,14 13.5031618,13.8925005 13.5071368,13.7573498 L13.5071368,13.7573498 L13.7424309,5.75734976 L13.7424309,5.75734976 C13.742539,5.61192881 13.6306101,5.5 13.492539,5.5 L13.492539,5.5 Z' /%3e%3c/svg%3E");
+  --pgn-elevation-image-thumbnail-box-shadow: none;
+  --pgn-elevation-box-shadow-level-1: 0px 2px 8px 0px rgba(0,0,0,0.15), 0px 2px 4px 0px rgba(0,0,0,0.15); /* Basic box shadow of level 1. */
+  --pgn-elevation-box-shadow-level-2: 0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15); /* Basic box shadow of level 2. */
+  --pgn-elevation-box-shadow-level-3: 0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15); /* Basic box shadow of level 3. */
+  --pgn-elevation-box-shadow-level-4: 0px 8px 48px 0px rgba(0,0,0,0.15), 0px 20px 40px 0px rgba(0,0,0,0.15); /* Basic box shadow of level 4. */
+  --pgn-other-btn-disabled-opacity: .4;
+  --pgn-color-btn-border-brand: #00000000;
+  --pgn-color-btn-border-danger: #00000000;
+  --pgn-color-btn-border-info: #00000000;
+  --pgn-color-btn-border-secondary: #00000000;
+  --pgn-color-btn-border-warning: #00000000;
+  --pgn-color-btn-disabled-border-inverse-dark: #00000000;
+  --pgn-color-btn-disabled-border-inverse-light: #00000000;
+  --pgn-color-btn-disabled-border-inverse-success: #00000000;
+  --pgn-color-popover-header-bg: #00000000;
+  --pgn-color-white: #FFFFFFFF; /* White color. */
+  --pgn-color-black: #000000FF; /* Black color. */
+  --pgn-color-blue: #00688DFF; /* Blue color. */
+  --pgn-color-red: #AB0D02FF; /* Red color. */
+  --pgn-color-green: #0D7D4DFF; /* Green color. */
+  --pgn-color-yellow: #D6B600FF; /* Yellow color. */
+  --pgn-color-accent-a: #03C7E8FF; /* Accent-A color. */
+  --pgn-color-accent-b: #F0CC00FF; /* Accent-B color. */
+  --pgn-color-gray-100: #EBEBEBFF; /* Gray color of level 100. */
+  --pgn-color-gray-700: #454545FF; /* Gray color of level 700. */
+  --pgn-color-gray-base: #707070FF; /* Basic gray color. */
+  --pgn-color-primary-300: #2D494EFF; /* Primary color of level 300. */
+  --pgn-color-primary-400: #0E3639FF; /* Primary color of level 400. */
+  --pgn-color-primary-500: #00262BFF; /* Primary color of level 500. */
+  --pgn-color-primary-600: #002326FF; /* Primary color of level 600. */
+  --pgn-color-primary-700: #002121FF; /* Primary color of level 700. */
+  --pgn-color-primary-base: #00262BFF; /* Basic primary color. */
+  --pgn-color-brand-700: #921108FF; /* Brand color of level 700. */
+  --pgn-color-brand-base: #D23228FF; /* Basic brand color. */
+  --pgn-color-success-100: #F2FAF7FF; /* Success color of level 100. */
+  --pgn-color-success-200: #BBE6D7FF; /* Success color of level 200. */
+  --pgn-color-success-300: #30A171FF; /* Success color of level 300. */
+  --pgn-color-success-700: #175B3CFF; /* Success color of level 700. */
+  --pgn-color-success-900: #0F4D0FFF; /* Success color of level 900. */
+  --pgn-color-info-100: #EFF8FAFF; /* Info color of level 100. */
+  --pgn-color-info-200: #9CD2E6FF; /* Info color of level 200. */
+  --pgn-color-info-300: #1C8DBEFF; /* Info color of level 300. */
+  --pgn-color-info-700: #004972FF; /* Info color of level 700. */
+  --pgn-color-info-900: #002F4AFF; /* Info color of level 900. */
+  --pgn-color-warning-100: #FFFADBFF; /* Warning color of level 100. */
+  --pgn-color-warning-200: #FFEA75FF; /* Warning color of level 200. */
+  --pgn-color-warning-300: #F0CC00FF; /* Warning color of level 300. */
+  --pgn-color-warning-700: #998200FF; /* Warning color of level 700. */
+  --pgn-color-warning-900: #7A6800FF; /* Warning color of level 900. */
+  --pgn-color-danger-100: #FCF1F4FF; /* Danger color of level 100. */
+  --pgn-color-danger-200: #F3AEA9FF; /* Danger color of level 200. */
+  --pgn-color-danger-300: #CA3A2FFF; /* Danger color of level 300. */
+  --pgn-color-danger-700: #951C13FF; /* Danger color of level 700. */
+  --pgn-color-danger-900: #690E07FF; /* Danger color of level 900. */
+  --pgn-color-light-200: #FBFAF9FF; /* Light color of level 200. */
+  --pgn-color-light-300: #F2F0EFFF; /* Light color of level 300. */
+  --pgn-color-light-400: #EAE6E5FF; /* Light color of level 400. */
+  --pgn-color-light-700: #D7D3D1FF; /* Light color of level 700. */
+  --pgn-color-light-base: #E1DDDBFF; /* Basic light color. */
+  --pgn-color-dark-200: #475B65FF; /* Dark color of level 200. */
+  --pgn-color-dark-300: #2D494EFF; /* Dark color of level 300. */
+  --pgn-color-dark-400: #0E3639FF; /* Dark color of level 400. */
+  --pgn-color-dark-600: #002326FF; /* Dark color of level 600. */
+  --pgn-color-dark-700: #002121FF; /* Info color of level 700. */
+  --pgn-color-dark-base: #00262BFF; /* Basic dark color. */
+  --pgn-spacing-form-input-padding-y-base: var(--pgn-spacing-input-btn-padding-y);
+  --pgn-elevation-dropdown-box-shadow: var(--pgn-elevation-box-shadow-level-2);
+  --pgn-elevation-modal-content-box-shadow-sm-up: var(--pgn-elevation-box-shadow-level-3);
+  --pgn-elevation-popover-box-shadow: var(--pgn-elevation-box-shadow-level-2);
+  --pgn-elevation-toast-box-shadow: var(--pgn-elevation-box-shadow-level-4);
+  --pgn-elevation-box-shadow-base: var(--pgn-elevation-box-shadow-level-2); /* Default box shadow. */
+  --pgn-elevation-box-shadow-sm: var(--pgn-elevation-box-shadow-level-1); /* Small box shadow. */
+  --pgn-elevation-box-shadow-lg: var(--pgn-elevation-box-shadow-level-3); /* Large box shadow. */
+  --pgn-color-bg-active: var(--pgn-color-primary-base); /* Active background color. */
+  --pgn-color-theme-bg-primary: var(--pgn-color-primary-base); /* Theme-specific primary background color. */
+  --pgn-color-theme-bg-brand: var(--pgn-color-brand-base); /* Theme-specific brand background color. */
+  --pgn-color-theme-bg-light: var(--pgn-color-light-base); /* Theme-specific light background color. */
+  --pgn-color-theme-bg-dark: var(--pgn-color-dark-base); /* Theme-specific dark background color. */
+  --pgn-color-theme-focus-primary: var(--pgn-color-primary-700); /* Theme-specific primary focus color. */
+  --pgn-color-theme-focus-brand: var(--pgn-color-brand-700); /* Theme-specific brand focus color. */
+  --pgn-color-theme-focus-success: var(--pgn-color-success-700); /* Theme-specific success focus color. */
+  --pgn-color-theme-focus-info: var(--pgn-color-info-700); /* Theme-specific info focus color. */
+  --pgn-color-theme-focus-warning: var(--pgn-color-warning-700); /* Theme-specific warning focus color. */
+  --pgn-color-theme-focus-danger: var(--pgn-color-danger-700); /* Theme-specific danger focus color. */
+  --pgn-color-theme-focus-light: var(--pgn-color-light-700); /* Theme-specific light focus color. */
+  --pgn-color-theme-focus-dark: var(--pgn-color-dark-700); /* Theme-specific dark focus color. */
+  --pgn-color-theme-focus-gray: var(--pgn-color-gray-700); /* Theme-specific gray focus color. */
+  --pgn-color-theme-active-primary: var(--pgn-color-primary-300); /* Theme-specific primary active color. */
+  --pgn-color-badge-bg-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-text-inverse-brand: var(--pgn-color-white);
+  --pgn-color-btn-text-outline-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-text-inverse-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-text-light: var(--pgn-color-black);
+  --pgn-color-btn-text-tertiary: var(--pgn-color-gray-700);
+  --pgn-color-btn-text-warning: var(--pgn-color-black);
+  --pgn-color-btn-bg-inverse-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-bg-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-bg-outline-info: var(--pgn-color-white);
+  --pgn-color-btn-bg-inverse-light: var(--pgn-color-black);
+  --pgn-color-btn-bg-outline-light: var(--pgn-color-white);
+  --pgn-color-btn-bg-inverse-primary: var(--pgn-color-white);
+  --pgn-color-btn-bg-outline-secondary: var(--pgn-color-white);
+  --pgn-color-btn-bg-warning: var(--pgn-color-accent-b);
+  --pgn-color-btn-bg-inverse-warning: var(--pgn-color-black);
+  --pgn-color-btn-border-outline-brand: var(--pgn-color-light-300);
+  --pgn-color-btn-border-inverse-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-border-outline-danger: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-dark: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-info: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-light: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-primary: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-secondary: var(--pgn-color-light-300);
+  --pgn-color-btn-border-success: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-success: var(--pgn-color-light-300);
+  --pgn-color-btn-border-outline-warning: var(--pgn-color-light-300);
+  --pgn-color-btn-hover-text-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-inverse-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-danger: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-dark: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-info: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-light: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-primary: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-inverse-primary: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-secondary: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-success: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-outline-warning: var(--pgn-color-white);
+  --pgn-color-btn-hover-bg-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-hover-bg-inverse-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-hover-bg-outline-danger: var(--pgn-color-red);
+  --pgn-color-btn-hover-bg-outline-dark: var(--pgn-color-dark-base);
+  --pgn-color-btn-hover-bg-outline-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-hover-bg-primary: var(--pgn-color-primary-300);
+  --pgn-color-btn-hover-bg-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-hover-bg-inverse-primary: var(--pgn-color-primary-300);
+  --pgn-color-btn-hover-bg-outline-secondary: var(--pgn-color-gray-700);
+  --pgn-color-btn-hover-bg-inverse-tertiary: var(--pgn-color-primary-300);
+  --pgn-color-btn-hover-bg-outline-warning: var(--pgn-color-accent-b);
+  --pgn-color-btn-hover-border-brand: var(--pgn-color-brand-700);
+  --pgn-color-btn-hover-border-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-hover-border-outline-danger: var(--pgn-color-red);
+  --pgn-color-btn-hover-border-outline-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-hover-border-primary: var(--pgn-color-primary-300);
+  --pgn-color-btn-hover-border-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-hover-border-outline-warning: var(--pgn-color-accent-b);
+  --pgn-color-btn-active-text-inverse-outline-danger: var(--pgn-color-primary-base);
+  --pgn-color-btn-active-text-inverse-outline-dark: var(--pgn-color-primary-base);
+  --pgn-color-btn-active-text-inverse-outline-info: var(--pgn-color-primary-base);
+  --pgn-color-btn-active-text-outline-light: var(--pgn-color-white);
+  --pgn-color-btn-active-text-inverse-outline-light: var(--pgn-color-primary-base);
+  --pgn-color-btn-active-text-inverse-primary: var(--pgn-color-white);
+  --pgn-color-btn-active-text-inverse-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-active-text-outline-secondary: var(--pgn-color-white);
+  --pgn-color-btn-active-text-inverse-outline-success: var(--pgn-color-primary-base);
+  --pgn-color-btn-active-text-outline-warning: var(--pgn-color-white);
+  --pgn-color-btn-active-text-inverse-outline-warning: var(--pgn-color-black);
+  --pgn-color-btn-active-bg-inverse-brand: var(--pgn-color-brand-700);
+  --pgn-color-btn-active-bg-danger: var(--pgn-color-danger-900);
+  --pgn-color-btn-active-bg-outline-danger: var(--pgn-color-red);
+  --pgn-color-btn-active-bg-inverse-outline-dark: var(--pgn-color-white);
+  --pgn-color-btn-active-bg-outline-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-active-bg-inverse-outline-primary: var(--pgn-color-white);
+  --pgn-color-btn-active-bg-inverse-primary: var(--pgn-color-primary-300);
+  --pgn-color-btn-active-bg-outline-secondary: var(--pgn-color-gray-700);
+  --pgn-color-btn-active-bg-inverse-tertiary: var(--pgn-color-primary-300);
+  --pgn-color-btn-active-bg-outline-warning: var(--pgn-color-accent-b);
+  --pgn-color-btn-active-border-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-active-border-outline-danger: var(--pgn-color-red);
+  --pgn-color-btn-active-border-outline-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-active-border-outline-warning: var(--pgn-color-accent-b);
+  --pgn-color-btn-focus-text-inverse-brand: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-inverse-danger: var(--pgn-color-red);
+  --pgn-color-btn-focus-text-outline-danger: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-inverse-dark: var(--pgn-color-dark-base);
+  --pgn-color-btn-focus-text-outline-dark: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-outline-info: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-inverse-outline-info: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-outline-light: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-outline-primary: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-inverse-primary: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-inverse-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-focus-text-inverse-secondary: var(--pgn-color-gray-700);
+  --pgn-color-btn-focus-text-outline-secondary: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-outline-success: var(--pgn-color-white);
+  --pgn-color-btn-focus-text-outline-warning: var(--pgn-color-white);
+  --pgn-color-btn-focus-border-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-focus-border-inverse-primary: var(--pgn-color-primary-300);
+  --pgn-color-btn-focus-bg-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-focus-bg-inverse-brand: var(--pgn-color-brand-700);
+  --pgn-color-btn-focus-bg-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-focus-bg-inverse-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-focus-bg-danger: var(--pgn-color-red);
+  --pgn-color-btn-focus-bg-inverse-danger: var(--pgn-color-gray-100);
+  --pgn-color-btn-focus-bg-dark: var(--pgn-color-dark-base);
+  --pgn-color-btn-focus-bg-inverse-dark: var(--pgn-color-white);
+  --pgn-color-btn-focus-bg-inverse-info: var(--pgn-color-white);
+  --pgn-color-btn-focus-bg-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-focus-bg-inverse-primary: var(--pgn-color-primary-300);
+  --pgn-color-btn-focus-bg-secondary: var(--pgn-color-gray-700);
+  --pgn-color-btn-focus-bg-inverse-secondary: var(--pgn-color-white);
+  --pgn-color-btn-focus-bg-inverse-success: var(--pgn-color-white);
+  --pgn-color-btn-focus-outline-inverse-brand: var(--pgn-color-white);
+  --pgn-color-btn-focus-outline-inverse-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-focus-outline-inverse-primary: var(--pgn-color-white);
+  --pgn-color-btn-focus-outline-inverse-outline-primary: var(--pgn-color-white);
+  --pgn-color-btn-disabled-text-outline-brand: var(--pgn-color-brand-base);
+  --pgn-color-btn-disabled-text-inverse-outline-brand: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-text-outline-danger: var(--pgn-color-red);
+  --pgn-color-btn-disabled-text-inverse-danger: var(--pgn-color-red);
+  --pgn-color-btn-disabled-text-outline-dark: var(--pgn-color-primary-500);
+  --pgn-color-btn-disabled-text-outline-info: var(--pgn-color-accent-a);
+  --pgn-color-btn-disabled-text-outline-primary: var(--pgn-color-primary-base);
+  --pgn-color-btn-disabled-text-outline-secondary: var(--pgn-color-gray-700);
+  --pgn-color-btn-disabled-bg-outline-dark: var(--pgn-color-white);
+  --pgn-color-btn-disabled-border-outline-brand: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-outline-danger: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-danger: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-outline-dark: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-dark: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-outline-info: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-info: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-light: var(--pgn-color-white);
+  --pgn-color-btn-disabled-border-outline-secondary: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-secondary: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-outline-success: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-success: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-outline-warning: var(--pgn-color-light-300);
+  --pgn-color-btn-disabled-border-inverse-outline-warning: var(--pgn-color-light-300);
+  --pgn-color-form-input-bg-base: var(--pgn-color-white);
+  --pgn-color-form-input-focus-bg: var(--pgn-color-white);
+  --pgn-color-pagination-text-base: var(--pgn-color-primary-base);
+  --pgn-color-tooltip-light: var(--pgn-color-primary-base);
+  --pgn-color-tooltip-bg-base: var(--pgn-color-primary-base);
+  --pgn-color-body-base: var(--pgn-color-gray-700);
+  --pgn-color-body-bg: var(--pgn-color-white);
+  --pgn-color-link-hover: var(--pgn-color-info-700);
+  --pgn-color-gray-500: var(--pgn-color-gray-base); /* Gray color of level 500. */
+  --pgn-color-secondary-base: var(--pgn-color-gray-700); /* Basic secondary color. */
+  --pgn-color-success-base: var(--pgn-color-green); /* Basic success color. */
+  --pgn-color-info-base: var(--pgn-color-blue); /* Basic info color. */
+  --pgn-color-warning-base: var(--pgn-color-yellow); /* Basic warning color. */
+  --pgn-color-danger-base: var(--pgn-color-red); /* Basic danger color. */
+  --pgn-color-light-100: #FDFDFDFF; /* Light color of level 100. */
+  --pgn-color-dark-500: var(--pgn-color-dark-base); /* Dark color of level 500. */
+  --pgn-color-action-default-gray-100: #D2D2D2FF;
+  --pgn-color-action-default-gray-700: #2B2B2BFF;
+  --pgn-color-action-default-gray-base: #575757FF;
+  --pgn-color-action-default-primary-300: #1A2B2EFF;
+  --pgn-color-action-default-primary-400: #040F10FF;
+  --pgn-color-action-default-primary-500: #000000FF;
+  --pgn-color-action-default-primary-600: #000000FF;
+  --pgn-color-action-default-primary-700: #000000FF;
+  --pgn-color-action-default-primary-base: #000000FF;
+  --pgn-color-action-default-brand-700: #620B05FF;
+  --pgn-color-action-default-brand-base: #A72820FF;
+  --pgn-color-action-default-success-100: #CDECE0FF;
+  --pgn-color-action-default-success-200: #96D8C1FF;
+  --pgn-color-action-default-success-300: #247A55FF;
+  --pgn-color-action-default-success-700: #0D3221FF;
+  --pgn-color-action-default-success-900: #072207FF;
+  --pgn-color-action-default-info-100: #C8E7EEFF;
+  --pgn-color-action-default-info-200: #73BFDCFF;
+  --pgn-color-action-default-info-300: #156C92FF;
+  --pgn-color-action-default-info-700: #00283FFF;
+  --pgn-color-action-default-info-900: #000F17FF;
+  --pgn-color-action-default-warning-100: #FFF3A8FF;
+  --pgn-color-action-default-warning-200: #FFE242FF;
+  --pgn-color-action-default-warning-300: #BDA100FF;
+  --pgn-color-action-default-warning-700: #665700FF;
+  --pgn-color-action-default-warning-900: #473D00FF;
+  --pgn-color-action-default-danger-100: #F3C7D3FF;
+  --pgn-color-action-default-danger-200: #ED847CFF;
+  --pgn-color-action-default-danger-300: #A12E25FF;
+  --pgn-color-action-default-danger-700: #68130DFF;
+  --pgn-color-action-default-danger-900: #390804FF;
+  --pgn-color-action-default-light-200: #E7E1DAFF;
+  --pgn-color-action-default-light-300: #DBD6D3FF;
+  --pgn-color-action-default-light-400: #D3CBC9FF;
+  --pgn-color-action-default-light-700: #BFB9B6FF;
+  --pgn-color-action-default-light-base: #CAC3BFFF;
+  --pgn-color-action-default-dark-200: #324047FF;
+  --pgn-color-action-default-dark-300: #1A2B2EFF;
+  --pgn-color-action-default-dark-400: #040F10FF;
+  --pgn-color-action-default-dark-600: #000000FF;
+  --pgn-color-action-default-dark-700: #000000FF;
+  --pgn-color-action-default-dark-base: #000000FF;
+  --pgn-color-action-default-accent-a: #029CB6FF;
+  --pgn-color-action-default-accent-b: #BDA100FF;
+  --pgn-color-input-btn-focus: var(--pgn-color-bg-active);
+  --pgn-color-btn-text-inverse-success: var(--pgn-color-success-base);
+  --pgn-color-btn-text-inverse-warning: var(--pgn-color-warning-base);
+  --pgn-color-btn-bg-success: var(--pgn-color-success-base);
+  --pgn-color-btn-border-inverse-outline-primary: var(--pgn-color-gray-500);
+  --pgn-color-btn-hover-text-light: var(--pgn-color-btn-text-light);
+  --pgn-color-btn-hover-bg-outline-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-hover-bg-inverse-outline-primary: var(--pgn-color-btn-active-bg-inverse-outline-primary);
+  --pgn-color-btn-hover-bg-outline-success: var(--pgn-color-success-base);
+  --pgn-color-btn-hover-border-outline-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-hover-border-outline-success: var(--pgn-color-success-base);
+  --pgn-color-btn-active-text-light: var(--pgn-color-btn-text-light);
+  --pgn-color-btn-active-bg-inverse-outline-light: var(--pgn-color-light-100);
+  --pgn-color-btn-active-bg-outline-success: var(--pgn-color-success-base);
+  --pgn-color-btn-active-border-danger: var(--pgn-color-btn-active-bg-danger);
+  --pgn-color-btn-active-border-outline-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-active-border-outline-secondary: var(--pgn-color-btn-active-bg-outline-secondary);
+  --pgn-color-btn-active-border-outline-success: var(--pgn-color-success-base);
+  --pgn-color-btn-focus-text-light: var(--pgn-color-btn-text-light);
+  --pgn-color-btn-focus-text-tertiary: var(--pgn-color-btn-text-tertiary);
+  --pgn-color-btn-focus-text-warning: var(--pgn-color-btn-text-warning);
+  --pgn-color-btn-focus-border-outline-brand: var(--pgn-color-btn-focus-bg-outline-brand);
+  --pgn-color-btn-focus-border-inverse-brand: var(--pgn-color-btn-focus-bg-inverse-brand);
+  --pgn-color-btn-focus-border-inverse-outline-brand: var(--pgn-color-btn-focus-bg-inverse-outline-brand);
+  --pgn-color-btn-focus-border-primary: var(--pgn-color-btn-hover-bg-primary);
+  --pgn-color-btn-focus-border-inverse-outline-primary: var(--pgn-color-btn-active-bg-inverse-outline-primary);
+  --pgn-color-btn-focus-border-outline-secondary: var(--pgn-color-btn-active-bg-outline-secondary);
+  --pgn-color-btn-focus-bg-outline-danger: var(--pgn-color-btn-active-bg-outline-danger);
+  --pgn-color-btn-focus-bg-outline-dark: var(--pgn-color-btn-hover-bg-outline-dark);
+  --pgn-color-btn-focus-bg-info: var(--pgn-color-btn-bg-info);
+  --pgn-color-btn-focus-bg-outline-info: var(--pgn-color-btn-active-bg-outline-info);
+  --pgn-color-btn-focus-bg-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-focus-bg-outline-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-focus-bg-inverse-light: var(--pgn-color-btn-bg-inverse-light);
+  --pgn-color-btn-focus-bg-primary: var(--pgn-color-btn-hover-bg-primary);
+  --pgn-color-btn-focus-bg-inverse-outline-primary: var(--pgn-color-btn-active-bg-inverse-outline-primary);
+  --pgn-color-btn-focus-bg-outline-secondary: var(--pgn-color-btn-active-bg-outline-secondary);
+  --pgn-color-btn-focus-bg-warning: var(--pgn-color-btn-bg-warning);
+  --pgn-color-btn-focus-bg-outline-warning: var(--pgn-color-btn-hover-bg-outline-warning);
+  --pgn-color-btn-focus-bg-inverse-warning: var(--pgn-color-btn-bg-inverse-warning);
+  --pgn-color-btn-disabled-text-inverse-info: var(--pgn-color-btn-text-inverse-info);
+  --pgn-color-btn-disabled-text-outline-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-disabled-bg-light: var(--pgn-color-theme-bg-light);
+  --pgn-color-btn-disabled-border-outline-light: var(--pgn-color-btn-border-outline-light);
+  --pgn-color-btn-disabled-border-outline-primary: var(--pgn-color-btn-border-outline-primary);
+  --pgn-color-form-input-base: var(--pgn-color-body-base);
+  --pgn-color-form-input-focus-border: var(--pgn-color-body-base);
+  --pgn-color-form-feedback-valid: var(--pgn-color-success-base);
+  --pgn-color-form-feedback-invalid: var(--pgn-color-danger-base);
+  --pgn-color-headings-base: var(--pgn-color-dark-500);
+  --pgn-color-link-base: var(--pgn-color-info-base);
+  --pgn-color-secondary-700: #373737FF; /* Secondary color of level 700. */
+  --pgn-color-success-500: var(--pgn-color-success-base); /* Success color of level 500. */
+  --pgn-color-warning-500: var(--pgn-color-warning-base); /* Warning color of level 500. */
+  --pgn-color-action-default-gray-500: #575757FF;
+  --pgn-color-action-default-secondary-base: #2B2B2BFF;
+  --pgn-color-action-default-success-base: #084F31FF;
+  --pgn-color-action-default-info-base: #00425AFF;
+  --pgn-color-action-default-warning-base: #A38B00FF;
+  --pgn-color-action-default-danger-base: #790901FF;
+  --pgn-color-action-default-light-100: #E4E4E4FF;
+  --pgn-color-action-default-dark-500: #000000FF;
+  --pgn-color-theme-focus-secondary: var(--pgn-color-secondary-700); /* Theme-specific secondary focus color. */
+  --pgn-color-btn-focus-text-inverse-success: var(--pgn-color-btn-text-inverse-success);
+  --pgn-color-btn-focus-text-inverse-warning: var(--pgn-color-btn-text-inverse-warning);
+  --pgn-color-btn-focus-border-outline-danger: var(--pgn-color-btn-focus-bg-outline-danger);
+  --pgn-color-btn-focus-border-outline-dark: var(--pgn-color-btn-focus-bg-outline-dark);
+  --pgn-color-btn-focus-border-outline-info: var(--pgn-color-btn-focus-bg-outline-info);
+  --pgn-color-btn-focus-border-light: var(--pgn-color-btn-focus-bg-light);
+  --pgn-color-btn-focus-border-outline-light: var(--pgn-color-btn-focus-bg-outline-light);
+  --pgn-color-btn-focus-border-outline-warning: var(--pgn-color-btn-focus-bg-outline-warning);
+  --pgn-color-btn-focus-bg-success: var(--pgn-color-btn-bg-success);
+  --pgn-color-btn-focus-bg-outline-success: var(--pgn-color-btn-bg-success);
+  --pgn-color-btn-focus-outline-outline-light: var(--pgn-color-btn-focus-bg-outline-light);
+  --pgn-color-btn-disabled-text-outline-success: var(--pgn-color-success-500);
+  --pgn-color-btn-disabled-text-inverse-success: var(--pgn-color-success-500);
+  --pgn-color-btn-disabled-text-outline-warning: var(--pgn-color-warning-500);
+  --pgn-color-btn-disabled-text-inverse-warning: var(--pgn-color-btn-text-inverse-warning);
+  --pgn-color-btn-disabled-border-inverse-outline-primary: var(--pgn-color-btn-border-inverse-outline-primary);
+  --pgn-color-form-feedback-icon-valid: var(--pgn-color-form-feedback-valid);
+  --pgn-color-form-feedback-icon-invalid: var(--pgn-color-form-feedback-invalid);
+  --pgn-color-action-default-secondary-700: #1E1E1EFF;
+  --pgn-color-action-default-success-500: #084F31FF;
+  --pgn-color-action-default-warning-500: #A38B00FF;
   --pgn-other-content-form-feedback-icon-valid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='2 2 20 20'%3e%3cpath fill='%230D7D4DFF' d='M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M17.5208153,8.03553391 L10.4497475,15.1066017 L6.91421356,11.5710678 L5.5,12.9852814 L10.4497475,17.9350288 L18.9350288,9.44974747 L17.5208153,8.03553391 Z'/%3e%3c/svg%3e");
+  --pgn-other-content-form-feedback-icon-invalid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23AB0D02FF' viewBox='2 2 20 20'%3e%3cpath d='M12,2 C17.5228475,2 22,6.4771525 22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 Z M13.25,15.5 L10.75,15.5 C10.6119288,15.5 10.5,15.6119288 10.5,15.75 L10.5,15.75 L10.5,18.25 C10.5,18.3880712 10.6119288,18.5 10.75,18.5 L10.75,18.5 L13.25,18.5 C13.3880712,18.5 13.5,18.3880712 13.5,18.25 L13.5,18.25 L13.5,15.75 C13.5,15.6119288 13.3880712,15.5 13.25,15.5 L13.25,15.5 Z M13.492539,5.5 L10.5001113,5.50010806 C10.3620998,5.50416722 10.2535099,5.61933826 10.2575691,5.75734976 L10.2575691,5.75734976 L10.4928632,13.7573498 C10.4968382,13.8925005 10.607546,14 10.7427552,14 L10.7427552,14 L13.2572448,14 C13.392454,14 13.5031618,13.8925005 13.5071368,13.7573498 L13.5071368,13.7573498 L13.7424309,5.75734976 L13.7424309,5.75734976 C13.742539,5.61192881 13.6306101,5.5 13.492539,5.5 L13.492539,5.5 Z' /%3e%3c/svg%3E");
+  --pgn-color-btn-focus-border-success: var(--pgn-color-btn-focus-bg-success);
+  --pgn-color-btn-focus-border-outline-success: var(--pgn-color-btn-focus-bg-outline-success);
 }

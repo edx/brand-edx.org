@@ -2,69 +2,69 @@
   "color": {
     "btn": {
       "text": {
-        "light": { "value": "{color.black}", "modify": null }
+        "light": { "$value": "{color.black}", "modify": null }
       },
       "bg": {
-        "inverse-light": { "value": "{color.black}", "modify": null },
-        "outline-light": { "value": "{color.white}" }
+        "inverse-light": { "$value": "{color.black}", "modify": null },
+        "outline-light": { "$value": "{color.white}" }
       },
       "border": {
-        "outline-light": { "value": "{color.light.300}" }
+        "outline-light": { "$value": "{color.light.300}" }
       },
       "hover": {
         "text": {
-          "light": { "value": "{color.btn.text.light}", "modify": null },
-          "outline-light": { "value": "{color.white}" }
+          "light": { "$value": "{color.btn.text.light}", "modify": null },
+          "outline-light": { "$value": "{color.white}" }
         },
         "bg": {
-          "outline-light": { "value": "{color.theme.bg.light}" }
+          "outline-light": { "$value": "{color.theme.bg.light}" }
         },
         "border": {
-          "outline-light": { "value": "{color.theme.bg.light}" }
+          "outline-light": { "$value": "{color.theme.bg.light}" }
         }
       },
       "active": {
         "text": {
-          "light": { "value": "{color.btn.text.light}", "modify": null },
-          "inverse-outline-light": { "value": "{color.primary.base}", "modify": null },
-          "outline-light": { "value": "{color.white}", "modify": null }
+          "light": { "$value": "{color.btn.text.light}", "modify": null },
+          "inverse-outline-light": { "$value": "{color.primary.base}", "modify": null },
+          "outline-light": { "$value": "{color.white}", "modify": null }
         },
         "border": {
-          "outline-light": { "value": "{color.theme.bg.light}" }
+          "outline-light": { "$value": "{color.theme.bg.light}" }
         },
         "bg": {
-          "inverse-outline-light": { "value": "{color.light.100}" }
+          "inverse-outline-light": { "$value": "{color.light.100}" }
         }
       },
       "focus": {
         "text": {
-          "light": { "value": "{color.btn.text.light}", "modify": null },
-          "outline-light": { "value": "{color.white}" }
+          "light": { "$value": "{color.btn.text.light}", "modify": null },
+          "outline-light": { "$value": "{color.white}" }
         },
         "border": {
-          "light": { "value": "{color.btn.focus.bg.light}" },
-          "outline-light": { "value": "{color.btn.focus.bg.outline-light}" }
+          "light": { "$value": "{color.btn.focus.bg.light}" },
+          "outline-light": { "$value": "{color.btn.focus.bg.outline-light}" }
         },
         "bg": {
-          "light": { "value": "{color.theme.bg.light}" },
-          "outline-light": { "value": "{color.theme.bg.light}" },
-          "inverse-light": { "value": "{color.btn.bg.inverse-light}" }
+          "light": { "$value": "{color.theme.bg.light}" },
+          "outline-light": { "$value": "{color.theme.bg.light}" },
+          "inverse-light": { "$value": "{color.btn.bg.inverse-light}" }
         },
         "outline": {
-          "outline-light": { "value": "{color.btn.focus.bg.outline-light}" }
+          "outline-light": { "$value": "{color.btn.focus.bg.outline-light}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-light": { "value": "{color.theme.bg.light}" }
+          "outline-light": { "$value": "{color.theme.bg.light}" }
         },
         "bg": {
-          "light": { "value": "{color.theme.bg.light}" }
+          "light": { "$value": "{color.theme.bg.light}" }
         },
         "border": {
-          "outline-light": { "value": "{color.btn.border.outline-light}" },
-          "inverse-light": { "value": "transparent" },
-          "inverse-outline-light": { "value": "{color.white}" }
+          "outline-light": { "$value": "{color.btn.border.outline-light}" },
+          "inverse-light": { "$value": "transparent" },
+          "inverse-outline-light": { "$value": "{color.white}" }
         }
       }
     }

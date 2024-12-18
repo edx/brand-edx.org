@@ -2,55 +2,55 @@
   "color": {
     "btn": {
       "border": {
-        "success": { "value": "{color.light.300}" },
-        "outline-success": { "value": "{color.light.300}" }
+        "success": { "$value": "{color.light.300}" },
+        "outline-success": { "$value": "{color.light.300}" }
       },
       "hover": {
         "text": {
-          "outline-success": { "value": "{color.white}" }
+          "outline-success": { "$value": "{color.white}" }
         },
         "bg": {
-          "outline-success": { "value": "{color.success.base}" }
+          "outline-success": { "$value": "{color.success.base}" }
         },
         "border": {
-          "outline-success": { "value": "{color.success.base}" }
+          "outline-success": { "$value": "{color.success.base}" }
         }
       },
       "active": {
         "bg": {
-          "outline-success": { "value": "{color.success.base}" }
+          "outline-success": { "$value": "{color.success.base}" }
         },
         "border": {
-          "outline-success": { "value": "{color.success.base}" }
+          "outline-success": { "$value": "{color.success.base}" }
         },
         "text": {
-          "inverse-outline-success": { "value": "{color.primary.base}", "modify": null  }
+          "inverse-outline-success": { "$value": "{color.primary.base}", "modify": null  }
         }
       },
       "focus": {
         "text": {
-          "outline-success": { "value": "{color.white}" },
-          "inverse-success": { "value": "{color.btn.text.inverse-success}" }
+          "outline-success": { "$value": "{color.white}" },
+          "inverse-success": { "$value": "{color.btn.text.inverse-success}" }
         },
         "bg": {
-          "success": { "value": "{color.btn.bg.success}" },
-          "outline-success": { "value": "{color.btn.bg.success}" },
-          "inverse-success": { "value": "{color.white}" }
+          "success": { "$value": "{color.btn.bg.success}" },
+          "outline-success": { "$value": "{color.btn.bg.success}" },
+          "inverse-success": { "$value": "{color.white}" }
         },
         "border": {
-          "success": { "value": "{color.btn.focus.bg.success}" },
-          "outline-success": { "value": "{color.btn.focus.bg.outline-success}" }
+          "success": { "$value": "{color.btn.focus.bg.success}" },
+          "outline-success": { "$value": "{color.btn.focus.bg.outline-success}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-success": { "value": "{color.success.500}" },
-          "inverse-success": { "value": "{color.success.500}" }
+          "outline-success": { "$value": "{color.success.500}" },
+          "inverse-success": { "$value": "{color.success.500}" }
         },
         "border": {
-          "outline-success": { "value": "{color.light.300}" },
-          "inverse-success": { "value": "transparent" },
-          "inverse-outline-success": { "value": "{color.light.300}" }
+          "outline-success": { "$value": "{color.light.300}" },
+          "inverse-success": { "$value": "transparent" },
+          "inverse-outline-success": { "$value": "{color.light.300}" }
         }
       }
     }

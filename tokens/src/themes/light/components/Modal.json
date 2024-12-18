@@ -3,7 +3,7 @@
     "modal": {
       "content": {
         "box-shadow": {
-          "sm-up": { "value": "{elevation.box-shadow.level.3}" }
+          "sm-up": { "$value": "{elevation.box-shadow.level.3}" }
         }
       }
     }

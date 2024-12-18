@@ -2,55 +2,55 @@
   "color": {
     "btn": {
       "border": {
-        "danger": { "value": "transparent" },
-        "outline-danger": { "value": "{color.light.300}" }
+        "danger": { "$value": "transparent" },
+        "outline-danger": { "$value": "{color.light.300}" }
       },
       "hover": {
         "text": {
-          "outline-danger": { "value": "{color.white}" }
+          "outline-danger": { "$value": "{color.white}" }
         },
         "bg": {
-          "outline-danger": { "value": "{color.red}" }
+          "outline-danger": { "$value": "{color.red}" }
         },
         "border": {
-          "outline-danger": { "value": "{color.red}" }
+          "outline-danger": { "$value": "{color.red}" }
         }
       },
       "active": {
         "text": {
-          "inverse-outline-danger": { "value": "{color.primary.base}", "modify": null }
+          "inverse-outline-danger": { "$value": "{color.primary.base}", "modify": null }
         },
         "bg": {
-          "danger": { "value": "{color.danger.900}" },
-          "outline-danger": { "value": "{color.red}" }
+          "danger": { "$value": "{color.danger.900}" },
+          "outline-danger": { "$value": "{color.red}" }
         },
         "border": {
-          "danger": { "value": "{color.btn.active.bg.danger}" },
-          "outline-danger": { "value": "{color.red}" }
+          "danger": { "$value": "{color.btn.active.bg.danger}" },
+          "outline-danger": { "$value": "{color.red}" }
         }
       },
       "focus": {
         "text": {
-          "inverse-danger": { "value": "{color.red}" },
-          "outline-danger": { "value": "{color.white}" }
+          "inverse-danger": { "$value": "{color.red}" },
+          "outline-danger": { "$value": "{color.white}" }
         },
         "bg": {
-          "danger": { "value": "{color.red}" },
-          "outline-danger": { "value": "{color.btn.active.bg.outline-danger}" },
-          "inverse-danger": { "value": "{color.gray.100}" }
+          "danger": { "$value": "{color.red}" },
+          "outline-danger": { "$value": "{color.btn.active.bg.outline-danger}" },
+          "inverse-danger": { "$value": "{color.gray.100}" }
         },
         "border": {
-          "outline-danger": { "value": "{color.btn.focus.bg.outline-danger}" }
+          "outline-danger": { "$value": "{color.btn.focus.bg.outline-danger}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-danger": { "value": "{color.red}" },
-          "inverse-danger": { "value": "{color.red}" }
+          "outline-danger": { "$value": "{color.red}" },
+          "inverse-danger": { "$value": "{color.red}" }
         },
         "border": {
-          "outline-danger": { "value": "{color.light.300}" },
-          "inverse-outline-danger": { "value": "{color.light.300}" }
+          "outline-danger": { "$value": "{color.light.300}" },
+          "inverse-outline-danger": { "$value": "{color.light.300}" }
         }
       }
     }

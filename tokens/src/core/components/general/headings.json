@@ -2,7 +2,7 @@
   "typography": {
     "headings": {
       "font": {
-        "weight": { "value": "700" }
+        "weight": { "$value": "700" }
       }
     }
   }

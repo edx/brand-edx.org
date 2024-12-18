@@ -2,8 +2,8 @@
   "spacing": {
     "card": {
       "spacer": {
-        "x": { "value": "1.5rem" },
-        "y": { "value": "1rem" }
+        "x": { "$value": "1.5rem" },
+        "y": { "$value": "1rem" }
       }
     }
   }

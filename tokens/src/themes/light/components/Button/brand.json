@@ -2,28 +2,28 @@
   "color": {
     "btn": {
       "text": {
-        "inverse-brand": { "value": "{color.white}" }
+        "inverse-brand": { "$value": "{color.white}" }
       },
       "bg": {
-        "inverse-brand": { "value": "{color.brand.base}", "modify": null }
+        "inverse-brand": { "$value": "{color.brand.base}", "modify": null }
       },
       "border": {
-        "brand": { "value": "transparent" },
-        "outline-brand": { "value": "{color.light.300}" },
-        "inverse-outline-brand": { "value": "{color.white}" }
+        "brand": { "$value": "transparent" },
+        "outline-brand": { "$value": "{color.light.300}" },
+        "inverse-outline-brand": { "$value": "{color.white}" }
       },
       "hover": {
         "text": {
-          "outline-brand": { "value": "{color.white}" },
-          "inverse-outline-brand": { "value": "{color.white}" }
+          "outline-brand": { "$value": "{color.white}" },
+          "inverse-outline-brand": { "$value": "{color.white}" }
         },
         "bg": {
-          "outline-brand": { "value": "{color.brand.base}" },
-          "inverse-outline-brand": { "value": "{color.brand.base}" }
+          "outline-brand": { "$value": "{color.brand.base}" },
+          "inverse-outline-brand": { "$value": "{color.brand.base}" }
         },
         "border": {
-          "brand": { "value": "{color.brand.700}" },
-          "outline-brand": { "value": "{color.brand.base}" }
+          "brand": { "$value": "{color.brand.700}" },
+          "outline-brand": { "$value": "{color.brand.base}" }
         }
       },
       "active": {
@@ -31,40 +31,40 @@
           "inverse-brand": { "modify": null }
         },
         "border": {
-          "outline-brand": { "value": "{color.brand.base}" }
+          "outline-brand": { "$value": "{color.brand.base}" }
         },
         "bg": {
-          "inverse-brand": { "value": "{color.brand.700}" }
+          "inverse-brand": { "$value": "{color.brand.700}" }
         }
       },
       "focus": {
         "text": {
-          "inverse-brand": { "value": "{color.white}" },
-          "outline-brand": { "value": "{color.white}" }
+          "inverse-brand": { "$value": "{color.white}" },
+          "outline-brand": { "$value": "{color.white}" }
         },
         "bg": {
-          "brand": { "value": "{color.brand.base}" },
-          "inverse-brand": { "value": "{color.brand.700}" },
-          "outline-brand": { "value": "{color.brand.base}" },
-          "inverse-outline-brand": { "value": "{color.brand.base}" }
+          "brand": { "$value": "{color.brand.base}" },
+          "inverse-brand": { "$value": "{color.brand.700}" },
+          "outline-brand": { "$value": "{color.brand.base}" },
+          "inverse-outline-brand": { "$value": "{color.brand.base}" }
         },
         "border": {
-          "outline-brand": { "value": "{color.btn.focus.bg.outline-brand}" },
-          "inverse-brand": { "value": "{color.btn.focus.bg.inverse-brand}" },
-          "inverse-outline-brand": { "value": "{color.btn.focus.bg.inverse-outline-brand}" }
+          "outline-brand": { "$value": "{color.btn.focus.bg.outline-brand}" },
+          "inverse-brand": { "$value": "{color.btn.focus.bg.inverse-brand}" },
+          "inverse-outline-brand": { "$value": "{color.btn.focus.bg.inverse-outline-brand}" }
         },
         "outline": {
-          "inverse-brand": { "value": "{color.white}" },
-          "inverse-outline-brand": { "value": "{color.white}" }
+          "inverse-brand": { "$value": "{color.white}" },
+          "inverse-outline-brand": { "$value": "{color.white}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-brand": { "value": "{color.brand.base}" },
-          "inverse-outline-brand": { "value": "{color.light.300}" }
+          "outline-brand": { "$value": "{color.brand.base}" },
+          "inverse-outline-brand": { "$value": "{color.light.300}" }
         },
         "border": {
-          "outline-brand": { "value": "{color.light.300}" }
+          "outline-brand": { "$value": "{color.light.300}" }
         }
       }
     }

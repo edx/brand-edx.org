@@ -2,14 +2,14 @@
   "elevation": {
     "box-shadow": {
       "level": {
-        "1": { "value": "0px 2px 8px 0px rgba(0,0,0,0.15), 0px 2px 4px 0px rgba(0,0,0,0.15)" },
-        "2": { "value": "0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15)" },
-        "3": { "value": "0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15)" },
-        "4": { "value": "0px 8px 48px 0px rgba(0,0,0,0.15), 0px 20px 40px 0px rgba(0,0,0,0.15)" }
+        "1": { "$value": "0px 2px 8px 0px rgba(0,0,0,0.15), 0px 2px 4px 0px rgba(0,0,0,0.15)" },
+        "2": { "$value": "0px 4px 10px 0px rgba(0,0,0,0.15), 0px 8px 16px 0px rgba(0,0,0,0.15)" },
+        "3": { "$value": "0px 8px 20px 0px rgba(0,0,0,0.15), 0px 10px 20px 0px rgba(0,0,0,0.15)" },
+        "4": { "$value": "0px 8px 48px 0px rgba(0,0,0,0.15), 0px 20px 40px 0px rgba(0,0,0,0.15)" }
       },
-      "base": { "value": "{elevation.box-shadow.level.2}" },
-      "sm": { "value": "{elevation.box-shadow.level.1}" },
-      "lg": { "value": "{elevation.box-shadow.level.3}" }
+      "base": { "$value": "{elevation.box-shadow.level.2}" },
+      "sm": { "$value": "{elevation.box-shadow.level.1}" },
+      "lg": { "$value": "{elevation.box-shadow.level.3}" }
     }
   }
 }

@@ -3,7 +3,7 @@
     "image": {
       "thumbnail": {
         "border": {
-          "radius": { "value": "0" }
+          "radius": { "$value": "0" }
         }
       }
     }

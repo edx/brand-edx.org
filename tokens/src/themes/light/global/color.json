@@ -1,67 +1,67 @@
 {
   "color": {
-    "blue": { "value": "#00688D" },
-    "red": { "value": "#AB0D02" },
-    "green": { "value": "#0D7D4D" },
-    "yellow": { "value": "#D6B600" },
+    "blue": { "$value": "#00688D" },
+    "red": { "$value": "#AB0D02" },
+    "green": { "$value": "#0D7D4D" },
+    "yellow": { "$value": "#D6B600" },
     "accent": {
-      "a": { "value": "#03C7E8" },
-      "b": { "value": "#F0CC00" }
+      "a": { "$value": "#03C7E8" },
+      "b": { "$value": "#F0CC00" }
     },
     "primary": {
-      "base": { "value": "#00262B" },
-      "300": { "value": "#2D494E", "modify": null },
-      "400": { "value": "#0E3639", "modify": null },
-      "500": { "value": "#00262B", "modify": null },
-      "600": { "value": "#002326", "modify": null },
-      "700": { "value": "#002121", "modify": null }
+      "base": { "$value": "#00262B" },
+      "300": { "$value": "#2D494E", "modify": null },
+      "400": { "$value": "#0E3639", "modify": null },
+      "500": { "$value": "#00262B", "modify": null },
+      "600": { "$value": "#002326", "modify": null },
+      "700": { "$value": "#002121", "modify": null }
     },
     "brand": {
-      "base": { "value": "#D23228" },
-      "700": { "value": "#921108", "modify": null }
+      "base": { "$value": "#D23228" },
+      "700": { "$value": "#921108", "modify": null }
     },
     "success": {
-      "100": { "value": "#F2FAF7", "modify": null },
-      "200": { "value": "#BBE6D7", "modify": null },
-      "300": { "value": "#30A171", "modify": null },
-      "700": { "value": "#175B3C", "modify": null },
-      "900": { "value": "#0F4D0F", "modify": null }
+      "100": { "$value": "#F2FAF7", "modify": null },
+      "200": { "$value": "#BBE6D7", "modify": null },
+      "300": { "$value": "#30A171", "modify": null },
+      "700": { "$value": "#175B3C", "modify": null },
+      "900": { "$value": "#0F4D0F", "modify": null }
     },
     "info": {
-      "base": { "value": "{color.blue}" },
-      "100": { "value": "#EFF8FA", "modify": null },
-      "200": { "value": "#9CD2E6", "modify": null },
-      "300": { "value": "#1C8DBE", "modify": null },
-      "700": { "value": "#004972", "modify": null },
-      "900": { "value": "#002F4A", "modify": null }
+      "base": { "$value": "{color.blue}" },
+      "100": { "$value": "#EFF8FA", "modify": null },
+      "200": { "$value": "#9CD2E6", "modify": null },
+      "300": { "$value": "#1C8DBE", "modify": null },
+      "700": { "$value": "#004972", "modify": null },
+      "900": { "$value": "#002F4A", "modify": null }
     },
     "warning": {
-      "100": { "value": "#FFFADB", "modify": null },
-      "200": { "value": "#FFEA75", "modify": null },
-      "300": { "value": "#F0CC00", "modify": null },
-      "700": { "value": "#998200", "modify": null },
-      "900": { "value": "#7A6800", "modify": null }
+      "100": { "$value": "#FFFADB", "modify": null },
+      "200": { "$value": "#FFEA75", "modify": null },
+      "300": { "$value": "#F0CC00", "modify": null },
+      "700": { "$value": "#998200", "modify": null },
+      "900": { "$value": "#7A6800", "modify": null }
     },
     "danger": {
-      "100": { "value": "#FCF1F4", "modify": null },
-      "200": { "value": "#F3AEA9", "modify": null },
-      "300": { "value": "#CA3A2F", "modify": null },
-      "700": { "value": "#951C13", "modify": null },
-      "900": { "value": "#690E07", "modify": null }
+      "100": { "$value": "#FCF1F4", "modify": null },
+      "200": { "$value": "#F3AEA9", "modify": null },
+      "300": { "$value": "#CA3A2F", "modify": null },
+      "700": { "$value": "#951C13", "modify": null },
+      "900": { "$value": "#690E07", "modify": null }
     },
     "light": {
-      "200": { "value": "#FBFAF9", "modify": null },
-      "300": { "value": "#F2F0EF", "modify": null },
-      "400": { "value": "#EAE6E5", "modify": null },
-      "700": { "value": "#D7D3D1", "modify": null }
+      "200": { "$value": "#FBFAF9", "modify": null },
+      "300": { "$value": "#F2F0EF", "modify": null },
+      "400": { "$value": "#EAE6E5", "modify": null },
+      "700": { "$value": "#D7D3D1", "modify": null }
     },
     "dark": {
-      "base": { "value": "#00262B" },
-      "200": { "value": "#475B65", "modify": null },
-      "300": { "value": "#2D494E", "modify": null },
-      "400": { "value": "#0E3639", "modify": null },
-      "600": { "value": "#002326", "modify": null },
-      "700": { "value": "#002121", "modify": null }
+      "base": { "$value": "#00262B" },
+      "200": { "$value": "#475B65", "modify": null },
+      "300": { "$value": "#2D494E", "modify": null },
+      "400": { "$value": "#0E3639", "modify": null },
+      "600": { "$value": "#002326", "modify": null },
+      "700": { "$value": "#002121", "modify": null }
     }
   }
 }

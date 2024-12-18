@@ -2,52 +2,52 @@
   "color": {
     "btn": {
       "bg": {
-        "outline-secondary": { "value": "{color.white}" }
+        "outline-secondary": { "$value": "{color.white}" }
       },
       "border": {
-        "secondary": { "value": "transparent" },
-        "outline-secondary": { "value": "{color.light.300}" }
+        "secondary": { "$value": "transparent" },
+        "outline-secondary": { "$value": "{color.light.300}" }
       },
       "hover": {
         "text": {
-          "outline-secondary": { "value": "{color.white}" }
+          "outline-secondary": { "$value": "{color.white}" }
         },
         "bg": {
-          "outline-secondary": { "value": "{color.gray.700}" }
+          "outline-secondary": { "$value": "{color.gray.700}" }
         }
       },
       "active": {
         "text": {
-          "outline-secondary": { "value": "{color.white}", "modify": null }
+          "outline-secondary": { "$value": "{color.white}", "modify": null }
         },
         "bg": {
-          "outline-secondary": { "value": "{color.gray.700}" }
+          "outline-secondary": { "$value": "{color.gray.700}" }
         },
         "border": {
-          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary}" }
+          "outline-secondary": { "$value": "{color.btn.active.bg.outline-secondary}" }
         }
       },
       "focus": {
         "text": {
-          "inverse-secondary": { "value": "{color.gray.700}" },
-          "outline-secondary": { "value": "{color.white}" }
+          "inverse-secondary": { "$value": "{color.gray.700}" },
+          "outline-secondary": { "$value": "{color.white}" }
         },
         "bg": {
-          "secondary": { "value": "{color.gray.700}" },
-          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary}" },
-          "inverse-secondary": { "value": "{color.white}", "modify": null }
+          "secondary": { "$value": "{color.gray.700}" },
+          "outline-secondary": { "$value": "{color.btn.active.bg.outline-secondary}" },
+          "inverse-secondary": { "$value": "{color.white}", "modify": null }
         },
         "border": {
-          "outline-secondary": { "value": "{color.btn.active.bg.outline-secondary}" }
+          "outline-secondary": { "$value": "{color.btn.active.bg.outline-secondary}" }
         }
       },
       "disabled": {
         "text": {
-          "outline-secondary": { "value": "{color.gray.700}" }
+          "outline-secondary": { "$value": "{color.gray.700}" }
         },
         "border": {
-          "outline-secondary": { "value": "{color.light.300}" },
-          "inverse-outline-secondary": { "value": "{color.light.300}" }
+          "outline-secondary": { "$value": "{color.light.300}" },
+          "inverse-outline-secondary": { "$value": "{color.light.300}" }
         }
       }
     }

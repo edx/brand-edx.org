@@ -1,7 +1,7 @@
 {
   "color": {
     "headings": {
-      "base": { "value": "{color.dark.500}" }
+      "base": { "$value": "{color.dark.500}" }
     }
   }
 }

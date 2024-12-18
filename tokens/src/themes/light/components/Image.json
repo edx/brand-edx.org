@@ -2,7 +2,7 @@
   "elevation": {
     "image": {
       "thumbnail": {
-        "box-shadow": { "value": "none" }
+        "box-shadow": { "$value": "none" }
       }
     }
   }

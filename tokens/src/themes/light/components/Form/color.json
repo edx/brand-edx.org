@@ -2,13 +2,13 @@
   "color": {
     "form": {
       "input": {
-        "base": { "value": "{color.body.base}" },
+        "base": { "$value": "{color.body.base}" },
         "bg": {
-          "base": { "value": "{color.white}" }
+          "base": { "$value": "{color.white}" }
         },
         "focus": {
-          "border": { "value": "{color.body.base}" },
-          "bg": { "value": "{color.white}" }
+          "border": { "$value": "{color.body.base}" },
+          "bg": { "$value": "{color.white}" }
         }
       }
     }

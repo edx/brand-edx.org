@@ -2,13 +2,13 @@
   "color": {
     "popover": {
       "header": {
-        "bg": { "value": "transparent" }
+        "bg": { "$value": "transparent" }
       }
     }
   },
   "elevation": {
     "popover": {
-      "box-shadow": { "value": "{elevation.box-shadow.level.2}" }
+      "box-shadow": { "$value": "{elevation.box-shadow.level.2}" }
     }
   }
 }

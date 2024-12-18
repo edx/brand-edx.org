@@ -2,7 +2,7 @@
   "size": {
     "nav": {
       "pills": {
-        "border-radius": { "value": "0" }
+        "border-radius": { "$value": "0" }
       }
     }
   }

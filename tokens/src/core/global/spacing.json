@@ -1,7 +1,7 @@
 {
   "spacing": {
     "grid": {
-      "gutter-width": { "value": "64px" }
+      "gutter-width": { "$value": "64px" }
     }
   }
 }

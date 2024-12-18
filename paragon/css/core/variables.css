@@ -1,47 +1,50 @@
 /**
- * IMPORTANT: This file is the result of assembling design tokens
- * Do not edit directly
- * Generated on Wed, 27 Mar 2024 14:31:16 GMT
+ * Do not edit directly, this file was auto-generated. while transforming design tokens.
+ * See <root>/tokens/README.md for more details.
  */
 
 :root {
-  --pgn-typography-font-weight-lead: 400;
-  --pgn-typography-font-size-lead: 1.375rem;
-  --pgn-typography-font-size-small-x: 0.75rem;
-  --pgn-typography-font-size-small-base: 0.875rem;
-  --pgn-typography-font-family-monospace: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --pgn-typography-font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif;
-  --pgn-typography-display-weight-4: 700;
-  --pgn-typography-display-weight-3: 700;
-  --pgn-typography-display-weight-2: 700;
-  --pgn-typography-display-weight-1: 700;
-  --pgn-typography-headings-font-weight: 700;
-  --pgn-typography-btn-font-weight: 500;
-  --pgn-typography-badge-font-weight: 400;
-  --pgn-typography-badge-font-size: 0.75rem;
-  --pgn-spacing-grid-gutter-width: 64px;
-  --pgn-spacing-dropdown-padding-y-item: .625rem;
-  --pgn-spacing-dropdown-padding-y-base: .5rem;
-  --pgn-spacing-card-spacer-y: 1rem;
-  --pgn-spacing-card-spacer-x: 1.5rem;
-  --pgn-spacing-btn-focus-gap: 2px;
-  --pgn-size-popover-border-width: 0px;
-  --pgn-size-nav-pills-border-radius: 0;
-  --pgn-size-image-thumbnail-border-radius: 0;
-  --pgn-size-input-btn-border-width: 1px;
-  --pgn-size-form-input-radius-border-sm: 0;
-  --pgn-size-form-input-radius-border-lg: 0;
-  --pgn-size-form-input-radius-border-base: 0;
-  --pgn-size-dropdown-border-width: 0;
-  --pgn-size-btn-focus-border-radius: 0px;
-  --pgn-size-btn-border-radius-sm: 0px;
-  --pgn-size-btn-border-radius-lg: 0px;
+  --pgn-size-border-radius-base: 0.375rem; /* Default border radius. */
+  --pgn-size-border-radius-lg: 0.375rem; /* Large border radius. */
+  --pgn-size-border-radius-sm: 0.375rem; /* Small border radius. */
   --pgn-size-btn-border-radius-base: 0px;
-  --pgn-size-border-radius-sm: .375rem;
-  --pgn-size-border-radius-lg: .375rem;
-  --pgn-size-border-radius-base: .375rem;
-  --pgn-typography-font-size-lg: calc(1.125rem * 1.25);
-  --pgn-typography-font-family-serif: "Inter", "Helvetica Neue", Arial, sans-serif;
-  --pgn-spacing-caret-vertical-align: calc(.3em * .67);
-  --pgn-spacing-caret-base: calc(.3em * 1);
+  --pgn-size-btn-border-radius-lg: 0px;
+  --pgn-size-btn-border-radius-sm: 0px;
+  --pgn-size-btn-focus-width: 2px;
+  --pgn-size-btn-focus-border-radius: 0px;
+  --pgn-size-dropdown-border-width: 0;
+  --pgn-size-form-input-radius-border-base: 0;
+  --pgn-size-form-input-radius-border-lg: 0;
+  --pgn-size-form-input-radius-border-sm: 0;
+  --pgn-size-image-thumbnail-border-radius: 0;
+  --pgn-size-nav-pills-border-radius: 0;
+  --pgn-size-popover-border-width: 0px;
+  --pgn-size-caret-width: 0.3em;
+  --pgn-size-input-btn-border-width: 1px;
+  --pgn-spacing-btn-focus-gap: 2px;
+  --pgn-spacing-card-spacer-x: 1.5rem;
+  --pgn-spacing-card-spacer-y: 1rem;
+  --pgn-spacing-dropdown-padding-y-base: 0.5rem;
+  --pgn-spacing-dropdown-padding-y-item: 0.625rem;
+  --pgn-spacing-grid-gutter-width: 64px; /* Grid gutter width value. */
+  --pgn-typography-badge-font-size: 0.75rem;
+  --pgn-typography-badge-font-weight: 400;
+  --pgn-typography-btn-font-weight: 500;
+  --pgn-typography-headings-font-weight: 700;
+  --pgn-typography-font-family-sans-serif: "Inter", '"Helvetica Neue"', Arial, sans-serif; /* Sans-serif font family. */
+  --pgn-typography-font-family-monospace: '"Roboto Mono"', SFMono-Regular, Menlo, Monaco, Consolas, '"Liberation Mono"', '"Courier New"', monospace; /* Monospace font family. */
+  --pgn-typography-font-size-base: 1.125rem; /* Base font size. */
+  --pgn-typography-font-size-small-base: 0.875rem;
+  --pgn-typography-font-size-small-x: 0.75rem;
+  --pgn-typography-font-size-lead: 1.375rem;
+  --pgn-typography-font-weight-lead: 400; /* Lead text font weight. */
+  --pgn-typography-display-weight-1: 700px;
+  --pgn-typography-display-weight-2: 700px;
+  --pgn-typography-display-weight-3: 700px;
+  --pgn-typography-display-weight-4: 700px;
+  --pgn-spacing-btn-focus-border-gap: calc(var(--pgn-size-btn-focus-width) + var(--pgn-spacing-btn-focus-gap));
+  --pgn-spacing-caret-base: calc(var(--pgn-size-caret-width) * 1);
+  --pgn-spacing-caret-vertical-align: calc(var(--pgn-size-caret-width) * .67);
+  --pgn-typography-font-family-serif: var(--pgn-typography-font-family-sans-serif); /* Serif font family. */
+  --pgn-typography-font-size-lg: calc(var(--pgn-typography-font-size-base) * 1.25); /* Lead text font size. */
 }

@@ -2,7 +2,7 @@
   "size": {
     "input": {
       "btn": {
-        "border-width": { "value": "1px" }
+        "border-width": { "$value": "1px" }
       }
     }
   }

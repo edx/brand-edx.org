@@ -1,7 +1,7 @@
 {
   "elevation": {
     "toast": {
-      "box-shadow": { "value": "{elevation.box-shadow.level.4}" }
+      "box-shadow": { "$value": "{elevation.box-shadow.level.4}" }
     }
   }
 }

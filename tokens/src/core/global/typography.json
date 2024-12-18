@@ -3,23 +3,23 @@
     "font": {
       "family": {
         "sans": {
-          "serif": { "value": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif" }
+          "serif": { "$value": "\"Inter\", \"Helvetica Neue\", Arial, sans-serif" }
         },
-        "serif": { "value": "{typography.font.family.sans.serif}" },
+        "serif": { "$value": "{typography.font.family.sans.serif}" },
         "monospace": {
-          "value": "\"Roboto Mono\", SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+          "$value": "\"Roboto Mono\", SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
         }
       },
       "size": {
-        "lg": { "value": "calc({typography.font.size.base} * 1.25)" },
+        "lg": { "$value": "calc({typography.font.size.base} * 1.25)" },
         "small": {
-          "base": { "value": "0.875rem" },
-          "x": { "value": "0.75rem" }
+          "base": { "$value": "0.875rem" },
+          "x": { "$value": "0.75rem" }
         },
-        "lead": { "value": "1.375rem" }
+        "lead": { "$value": "1.375rem" }
       },
       "weight": {
-        "lead": { "value": "400" }
+        "lead": { "$value": "400" }
       }
     }
   }
